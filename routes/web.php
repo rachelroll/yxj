@@ -11,6 +11,16 @@
 |
 */
 
+use App\Http\Controllers\NewsController;
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+// ×ÊÑ¶
+Route::get('news/category/{category_id}', 'NewsController@index');
+Route::get('news/{id}', 'NewsController@show');
+
+// °¸Àý
+Route::get('projects', 'ProjectController@index');
+Route::get('projects/{id}', 'ProjectController@show');
