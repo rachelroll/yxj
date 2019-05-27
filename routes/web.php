@@ -14,13 +14,24 @@
 use App\Http\Controllers\NewsController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-// ��Ѷ
+// 资讯
 Route::get('news/category/{category_id}', 'NewsController@index');
 Route::get('news/{id}', 'NewsController@show');
 
-// ����
-Route::get('projects', 'ProjectController@index');
+// 案例
+Route::get('projects/category/{category_id}', 'ProjectController@index');
+Route::get('projects/aljs', 'ProjectController@aljs')->name('aljs');
 Route::get('projects/{id}', 'ProjectController@show');
+
+
+Route::get('projects', 'ProjectController@search');
+
+//关于我们
+Route::get('contact', 'AboutController@index');
+
+//研究中心
+// 关于我们
+Route::get('about-us', 'ResearchController@aboutUs')->name('aboutUs');
