@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>创绿家们|创绿家计划|阿拉善SEE公益机构</title>
+    <title>案例检索</title>
     <meta name="keywords" content="创绿家计划" />
     <meta name="description" content="创绿家计划" />
     <meta name="copyright" content="Copyright ©2014 创绿家 阿拉善 Inc. All Rights Reserved" />
@@ -39,216 +39,14 @@
     <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7A372729" />
     <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="kSLdb5/l9Gf5YAZCSNPn7sa0oRB6iSKRhaluDDXSb0KqXNYjsHhnhqBaV/YUJypXlnLYeT76b8awceq+HJH55sMdIYk9Ewpr52n8rnhJYPTmpngPzIRKLvvQellE/gduX/AHIVadd6sgg5FDYPLtBW4OBjzOL2j7XKfiXAY+eb/TO13U6Kptm8+UD4/GNvCTOyDbO9ZGbQ980ywPPRLRXTOOyF7M1mjRxaci/wcOjvqBPwu6tLdz9M6nAAHzs3cApQLEwnD1mwIjxf/F0exV8ZXkOhAlz84L4r8S9IcNkNdis72xemHxr/vJMIRK2p6G" />
 
-    {{--<div class="header-body">--}}
-        {{--<div class="w1080">--}}
-            {{--<div id="bannerMain" class="banner-main">--}}
-                {{--<img src="images/banner11.jpg" class="banner" />--}}
-            {{--</div>--}}
-            {{--<div class="logo"></div>--}}
-
-            {{--<div class="login-main f15">--}}
-                {{--<div id="top_pnlRegister" class="top-login-main">--}}
-                    {{--<a href="#" class="login-btn">登录</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" class="register-btn">注册</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="#" class="forget-password-btn">忘记密码？</a>--}}
-                {{--</div>--}}
-
-                {{--<!--<div class="bottom-login-main">-->--}}
-                {{--<!---->--}}
-                {{--<!--</div>-->--}}
-            {{--</div>--}}
-
-            {{--<div class="nav-body">--}}
-                {{--<script>--}}
-                    {{--function OpenSearch() {--}}
-                        {{--window.open("http://www.baidu.com/baidu?word=" + $("#keyword").val() + "&tn=bds&cl=3&ct=2097152&ie=utf-8&si=www.see.org.cn");--}}
-                    {{--}--}}
-                {{--</script>--}}
-                {{--<div class="search-body">--}}
-                    {{--<input type="text" class="input" id="keyword" />--}}
-                    {{--<a href="javascript:void(0)" onclick="OpenSearch()"><img src="images/fandajing.jpg" class="search-btn" /></a>--}}
-                {{--</div>--}}
-
-                {{--<ul id="navList" class="nav-list">--}}
-                    {{--<li id="nav1" class="nav1"><a href="default.aspx.html" id="" class="hover_a"></a></li>--}}
-                    {{--<li id="nav2" class="nav2">--}}
-                        {{--<a href="intro.aspx.html" id="A1" class="hover_a"></a>--}}
-                        {{--<ul class="nav-sub-list nav-sub-list2">--}}
-                            {{--<li><a href="intro.aspx.html">项目简介</a></li>--}}
-                            {{--<li><a href="apply.aspx.html">申请须知</a></li>--}}
-                            {{--<li class="none"><a href="qna.aspx.html">Q&amp;A</a></li>--}}
-                        {{--</ul>--}}
-                    {{--</li>--}}
-                    {{--<li id="nav3" class="nav3">--}}
-                        {{--<a href="committee.aspx.html" id="A2" class="hover_a"></a>--}}
-                        {{--<ul class="nav-sub-list nav-sub-list3">--}}
-                            {{--<li><a href="committee.aspx.html">项目决策委员会</a></li>--}}
-                            {{--<li><a href="consultant.aspx.html">资助顾问</a></li>--}}
-                            {{--<li><a href="club.aspx.html">俱乐部</a></li>--}}
-                            {{--<li class="none"><a href="supportorg.aspx.html">合作伙伴</a></li>--}}
-                        {{--</ul>--}}
-                    {{--</li>--}}
-                    {{--<li id="nav4" class="nav4">--}}
-                        {{--<a href="greenmap.aspx.html" id="A3" class="hover_a"></a>--}}
-                        {{--<!--<ul class="nav-sub-list nav-sub-list4">-->--}}
-                        {{--<!--<li> <a href="#">创绿家项目</a></li>-->--}}
-                        {{--<!--<li> <a href="#">创绿家项目</a></li>-->--}}
-                        {{--<!--<li class="none"> <a href="#">创绿家项目</a></li>-->--}}
-                        {{--<!--</ul>-->--}}
-                    {{--</li>--}}
-                    {{--<li id="nav5" class="nav5">--}}
-                        {{--<a href="news.aspx.html" id="A4" class="hover_a"></a>--}}
-                        {{--<ul class="nav-sub-list nav-sub-list5">--}}
-                            {{--<li><a href="news.aspx-cid=54.html">项目近况</a></li>--}}
-                            {{--<li><a href="news.aspx-cid=56.html">团队动态</a></li>--}}
-                            {{--<li><a href="news.aspx-cid=55.html">重要公告</a></li>--}}
-                            {{--<li class="none"><a href="news.aspx-cid=58.html">精彩视频</a></li>--}}
-                        {{--</ul>--}}
-                    {{--</li>--}}
-                {{--</ul>--}}
-
-            {{--</div>--}}
-
-        {{--</div>--}}
-    {{--</div>--}}
-    {{--<!-- popup start -->--}}
-    {{--<div id="popupBg" class="popup-bg"></div>--}}
-    {{--<div id="popupBody" class="popup-body">--}}
-        {{--<div class="popup-top-bg"><img src="images/popup-top-bg.png" /></div>--}}
-        {{--<div class="popup-main">--}}
-
-            {{--<!-- pop-login-main start -->--}}
-            {{--<div id="popLoginMain" class="pop-login-main">--}}
-
-                {{--<table class="input-table">--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1">*</td>--}}
-                        {{--<td class="w2">用户名：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtLoginName" type="text" id="top_txtLoginName" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1">*</td>--}}
-                        {{--<td class="w2">密码：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtLoginPassword" type="password" id="top_txtLoginPassword" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                {{--</table>--}}
-
-                {{--<div class="input-btn-main">--}}
-                    {{--<a href="#" class="quxiao-btn">取消</a>--}}
-                    {{--<a id="top_lbtnLogin" class="zhuce-btn" href="javascript:__doPostBack(&#39;top$lbtnLogin&#39;,&#39;&#39;)">登录</a>--}}
-                {{--</div>--}}
-                {{--<div class="">我们将保密您的个人信息。您的电子邮件和手机仅用于创绿家<br />发送邮件或官方活动信息使用。</div>--}}
-
-            {{--</div>--}}
-
-            {{--<!-- pop-login-main end -->--}}
-
-            {{--<!-- pop-register-main start -->--}}
-            {{--<div id="popRegisterMain" class="pop-register-main">--}}
-
-                {{--<table class="input-table">--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1">*</td>--}}
-                        {{--<td class="w2">用户名：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtUserName" type="text" id="top_txtUserName" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1">*</td>--}}
-                        {{--<td class="w2">邮箱：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtEmail" type="text" id="top_txtEmail" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1">*</td>--}}
-                        {{--<td class="w2">密码：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtUserPassword" type="password" id="top_txtUserPassword" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1"></td>--}}
-                        {{--<td class="w2">手机：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtMobilePhone" type="text" id="top_txtMobilePhone" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                {{--</table>--}}
-
-                {{--<div class="input-btn-main">--}}
-                    {{--<a href="#" class="quxiao-btn">取消</a>--}}
-                    {{--<a id="top_lbtnRegister" class="zhuce-btn" href="javascript:__doPostBack(&#39;top$lbtnRegister&#39;,&#39;&#39;)">注册</a>--}}
-                {{--</div>--}}
-                {{--<div class="">我们将保密您的个人信息。您的电子邮件和手机仅用于创绿家<br />发送邮件或官方活动信息使用。</div>--}}
-
-
-            {{--</div>--}}
-
-            {{--<!-- pop-register-main start -->--}}
-
-            {{--<!-- pop-forget-password-main start -->--}}
-            {{--<div id="popForgetMain" class="pop-forget-main">--}}
-
-                {{--<table class="input-table">--}}
-                    {{--<tr>--}}
-                        {{--<td class="w1">*</td>--}}
-                        {{--<td class="w2">邮箱：</td>--}}
-                        {{--<td class="w3">--}}
-                            {{--<div class="input-main">--}}
-                                {{--<input name="top$txtEmailReset" type="text" id="top_txtEmailReset" class="text" />--}}
-                            {{--</div>--}}
-                        {{--</td>--}}
-                    {{--</tr>--}}
-                {{--</table>--}}
-
-                {{--<div class="input-btn-main">--}}
-                    {{--<a href="#" class="quxiao-btn">取消</a>--}}
-                    {{--<a id="top_lbtnResetPassword" class="zhuce-btn" href="javascript:__doPostBack(&#39;top$lbtnResetPassword&#39;,&#39;&#39;)">申请找回</a>--}}
-                {{--</div>--}}
-                {{--<div class="">请输入您注册时的邮箱，并登陆邮箱，按照邮件提示操作。如未收到，请检查通知箱或垃圾箱。</div>--}}
-
-            {{--</div>--}}
-
-            {{--<!-- pop-login-main end -->--}}
-
-
-
-        {{--</div>--}}
-        {{--<div class="popup-bottom-bg"><img src="images/popup-bottom-bg.png" /></div>--}}
-    {{--</div>--}}
-    {{--<!-- popup end -->--}}
-    {{--<div class="h55"></div>--}}
-
-
-<!--导航栏页面-->
-
-
     <div id="ea_h">
         <div class="top" >
             <div class="t_t" >
                 <div id="t_logo" class="t_logo">
                     <div id="ea_l"><h1><a href="index.html" target="_self"><img alt="城市品牌-光合北京文化创意股份有限公司" src="https://0.rc.xiniu.com/g2/M00/FF/E0/CgAGfFwA3QaAfDcLAAAVksqkMMA182.png" /></a></h1></div>
                 </div>
-                <div id="xn_h_8_wrap" class="xn_h_8_wrap"     >
-
+                <div id="xn_h_8_wrap" class="xn_h_8_wrap">
                     <div class="xn_h_8_yybox">
-
                         <div id="xn_h_8_Data_ctl00_xn_h_8_jtstyle" class="xn_h_8_xhbox1">
                             <a href='http://www.ps-cc.com'>
                                 EN
@@ -259,13 +57,12 @@
             </div>
             <div id="ea_n">
                 <div id="xn_n_14_wrap" class="xn_n_14_wrap">
-
                     <div class="xn_n_14_wrap_main">
                         <ul id="xn_n_14_VMenu1" class="type1Ul type1Ul_n000">
                             <li id="type1Li_n0" level=0 index=0 class="xn_n_14_wrap_menu1"><a href="index.html" target="_self" >网站首页</a></li>
                             <li id="type1Li_n2" level=0 data_id="2" type="n" index=1 class="xn_n_14_wrap_menu1">
                                 <a href="ResearchCenter_gywm.html" target="_self"><span name="xn_n_14_VMenu11199402017|T_Navigates|Id|2|Name">研究中心</span></a><ul id="type1Ul_t201" style="display:none" class="type1Ul type1Ul_t201">
-                                    <li id="type1Li_t201_1" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="ResearchCenter_gywm.html" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">关于我们</span></a>
+                                    <li id="type1Li_t201_1" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="ResearchCenter_gywm.html" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">案例检索</span></a>
                                     </li>
                                     <li id="type1Li_t201_2" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="ResearchCenter_yjtd.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">研究团队</span></a>
                                     </li>
@@ -420,9 +217,9 @@
 
 
             <div class="green-map-body clearfix">
-                <div class="float-right">
+                <div class="float-right"  style="border-left: 1px solid #787B88">
                     <div class="h2">议题搜索</div>
-                    <div class="yiti-search clearfix">
+                    <div class="yiti-search clearfix" style="border-top: 2px solid #7F7F7F">
                         <div class="h20"></div>
                         <a href="greens.aspx-issue=6.html" class="yiti-style1 yiti-style">野生动物保护</a>
                         <a href="greens.aspx-issue=2.html" class="yiti-style2 yiti-style">水污染防治</a>
@@ -489,41 +286,14 @@
                         </div>
                         <div id="closeBtn" class="close-btn"></div>
                     </div>
-
-
                 </div>
             </div>
-
-
-
         </div>
     </div>
     <!-- index-body end -->
 
     <div class="h80"></div>
-    <!-- footer-body start -->
-    <div class="footer-body">
-        <div class="w1080 footer-top">
-            <ul class="f-logo clearfix">
-                <li><img src="images/f-logo1.jpg" /></li>
-                <li><a href="http://weibo.com/see65" target="_blank"><img src="images/f-logo2.jpg" /></a></li>
-                <li><a href="http://page.renren.com/600003097?ref=pageSearchResult%5B0%5D" target="_blank"><img src="images/f-logo3.jpg" /></a></li>
-            </ul>
-
-
-        </div>
-
-        <div class="w1080 footer-bottom clearfix">
-            <div class="float-right">
-                <a href="#">法律声明</a><a href="#">网站地图</a>
-            </div>
-            <div class="float-left">
-                Copyright @ SEE foundation All rights reserved. 网站备案：京ICP备12015034号-2
-            </div>
-
-        </div>
-    </div>
-    <!-- footer-body end -->
+    
     <div style="display: none;">
         <script type="text/javascript">
             var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
@@ -531,9 +301,109 @@
         </script>
 
         <script language="javascript" type="text/javascript" src="http://js.users.51.la/5739396.js"></script>
-        <noscript><a href="http://www.51.la/?5739396" target="_blank">
-                <img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/5739396.asp" style="border: none" /></a></noscript>
+        <noscript>
+            <a href="http://www.51.la/?5739396" target="_blank">
+                <img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/5739396.asp" style="border: none" /></a>
+        </noscript>
+        <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
     </div>
 </form>
+
+<!--页尾--><!--联系方式-->
+<div id="ea_b">
+    <div class="foot" >
+        <div class="foot_c" >
+
+            <div class="foot_box" id="foot_box" >
+
+                <div id="foot_tel" class="foot_tel">
+                    <div class="foot_tel_f">
+                        <div class="foot_company">
+                            <span name="_foot_tel3|" >&nbsp;</span>
+                        </div>
+                        <div class="foot_add">
+                            <span name="_foot_tel1|" ><font size="3">地址：中国·北京·朝阳区东四环中路大成国际中心写字楼B2-0526 </font></span>
+                        </div>
+                        <div class="foot_phone">
+                            <span name="_foot_tel2|" ><font size="3">电话：010-59626463 18301573107</font></span>
+                        </div>
+                        <div style="width:300px;margin:0 0; padding:20px 0;"></div>
+
+                    </div>
+
+                </div>
+
+
+                <div id="foot_fx" class="foot_fx">
+                    <div id="bdshare" class="bdsharebuttonbox">
+                        <a rel='nofollow' href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                        <a rel='nofollow' href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+                        <a rel='nofollow' href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                    </div>
+                    <script type="text/javascript">window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+
+
+                </div>
+
+
+                <div class="foot_ewm" id="foot_ewm" >
+                    <img src="./img/ewm.png">
+                    <p>
+
+                        <span name="_foot_ewm|">扫码关注公众号</span>
+
+                    </p>
+                </div>
+
+
+                <div id="foot_nav2" class="foot_nav2">
+                    <ul id="ShoveWebControl_VMenu4" class="foot_type2Ul foot_type2Ul_n000">
+                        <li id="foot_type2Li_n0" level=0 index=0 class=""><a href="index.html" target="_self" >首页</a></li>
+                        <li id="foot_type2Li_n2" level=0 data_id="2" type="n" index=1 class="">
+                            <a href="ResearchCenter_gywm.html" target="_self"><span name="ShoveWebControl_VMenu4742724384|T_Navigates|Id|2|Name">研究中心</span></a></li>
+                        <li id="foot_type2Li_n25" level=0 data_id="25" type="n" index=2 class="">
+                            <a href="ConstructionTheme_xcfmgj.html" target="_self"><span name="ShoveWebControl_VMenu4561697075|T_Navigates|Id|25|Name">建设主题</span></a></li>
+                        <li id="foot_type2Li_n4" level=0 data_id="4" type="n" index=3 class="">
+                            <a href="Exmple_yxjgh_gngh.html" target="_self"><span name="ShoveWebControl_VMenu41631118472|T_Navigates|Id|4|Name">执行案例</span></a></li>
+                        <li id="foot_type2Li_n3" level=0 data_id="3" type="n" index=4 class="">
+                            <a href="Resourse_xmjcwyh.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu41132593381|T_Navigates|Id|3|Name">平台资源</span></a></li>
+                        <li id="foot_type2Li_n27" level=0 data_id="27" type="n" index=5 class="">
+                            <a href="View_gnbgs.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu4455471716|T_Navigates|Id|27|Name">乡建视野</span></a></li>
+                        <li id="foot_type2Li_n1" level=0 data_id="1" type="n" index=6 class="">
+                            <a href="News_jgdt.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu41249476791|T_Navigates|Id|1|Name">咨询</span></a></li>
+                        <li id="foot_type2Li_n7" level=0 data_id="7" type="n" index=7 class="">
+                            <a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu4441751923|T_Navigates|Id|7|Name">联系我们</span></a></li>
+                    </ul>
+                    <script type="text/javascript">var ShoveWebControl_VMenu4={normal:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:''},visited:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:'',class6:''},home:{defaultClass:'',visitedClass:''},content:{defaultClass:'',visitedClass:'',focusClass:''},focus:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:''},beforeTag:{packUpClass:'',packDownClass:''},expendEffect:1,aniEffect:1,fIdParam:'FId',topUlId:'ShoveWebControl_VMenu4',homeLiId:'foot_type2Li_n0'};ShoveWebControl_VMenu4.menu=new BaseControlMenu();ShoveWebControl_VMenu4.menu.Init('ShoveWebControl_VMenu4',ShoveWebControl_VMenu4);;</script>
+
+                </div>
+
+
+            </div>
+
+            <!--我们暂时先不放了
+            <div class="foot_box1" id="foot_box1" >
+            <div id="foot_copy" class="foot_copy">
+                    <div class="foot_copy_name">
+                        <span name="_foot_copy1|" >Copyright ©2018 - 2021<font size="3"> 光合集团</font></span>
+                    </div>
+                    <div class="foot_sitemap">
+                        <a href="kfszd.html" target="_blank">
+                            <span name="_foot_copy3|">网站地图</span>
+                        </a>
+                    </div>
+                    <div class="foot_copy_ba">
+                        <a rel="nofollow" href="http://www.miitbeian.gov.cn" target="_blank">
+                            <span name="_foot_copy2|" >京ICP备19002531号-1</span>
+                        </a>
+                    </div>
+                   <div class="foot_copy_ba"><a href="siteMap.html" class="foot_copy_map" target="_blank">&nbsp;&nbsp;网站地图</a></div>
+
+
+                   <div class="foot_copy_ba"><span class="xn_brand" >犀牛云提供企业云服务</span></div> </div>
+            </div>-->
+        </div>
+    </div>
+</div>
 </body>
 </html>
