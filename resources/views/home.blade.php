@@ -1,10 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-
-
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
-<head><title>
-        光合集团-全球城市品牌生态运营-全球城市产业品牌资源-系统化大设计
-    </title><meta name="keywords" content="城市品牌,城市战略,城市规划,特色小镇,田园综合体,城乡改造"/><meta name="description" content="光合集团-致力于整合全球优质资源要素，服务于城市品牌运营，提升城市品牌影响力和附加值。为城乡经济发展提供系统大设计，产业运营，产业开发服务，主营业务包含城市品牌打造、城市战略设计、城市规划、特色小镇规划设计、田园综合体规划设计、城乡改造等。"/><meta name="applicable-device" content="pc"><meta name="renderer" content="webkit" /><meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><link id="css__index" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FA/BD/CgAGe1wQpieAPhvRAABHB2LIsYA056.css?d=28164619544" /><link rel="bookmark" href="Images/logo.ico" /><link rel="shortcut icon" href="Images/logo.ico" />
+<head>
+    <title>
+        艺乡建
+    </title>
+    <meta name="keywords" content="城市品牌,城市战略,城市规划,特色小镇,田园综合体,城乡改造"/>
+    <meta name="description" content="光合集团-致力于整合全球优质资源要素，服务于城市品牌运营，提升城市品牌影响力和附加值。为城乡经济发展提供系统大设计，产业运营，产业开发服务，主营业务包含城市品牌打造、城市战略设计、城市规划、特色小镇规划设计、田园综合体规划设计、城乡改造等。"/>
+    <meta name="applicable-device" content="pc">
+    <meta name="renderer" content="webkit" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <link id="css__index" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FA/BD/CgAGe1wQpieAPhvRAABHB2LIsYA056.css?d=28164619544" />
+    <link rel="bookmark" href="Images/logo.ico" />
+    <link rel="shortcut icon" href="Images/logo.ico" />
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
@@ -23,219 +30,49 @@
     <input type="hidden" name="__VIEWSTATE" id="
 __VIEWSTATE" value="" />
 
-
     <!--导航栏页面-->
-    {{--<div id="ea_h">--}}
-        {{--<div class="top" >--}}
-            {{--<div class="t_t" >--}}
-
-                {{--<div id="t_logo" class="t_logo">--}}
-
-                    {{--<div id="ea_l"><h1><a href="index.html" target="_self"><img alt="城市品牌-光合北京文化创意股份有限公司" src="https://0.rc.xiniu.com/g2/M00/FF/E0/CgAGfFwA3QaAfDcLAAAVksqkMMA182.png" /></a></h1></div>--}}
-
-
-                {{--</div>--}}
-
-
-                {{--<div id="xn_h_8_wrap" class="xn_h_8_wrap"     >--}}
-
-                    {{--<div class="xn_h_8_yybox">--}}
-
-                        {{--<div id="xn_h_8_Data_ctl00_xn_h_8_jtstyle" class="xn_h_8_xhbox1">--}}
-                            {{--<a href='http://www.ps-cc.com'>--}}
-                                {{--EN--}}
-                            {{--</a>--}}
-                        {{--</div>--}}
-
-                    {{--</div>--}}
-                {{--</div>--}}
-
-            {{--</div>--}}
-
-            {{--<div id="ea_n">--}}
-
-                {{--<div id="xn_n_14_wrap" class="xn_n_14_wrap">--}}
-
-                    {{--<div class="xn_n_14_wrap_main">--}}
-                        {{--<ul id="xn_n_14_VMenu1" class="type1Ul type1Ul_n000">--}}
-                            {{--<li id="type1Li_n0" level=0 index=0 class="xn_n_14_wrap_menu1"><a href="index.html" target="_self" >网站首页</a></li>--}}
-                            {{--<li id="type1Li_n2" level=0 data_id="2" type="n" index=1 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="{{ route('aboutUs') }}" target="_self"><span name="xn_n_14_VMenu11199402017|T_Navigates|Id|2|Name">研究中心</span></a><ul id="type1Ul_t201" style="display:none" class="type1Ul type1Ul_t201">--}}
-                                    {{--<li id="type1Li_t201_1" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=1 level=1>--}}
-                                        {{--<a href="{{ route('aboutUs') }}" target="_self">--}}
-                                            {{--<span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">关于我们</span>--}}
-                                        {{--</a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t201_2" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="ResearchCenter_yjtd.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">研究团队</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t201_3" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="ResearchCenter_yjnr.html" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">研究内容</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t201_4" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="ResearchCenter_shhd.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">社会活动</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t201_5" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=5 level=1><a href="ResearchCenter_yxjnj.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">艺乡建年鉴</span></a>--}}
-                                    {{--</li>--}}
-
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-                            {{--<li id="type1Li_n25" level=0 data_id="25" type="n" index=2 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="ConstructionTheme_xcfmgj.html" target="_self"><span name="xn_n_14_VMenu1534444652|T_Navigates|Id|25|Name">建设主题</span></a><ul id="type1Ul_t2501" style="display:none" class="type1Ul type1Ul_t2501">--}}
-                                    {{--<li id="type1Li_t2501_1" data_id="25_180" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="ConstructionTheme_xcfmgj.html" target="_self"><span name="xn_n_14_VMenu12050772641|T_NewsTypes|Id|180|Name">乡村风貌格局</span></a>--}}
-
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t2501_2" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="ConstructionTheme_ggysxt.html" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">公共艺术系统</span></a>--}}
-
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t2501_3" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="ConstructionTheme_yscytx.html" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">艺术产业体系</span></a>--}}
-
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t2501_4" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="ConstructionTheme_ysxzlj.html" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">艺术乡振路径</span></a>--}}
-
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-
-                            {{--<li id="type1Li_n4" level=0 data_id="4" type="n" index=3 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="Exmple_yxjgh.html" target="_self"><span name="xn_n_14_VMenu1348511800|T_Navigates|Id|4|Name">执行案例</span></a><ul id="type1Ul_t401" style="display:none" class="type1Ul type1Ul_t401">--}}
-                                    {{--<li id="type1Li_t401_1" data_id="4_30" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="Exmple_yxjgh.html" target="_self"><span name="xn_n_14_VMenu12023186808|T_NewsTypes|Id|30|Name">艺乡建规划</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t401_2" data_id="4_140" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="Exmple_yxjxd.html" target="_self"><span name="xn_n_14_VMenu1119744234|T_NewsTypes|Id|140|Name">艺乡建行动</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t401_3" data_id="4_140" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="Exmple_yxjpx.html" target="_self"><span name="xn_n_14_VMenu1119744234|T_NewsTypes|Id|140|Name">艺乡建培训</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t401_4" data_id="4_140" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="{{ route('aljs') }}" target="_self"><span name="xn_n_14_VMenu1119744234|T_NewsTypes|Id|140|Name">案例检索</span></a>--}}
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-
-                            {{--<li id="type1Li_n3" level=0 data_id="3" type="n" index=4 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="Resourse" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1280976392|T_Navigates|Id|3|Name">平台资源</span></a><ul id="type1Ul_t301" style="display:none" class="type1Ul type1Ul_t301">--}}
-                                    {{--<li id="type1Li_t301_1" data_id="3_67" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="Resourse_xmjcwyh.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11187967790|T_ProductTypes|Id|67|Name">项目决策委员会</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t301_2" data_id="3_66" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="Resourse_zzgw.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11428035801|T_ProductTypes|Id|66|Name">资助顾问</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t301_3" data_id="3_68" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="Resourse_hzhb.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11775131821|T_ProductTypes|Id|68|Name">合作伙伴</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t301_4" data_id="3_69" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="Resourse_jlb.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1898815533|T_ProductTypes|Id|69|Name">俱乐部</span></a>--}}
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-
-                            {{--<li id="type1Li_n27" level=0 data_id="27" type="n" index=5 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="View_gnbgs.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1422393226|T_Navigates|Id|27|Name">乡间视野</span></a><ul id="type1Ul_t2701" style="display:none" class="type1Ul type1Ul_t2701">--}}
-                                    {{--<li id="type1Li_t2701_1" data_id="27_143" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="View_gnbgs.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11478336278|T_NewsTypes|Id|143|Name">国内办公司</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t2701_2" data_id="27_143" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="View_gwbgs.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11478336278|T_NewsTypes|Id|143|Name">国外办公司</span></a>--}}
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-
-                            {{--<li id="type1Li_n1" level=0 data_id="1" type="n" index=6 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="News_jgdt.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1349622608|T_Navigates|Id|1|Name">资讯</span></a><ul id="type1Ul_t101" style="display:none" class="type1Ul type1Ul_t101">--}}
-                                    {{--<li id="type1Li_t101_1" data_id="1_1" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="News_jgdt.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1772242264|T_NewsTypes|Id|1|Name">机构动态</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t101_2" data_id="1_2" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="News_xmbd.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11814633233|T_NewsTypes|Id|2|Name">项目报道</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t101_3" data_id="1_141" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="News_sjtx.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11114909043|T_NewsTypes|Id|141|Name">书籍通讯</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t101_4" data_id="1_3" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="News_nb.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1530406057|T_NewsTypes|Id|3|Name">年报</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t101_5" data_id="1_141" class="xn_n_14_wrap_menu2" type="t" index=5 level=1><a href="News_zl.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11114909043|T_NewsTypes|Id|141|Name">专栏</span></a>--}}
-                                    {{--</li>--}}
-                                    {{--<li id="type1Li_t101_6" data_id="1_3" class="xn_n_14_wrap_menu2" type="t" index=6 level=1><a href="News_hzfzx.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1530406057|T_NewsTypes|Id|3|Name">合作方资讯</span></a>--}}
-                                    {{--</li>--}}
-
-                                {{--</ul>--}}
-                            {{--</li>--}}
-
-
-                            {{--<li id="type1Li_n7" level=0 data_id="7" type="n" index=7 class="xn_n_14_wrap_menu1">--}}
-                                {{--<a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11774742020|T_Navigates|Id|7|Name">联系我们</span></a><ul id="type1Ul_t701" style="display:none" class="type1Ul type1Ul_t701">--}}
-                                    {{--<li id="type1Li_t701_1" data_id="7_13" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11070449284|T_NewsTypes|Id|13|Name">联系我们</span></a>--}}
-                                    {{--</li>--}}
-                                {{--</ul>--}}
-                            {{--</li>--}}
-                        {{--</ul>--}}
-                        {{--<script type="text/javascript">var xn_n_14_VMenu1={normal:{class1:'xn_n_14_wrap_menu1',class2:'xn_n_14_wrap_menu2',class3:'xn_n_14_wrap_menu3',class4:'xn_n_14_wrap_menu4',class5:'xn_n_14_wrap_menu5',class6:'xn_n_14_wrap_menu6'},visited:{class1:'xn_n_14_wrap_menu1_2',class2:'xn_n_14_wrap_menu2_2',class3:'xn_n_14_wrap_menu3_2',class4:'xn_n_14_wrap_menu4_2',class5:'xn_n_14_wrap_menu5_2',class6:'xn_n_14_wrap_menu6_2',class6:'xn_n_14_wrap_menu6_2'},home:{defaultClass:'xn_n_14_wrap_menu1',visitedClass:'xn_n_14_wrap_menu1_2'},content:{defaultClass:'',visitedClass:'',focusClass:''},focus:{class1:'xn_n_14_wrap_menu1_cur',class2:'xn_n_14_wrap_menu2_cur',class3:'xn_n_14_wrap_menu3_cur',class4:'xn_n_14_wrap_menu4_cur',class5:'xn_n_14_wrap_menu5_cur',class6:'xn_n_14_wrap_menu6_cur'},beforeTag:{packUpClass:'',packDownClass:''},expendEffect:1,aniEffect:3,fIdParam:'FId',topUlId:'xn_n_14_VMenu1',homeLiId:'type1Li_n0'};xn_n_14_VMenu1.menu=new BaseControlMenu();xn_n_14_VMenu1.menu.Init('xn_n_14_VMenu1',xn_n_14_VMenu1);xn_n_14_VMenu1.menu.InitMenu('type1Ul_n000',xn_n_14_VMenu1);</script>--}}
-                    {{--</div>--}}
-
-
-                {{--</div>--}}
-
-            {{--</div>--}}
-
-        {{--</div>--}}
-    {{--</div>--}}
-
-
     <div id="ea_h">
         <div class="top" >
             <div class="t_t" >
-
                 <div id="t_logo" class="t_logo">
-
                     <div id="ea_l"><h1><a href="index.html" target="_self"><img  src="img/logo.png" alt=""/></a></h1></div>
-
-
                 </div>
-
-
-                <div id="xn_h_8_wrap" class="xn_h_8_wrap"     >
-
-                    <div class="xn_h_8_yybox">
-
-                        <div id="xn_h_8_Data_ctl00_xn_h_8_jtstyle" class="xn_h_8_xhbox1">
-                            <a href='http://www.ps-cc.com'>
-                                EN
-                            </a>
-                        </div>
-
-                    </div>
-
-
-                </div>
-
             </div>
-
             <div id="ea_n">
-
                 <div id="xn_n_14_wrap" class="xn_n_14_wrap">
-
                     <div class="xn_n_14_wrap_main">
                         <ul id="xn_n_14_VMenu1" class="type1Ul type1Ul_n000">
-                            <li id="type1Li_n0" level=0 index=0 class="xn_n_14_wrap_menu1"><a href="index.html" target="_self" >网站首页</a></li>
+                            <li id="type1Li_n0" level=0 index=0 class="xn_n_14_wrap_menu1">
+                                <a href="/" target="_self" >网站首页</a>
+                            </li>
                             <li id="type1Li_n2" level=0 data_id="2" type="n" index=1 class="xn_n_14_wrap_menu1">
-                                <a href="ResearchCenter_gywm.html" target="_self"><span name="xn_n_14_VMenu11199402017|T_Navigates|Id|2|Name">研究中心</span></a><ul id="type1Ul_t201" style="display:none" class="type1Ul type1Ul_t201">
-                                    <li id="type1Li_t201_1" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="ResearchCenter_gywm.html" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">关于我们</span></a>
+                                <a href="{{ route('aboutUs') }}" target="_self"><span name="xn_n_14_VMenu11199402017|T_Navigates|Id|2|Name">研究中心</span></a><ul id="type1Ul_t201" style="display:none" class="type1Ul type1Ul_t201">
+                                    <li id="type1Li_t201_1" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="{{ route('aboutUs') }}" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">关于我们</span></a>
                                     </li>
-                                    <li id="type1Li_t201_2" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="ResearchCenter_yjtd.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">研究团队</span></a>
+                                    <li id="type1Li_t201_2" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('researchTeam') }}" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">研究团队</span></a>
                                     </li>
-                                    <li id="type1Li_t201_3" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="ResearchCenter_yjnr.html" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">研究内容</span></a>
+                                    <li id="type1Li_t201_3" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="{{ route('researchContent') }}" target="_self"><span name="xn_n_14_VMenu12084926113|T_NewsTypes|Id|5|Name">研究内容</span></a>
                                     </li>
-                                    <li id="type1Li_t201_4" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="ResearchCenter_shhd.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">社会活动</span></a>
+                                    <li id="type1Li_t201_4" data_id="2_4" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="{{ route('researchActivity') }}" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">社会活动</span></a>
                                     </li>
-                                    <li id="type1Li_t201_5" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=5 level=1><a href="ResearchCenter_yxjnj.html" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">艺乡建年鉴</span></a>
+                                    <li id="type1Li_t201_5" data_id="2_5" class="xn_n_14_wrap_menu2" type="t" index=5 level=1><a href="{{ route('researchYearbook') }}" target="_self"><span name="xn_n_14_VMenu1544481522|T_NewsTypes|Id|4|Name">艺乡建年鉴</span></a>
                                     </li>
 
                                 </ul>
                             </li>
 
                             <li id="type1Li_n25" level=0 data_id="25" type="n" index=2 class="xn_n_14_wrap_menu1">
-                                <a href="ConstructionTheme_xcfmgj.html" target="_self"><span name="xn_n_14_VMenu1534444652|T_Navigates|Id|25|Name">建设主题</span></a><ul id="type1Ul_t2501" style="display:none" class="type1Ul type1Ul_t2501">
-                                    <li id="type1Li_t2501_1" data_id="25_180" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="ConstructionTheme_xcfmgj.html" target="_self"><span name="xn_n_14_VMenu12050772641|T_NewsTypes|Id|180|Name">乡村风貌格局</span></a>
+                                <a href="{{ route('themes-village') }}" target="_self"><span name="xn_n_14_VMenu1534444652|T_Navigates|Id|25|Name">建设主题</span></a><ul id="type1Ul_t2501" style="display:none" class="type1Ul type1Ul_t2501">
+                                    <li id="type1Li_t2501_1" data_id="25_180" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="{{ route('themes-village') }}" target="_self"><span name="xn_n_14_VMenu12050772641|T_NewsTypes|Id|180|Name">乡村风貌格局</span></a>
 
                                     </li>
-                                    <li id="type1Li_t2501_2" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="ConstructionTheme_ggysxt.html" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">公共艺术系统</span></a>
+                                    <li id="type1Li_t2501_2" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('themes-art-system') }}" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">公共艺术系统</span></a>
 
                                     </li>
-                                    <li id="type1Li_t2501_3" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="ConstructionTheme_yscytx.html" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">艺术产业体系</span></a>
+                                    <li id="type1Li_t2501_3" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="{{ route('themes-industry-system') }}" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">艺术产业体系</span></a>
 
                                     </li>
-                                    <li id="type1Li_t2501_4" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="ConstructionTheme_ysxzlj.html" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">艺术乡振路径</span></a>
+                                    <li id="type1Li_t2501_4" data_id="25_181" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="{{ route('themes-towns-path') }}" target="_self"><span name="xn_n_14_VMenu11399543004|T_NewsTypes|Id|181|Name">艺术乡振路径</span></a>
 
                                     </li>
                                 </ul>
@@ -257,50 +94,46 @@ __VIEWSTATE" value="" />
 
 
                             <li id="type1Li_n3" level=0 data_id="3" type="n" index=4 class="xn_n_14_wrap_menu1">
-                                <a href="Resourse_xmjcwyh.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1280976392|T_Navigates|Id|3|Name">平台资源</span></a><ul id="type1Ul_t301" style="display:none" class="type1Ul type1Ul_t301">
-                                    <li id="type1Li_t301_1" data_id="3_67" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="Resourse_xmjcwyh.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11187967790|T_ProductTypes|Id|67|Name">项目决策委员会</span></a>
+                                <a href="{{ route('platform-committee') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1280976392|T_Navigates|Id|3|Name">平台资源</span></a><ul id="type1Ul_t301" style="display:none" class="type1Ul type1Ul_t301">
+                                    <li id="type1Li_t301_1" data_id="3_67" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="{{ route('platform-committee') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11187967790|T_ProductTypes|Id|67|Name">项目决策委员会</span></a>
                                     </li>
-                                    <li id="type1Li_t301_2" data_id="3_66" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="Resourse_zzgw.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11428035801|T_ProductTypes|Id|66|Name">资助顾问</span></a>
+                                    <li id="type1Li_t301_2" data_id="3_66" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('platform-consultant') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11428035801|T_ProductTypes|Id|66|Name">资助顾问</span></a>
                                     </li>
-                                    <li id="type1Li_t301_3" data_id="3_68" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="Resourse_hzhb.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11775131821|T_ProductTypes|Id|68|Name">合作伙伴</span></a>
+                                    <li id="type1Li_t301_3" data_id="3_68" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="{{ route('platform-partner') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11775131821|T_ProductTypes|Id|68|Name">合作伙伴</span></a>
                                     </li>
-                                    <li id="type1Li_t301_4" data_id="3_69" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="Resourse_jlb.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1898815533|T_ProductTypes|Id|69|Name">俱乐部</span></a>
+                                    <li id="type1Li_t301_4" data_id="3_69" class="xn_n_14_wrap_menu2" type="t" index=4 level=1><a href="{{ route('platform-club') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1898815533|T_ProductTypes|Id|69|Name">俱乐部</span></a>
                                     </li>
                                 </ul>
                             </li>
 
 
                             <li id="type1Li_n27" level=0 data_id="27" type="n" index=5 class="xn_n_14_wrap_menu1">
-                                <a href="View_gnbgs.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1422393226|T_Navigates|Id|27|Name">乡建视野</span></a><ul id="type1Ul_t2701" style="display:none" class="type1Ul type1Ul_t2701">
-                                    <li id="type1Li_t2701_1" data_id="27_143" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="View_gnbgs.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11478336278|T_NewsTypes|Id|143|Name">国内办公司</span></a>
+                                <a href="{{ route('view-internal-office') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1422393226|T_Navigates|Id|27|Name">乡建视野</span></a><ul id="type1Ul_t2701" style="display:none" class="type1Ul type1Ul_t2701">
+                                    <li id="type1Li_t2701_1" data_id="27_143" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="{{ route('view-internal-office') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11478336278|T_NewsTypes|Id|143|Name">国内办公室</span></a>
                                     </li>
-                                    <li id="type1Li_t2701_2" data_id="27_143" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="View_gwbgs.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11478336278|T_NewsTypes|Id|143|Name">国外办公司</span></a>
+                                    <li id="type1Li_t2701_2" data_id="27_143" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('view-overseas-office') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11478336278|T_NewsTypes|Id|143|Name">国外办公室</span></a>
                                     </li>
                                 </ul>
                             </li>
-
-
                             <li id="type1Li_n1" level=0 data_id="1" type="n" index=6 class="xn_n_14_wrap_menu1">
-                                <a href="News_jgdt.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1349622608|T_Navigates|Id|1|Name">资讯</span></a><ul id="type1Ul_t101" style="display:none" class="type1Ul type1Ul_t101">
-                                    <li id="type1Li_t101_1" data_id="1_1" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="News_jgdt.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1772242264|T_NewsTypes|Id|1|Name">机构动态</span></a>
+                                <a href="{{ route('news-list', ['category_id' => 1]) }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1349622608|T_Navigates|Id|1|Name">资讯</span></a><ul id="type1Ul_t101" style="display:none" class="type1Ul type1Ul_t101">
+                                    <li id="type1Li_t101_1" data_id="1_1" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="{{ route('news-list', ['category_id' => 1]) }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1772242264|T_NewsTypes|Id|1|Name">机构动态</span></a>
                                     </li>
-                                    <li id="type1Li_t101_2" data_id="1_2" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="News_xmbd.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11814633233|T_NewsTypes|Id|2|Name">项目报道</span></a>
+                                    <li id="type1Li_t101_2" data_id="1_2" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('news-list', ['category_id' => 2]) }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11814633233|T_NewsTypes|Id|2|Name">项目报道</span></a>
                                     </li>
                                     </li>
                                     <!--由专栏改名为乡建观察-->
-                                    <li id="type1Li_t101_5" data_id="1_141" class="xn_n_14_wrap_menu2" type="t" index=5 level=1><a href="News_zl.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11114909043|T_NewsTypes|Id|141|Name">乡建观察</span></a>
+                                    <li id="type1Li_t101_5" data_id="1_141" class="xn_n_14_wrap_menu2" type="t" index=5 level=1><a href="{{ route('news-list', ['category_id' => 3]) }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11114909043|T_NewsTypes|Id|141|Name">乡建观察</span></a>
                                     </li>
-                                    <li id="type1Li_t101_6" data_id="1_3" class="xn_n_14_wrap_menu2" type="t" index=6 level=1><a href="News_hzfzx.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1530406057|T_NewsTypes|Id|3|Name">合作方资讯</span></a>
+                                    <li id="type1Li_t101_6" data_id="1_3" class="xn_n_14_wrap_menu2" type="t" index=6 level=1><a href="{{ route('news-list', ['category_id' => 4]) }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu1530406057|T_NewsTypes|Id|3|Name">最新动态</span></a>
                                     </li>
-
                                 </ul>
                             </li>
 
-
                             <li id="type1Li_n7" level=0 data_id="7" type="n" index=7 class="xn_n_14_wrap_menu1">
                                 <a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11774742020|T_Navigates|Id|7|Name">联系我们</span></a><ul id="type1Ul_t701" style="display:none" class="type1Ul type1Ul_t701">
-                                    <li id="type1Li_t701_1" data_id="7_13" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11070449284|T_NewsTypes|Id|13|Name">联系我们</span></a>
-                                    </li>
+                                    {{--<li id="type1Li_t701_1" data_id="7_13" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11070449284|T_NewsTypes|Id|13|Name">联系我们</span></a>--}}
+                                    {{--</li>--}}
                                 </ul>
                             </li>
                         </ul>
@@ -339,14 +172,15 @@ __VIEWSTATE" value="" />
         <div class="index_cnt" >
             <div class="index_cnt_m" >
                 <!--三张大图和more  乡振计划-->
+                <!--三张大图和more  乡振计划-->
                 <div id="xn_c_index_507_wrap" class="xn_c_index_507_wrap"     >
                     <div class="xn_c_index_507_topbox">
                         <div class="xn_c_index_507_cnName">
-                            <span name="_index_507_cnName" >乡镇计划</span>
+                            <span name="_index_507_cnName" >建设主题</span>
                         </div>
                         <div class="xn_c_index_507_enName">
 
-                            <span name="_index_507_enName">clusters</span>
+                            <span name="_index_507_enName">Construction theme</span>
 
                         </div>
                     </div>
@@ -356,32 +190,34 @@ __VIEWSTATE" value="" />
                         <div class="xn_c_index_507_cbox">
                             <ul class="xn_c_index_507_ul">
 
-                                <li class="xn_c_index_507_li"><!--乡镇计划的几张图-->
+                                <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="ProductsSt_ggxq.html">
                                             <img  data-original='https://0.rc.xiniu.com/g2/M00/EA/83/CgAGe1vo7UiALvv_AAIxCakIjos369.jpg' alt='生态组织' title='生态组织' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
+                                        <!---herf-->
                                         <div class="xn_c_index_507_lfbox">
                                             <div class="xn_c_index_507_title">
-                                                <a target="_blank" href="ProductsSt_ggxq.html">
-                                                    发现乡村
+                                                <a target="_blank" href="ConstructionTheme_xcfmgj.html">
+                                                    乡村风貌格局
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_title1">
-                                                <a target="_blank" href="ProductsSt_ggxq.html">
+                                                <a target="_blank" href="ConstructionTheme_xcfmgj.html">
 
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
-                                                <a target="_blank" href="ProductsSt_ggxq.html">
-                                                    <p> 发现乡村的简介</p>
+                                                <a target="_blank" href="ConstructionTheme_xcfmgj.html">
+                                                    <p>在开展乡村规划和建设时，以艺术特色、生态宜居、服务均等、城乡和谐为基本要求，做好传统文化保护传承，着力体现区域民俗文化及传统物质空间形态。
+                                                        乡村风貌规划及建设实施是一个系统工程，既涉及到宏观层面的乡村规划，中观、微观的空间规划设计，也涉及到乡村地区传统文化的普查、挖掘、再现与活化，还涉及到与实施息息相关的经济社会持续发展和制度设计。编制《建设艺术乡村行动纲要》，制定“人文、景观、产业、设施”四个类型艺术示范乡村的建设内容及考核标准，设立十项指标，全力推进“艺术特色乡村振兴示范”。</p>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="xn_c_index_507_rtbox">
-                                            <a target="_blank" href="ProductsSt_ggxq.html">
+                                            <a target="_blank" href="ConstructionTheme_xcfmgj.html">
                                                 <div class="xn_c_index_507_more">MORE</div>
                                             </a>
                                         </div>
@@ -390,25 +226,26 @@ __VIEWSTATE" value="" />
 
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
-                                        <a target="_blank" href="ProductsSt_ggdx.html">
+                                        <a target="_blank" href="ConstructionTheme_ggysxt.html">
                                             <img  data-original='https://0.rc.xiniu.com/g2/M00/F5/A1/CgAGfFvo8iGAHaQhAAMILquKIW0236.jpg' alt='生态区块' title='生态区块' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
                                         <div class="xn_c_index_507_lfbox">
                                             <div class="xn_c_index_507_title">
-                                                <a target="_blank" href="ProductsSt_ggdx.html">
-                                                    亲近乡村
+                                                <a target="_blank" href="ConstructionTheme_ggysxt.html">
+                                                    公共艺术系统
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_title1">
-                                                <a target="_blank" href="ProductsSt_ggdx.html">
+                                                <a target="_blank" href="ConstructionTheme_ggysxt.html">
 
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
-                                                <a target="_blank" href="ProductsSt_ggdx.html">
-                                                    <p>亲近乡村的简介</p>
+                                                <a target="_blank" href="ConstructionTheme_ggysxt.html">
+                                                    <p>在全国率先实现城乡公共艺术设施全覆盖、公共艺术产品供给一体化、公共艺术管理运营体系化。在公共文化体育设施和主要公共文化服务实现全覆盖的基础上，开展艺术设施全覆盖，确保城乡居民享有平等的公共艺术服务权益。积极探索和完善城乡艺术一体化建设模式，努力探索艺术管理新体制机制，充分利用各种文化载体，为城乡居民免费提供公共艺术服务。积极争取中央财政转移支付资金，以县财政投入为主，乡镇、村（社区）投入为辅，建立起县、乡、村全面覆盖、传输快捷、服务优良的公共艺术服务网络。
+                                                        2-2实施村民艺术素质提高工程</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -422,30 +259,30 @@ __VIEWSTATE" value="" />
 
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
-                                        <a target="_blank" href="ProductsSt_ggjy.html">
+                                        <a target="_blank" href="ConstructionTheme_yscytx.html">
                                             <img  data-original='https://0.rc.xiniu.com/g2/M00/F5/A2/CgAGfFvo8vmADcKPAALDwMcmvCY364.jpg' alt='生态开发' title='生态开发' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
                                         <div class="xn_c_index_507_lfbox">
                                             <div class="xn_c_index_507_title">
-                                                <a target="_blank" href="ProductsSt_ggjy.html">
-                                                    创意乡村
+                                                <a target="_blank" href="ConstructionTheme_yscytx.html">
+                                                    艺术产业体系
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_title1">
-                                                <a target="_blank" href="ProductsSt_ggjy.html">
+                                                <a target="_blank" href="ConstructionTheme_yscytx.html">
 
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
-                                                <a target="_blank" href="ProductsSt_ggjy.html">
-                                                    <p>创意乡村的简介</p>
+                                                <a target="_blank" href="ConstructionTheme_yscytx.html">
+                                                    <p>利用艺术创意渗透性强、关联性强等优势，与乡村一二三产业融合发展，提升乡村产业附加值。一是大力振兴传统工艺。依托乡村丰富传统工艺资源，广泛开展文化创意，面向农村开展技艺培训，开办就业工坊，通过电商平台、会展展销、技能大赛等方式开展营销，增加农民收入。二是大力发展乡村文化旅游。鼓励乡村文化资源合理利用，依托风景名胜、历史文化名镇名村、特色景观、传统村落等，打造旅游新模式。三是规范乡村艺术市场秩序。进一步加强农村艺术市场监管，严厉打击违法违规行为，积极培育各类优质文化市场主体，为乡村文化产业发展创造良好环境</p>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="xn_c_index_507_rtbox">
-                                            <a target="_blank" href="ProductsSt_ggjy.html">
+                                            <a target="_blank" href="ConstructionTheme_yscytx.html">
                                                 <div class="xn_c_index_507_more">MORE</div>
                                             </a>
                                         </div>
@@ -454,36 +291,36 @@ __VIEWSTATE" value="" />
 
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
-                                        <a target="_blank" href="ProductsSt_ggjk.html">
+                                        <a target="_blank" href="ConstructionTheme_ysxzlj.html">
                                             <img  data-original='https://0.rc.xiniu.com/g2/M00/F5/A2/CgAGfFvo9FuAZ-PxAALOHupiiMw507.jpg' alt='生态合伙人' title='生态合伙人' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
                                         <div class="xn_c_index_507_lfbox">
                                             <div class="xn_c_index_507_title">
-                                                <a target="_blank" href="ProductsSt_ggjk.html">
-                                                    发起人
+                                                <a target="_blank" href="ConstructionTheme_ysxzlj.html">
+                                                    艺术振兴乡村路径
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_title1">
-                                                <a target="_blank" href="ProductsSt_ggjk.html">
+                                                <a target="_blank" href="ConstructionTheme_ysxzlj.html">
 
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
-                                                <a target="_blank" href="ProductsSt_ggjk.html">
-                                                    <p>发起人的简介</p>
+                                                <a target="_blank" href="ConstructionTheme_ysxzlj.html">
+                                                    <p>村民是村庄的主体，乡村建设的首要任务是村民主体性建设，其重点是村社共同体建设，所以我们支持在乡村的劳动者，在政府的发起人以及各个行业的合作伙伴与志愿者能够动员全部力量，将新时期的新文化渗透到美丽乡村，用艺术振兴乡村，发展乡村，改变乡村。
+                                                        艺乡建倡导的艺术振兴乡村过程，以国际化视野和开放性思维，深入挖掘历史文化资源，促进文化与经济的融合，大力推进“艺术特色”方向建设，创造乡村乡村振兴的“艺术特色”文化优势，尤为注重培养本地化的中坚力量，这能够使艺乡建与本土化当地的特色更好的相结合，抢占乡村发展的制高点，形成强大的文化创新力、文化竞争力和文化凝聚力。</p>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="xn_c_index_507_rtbox">
-                                            <a target="_blank" href="ProductsSt_ggjk.html">
+                                            <a target="_blank" href="ConstructionTheme_ysxzlj.html">
                                                 <div class="xn_c_index_507_more">MORE</div>
                                             </a>
                                         </div>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
                         <em class="xn_c_index_507_next"></em>
@@ -505,21 +342,17 @@ __VIEWSTATE" value="" />
                             <span name="_xn_c_index_180_cName" >GLOBAL DIVISION</span>
                         </div>
                     </div>
-
                     <div class="xn_c_index_180_wbox">
                         <div class="xn_c_index_180_Typelist">
                             <div class="xn_c_index_180_typeName">
                                 All
                             </div>
-
                             <div class="xn_c_index_180_typeName">
                                 国内事业部
                             </div>
-
                             <div class="xn_c_index_180_typeName">
                                 国际事业部
                             </div>
-
                         </div>
                         <div class="xn_c_index_180_contType">
                             <ul class="xn_c_index_180_hotUl">
@@ -1669,12 +1502,8 @@ __VIEWSTATE" value="" />
                                 <span name="_foot_tel2|" ><font size="3">电话：010-52808759</font></span>
                             </div>
                             <div style="width:300px;margin:0 0; padding:20px 0;"></div>
-
                         </div>
-
                     </div>
-
-
                     <div id="foot_fx" class="foot_fx">
                         <div id="bdshare" class="bdsharebuttonbox">
                             <a rel='nofollow' href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
@@ -1716,53 +1545,17 @@ __VIEWSTATE" value="" />
                                 <a href="ContactSt_ljfs.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu4441751923|T_Navigates|Id|7|Name">联系我们</span></a></li>
                         </ul>
                         <script type="text/javascript">var ShoveWebControl_VMenu4={normal:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:''},visited:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:'',class6:''},home:{defaultClass:'',visitedClass:''},content:{defaultClass:'',visitedClass:'',focusClass:''},focus:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:''},beforeTag:{packUpClass:'',packDownClass:''},expendEffect:1,aniEffect:1,fIdParam:'FId',topUlId:'ShoveWebControl_VMenu4',homeLiId:'foot_type2Li_n0'};ShoveWebControl_VMenu4.menu=new BaseControlMenu();ShoveWebControl_VMenu4.menu.Init('ShoveWebControl_VMenu4',ShoveWebControl_VMenu4);;</script>
-
                     </div>
-
-
                 </div>
-
-
-                <div class="foot_box1" id="foot_box1" >
-
-                    <div id="foot_copy" class="foot_copy">
-                        <div class="foot_copy_name">
-                            <span name="_foot_copy1|" >Copyright ©2018 - 2021<font size="3"> 光合集团</font></span>
-                        </div>
-                        <div class="foot_sitemap">
-                            <a href="kfszd.html" target="_blank">
-                                <span name="_foot_copy3|">网站地图</span>
-                            </a>
-                        </div>
-                        <div class="foot_copy_ba">
-                            <a rel="nofollow" href="http://www.miitbeian.gov.cn" target="_blank">
-                                <span name="_foot_copy2|" >京ICP备19002531号-1</span>
-                            </a>
-                        </div>
-                        <div class="foot_copy_ba"><a href="siteMap.html" class="foot_copy_map" target="_blank">&nbsp;&nbsp;网站地图</a></div>
-
-
-                        <div class="foot_copy_ba"><span class="xn_brand" >犀牛云提供企业云服务</span></div> </div>
-
-                </div>
-
             </div>
         </div>
     </div>
-
-
     <div id="ea_m"></div>
-
-
     <div id="ea_pi"></div>
-
-
     <div id="ea_wj"></div>
-
     <input type="hidden" id="pageId" value="1" />
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
-    <a style='display:none' href='http://m.ps-cc.com/m'>进入手机网站</a>
     <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script></form>
 </body>
 </html>
