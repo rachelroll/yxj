@@ -13,7 +13,7 @@ class NewsController extends Controller
     {
         $news = News::where('category', $category_id)
             ->where('enabled', 1)
-            ->get();
+            ->paginate(2);
         if ($news) {
             foreach ($news as &$item) {
                 $item->month = Carbon::createFromDate($item->time)->month;
@@ -27,8 +27,10 @@ class NewsController extends Controller
     // ×ÊÑ¶ÏêÇéÒ³
     public function show($id)
     {
-        $news = News::where('id', $id)->get();
+        $news = News::find($id);
 
-        return view('news/show', compact('news'));
+        $lists = News::where('enabled', 1)->orderby('time')->limit(4)->get();
+
+        return view('news/show', compact('news', 'lists'));
     }
 }

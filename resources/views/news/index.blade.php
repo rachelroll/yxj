@@ -4,7 +4,17 @@
         关于我们
     </title>
 @endsection
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+    .page-item.active .page-link {
+        background-color: grey;
+        border-color: grey;
+    }
 
+    .page-link {
+        color: grey;
+    }
+</style>
 @section('content')
     <div id="ea_ba">
         <div id="products_banner" class="products_banner">
@@ -98,6 +108,9 @@
                     </div>
                 </div>
                     @endforeach
+            </div>
+            <div class="mx-auto" style="align-content: center; width: 200px;">
+                {{ $news->links() }}
             </div>
 
             <!--确保两页存在留白-->
