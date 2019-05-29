@@ -14,9 +14,7 @@
 use App\Http\Controllers\NewsController;
 
 // 首页
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'NewsController@home')->name('home');
 
 
 // 资讯
@@ -25,13 +23,13 @@ Route::get('news/{id}', 'NewsController@show')->name('news.show');
 
 
 // 案例
-Route::get('projects/category/{category_id}', 'ProjectController@index');
+Route::get('projects/category/{category_id}', 'ProjectController@index')->name('projects.index');
 Route::get('projects/aljs', 'ProjectController@aljs')->name('aljs');
 Route::get('projects/{id}', 'ProjectController@show');
 Route::get('projects', 'ProjectController@search');
 
-//关于我们
-Route::get('contact', 'AboutController@index');
+// 联系我们
+Route::get('contact', 'AboutController@index')->name('contact');
 
 
 // 研究中心
@@ -74,4 +72,6 @@ Route::get('platform-club', 'PlatformController@club')->name('platform-club');
 Route::get('view-internal-office', 'ViewController@internalOffice')->name('view-internal-office');
 // 国外办公室
 Route::get('view-overseas-office', 'ViewController@overseasOffice')->name('view-overseas-office');
+// 办公室详情页
+Route::get('view-office-show', 'ViewController@show')->name('view.office.show');
 

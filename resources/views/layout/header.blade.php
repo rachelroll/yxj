@@ -98,7 +98,7 @@
                         </li>
 
                         <li id="type1Li_n7" level=0 data_id="7" type="n" index=7 class="xn_n_14_wrap_menu1">
-                            <a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11774742020|T_Navigates|Id|7|Name">联系我们</span></a><ul id="type1Ul_t701" style="display:none" class="type1Ul type1Ul_t701">
+                            <a href="{{ route('contact') }}" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11774742020|T_Navigates|Id|7|Name">联系我们</span></a><ul id="type1Ul_t701" style="display:none" class="type1Ul type1Ul_t701">
                                 {{--<li id="type1Li_t701_1" data_id="7_13" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="JoinUs_lxwm.html" rel="nofollow" target="_self"><span name="xn_n_14_VMenu11070449284|T_NewsTypes|Id|13|Name">联系我们</span></a>--}}
                                 {{--</li>--}}
                             </ul>

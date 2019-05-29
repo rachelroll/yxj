@@ -10,9 +10,12 @@ class ProjectController extends Controller
 
     public function index($category_id)
     {
-        $projects = Project::where('category', $category_id)->get();
+        if ($category_id == 22) {
+            return view('projects/train', compact('category_id'));
+        }
+        $projects = Project::where('category', 'like', $category_id.'%')->get();
 
-        return view('projects/index', compact('projects'));
+        return view('projects/index', compact('projects', 'category_id'));
     }
 
     public function show($id)

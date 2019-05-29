@@ -9,12 +9,18 @@ class ViewController extends Controller
     // 国内办公室
     public function internalOffice()
     {
-        return view('xj_view/internal');
+        return view('xj_view.internal');
     }
 
     // 国外办公室
     public function overseasOffice()
     {
-        return view('xj_view/overseas');
+        return view('xj_view.overseas');
+    }
+
+    // 办公室详情页
+    public function show()
+    {
+        return view('xj_view.show');
     }
 }

@@ -132,7 +132,6 @@ __VIEWSTATE" value="" />
                                         </div>
                                     </div>
                                 </li>
-
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-industry-system') }}">
@@ -211,23 +210,27 @@ __VIEWSTATE" value="" />
                 <div class="xn_c_index_180_wrap" id="xn_c_index_180_wrap"     >
                     <div class="xn_c_index_180_head">
                         <div class="xn_c_index_180_eWrap">
-                            <span name="_xn_c_index_180_eName" >乡间视野</span>
+                            <span name="_xn_c_index_180_eName" >乡建视野</span>
                         </div>
                         <div class="xn_c_index_180_cWrap">
                             <span name="_xn_c_index_180_cName" >GLOBAL DIVISION</span>
                         </div>
                     </div>
+
                     <div class="xn_c_index_180_wbox">
                         <div class="xn_c_index_180_Typelist">
                             <div class="xn_c_index_180_typeName">
                                 All
                             </div>
+
                             <div class="xn_c_index_180_typeName">
-                                国内事业部
+                                国内办公室
                             </div>
+
                             <div class="xn_c_index_180_typeName">
-                                国际事业部
+                                国外办公室
                             </div>
+
                         </div>
                         <div class="xn_c_index_180_contType">
                             <ul class="xn_c_index_180_hotUl">
@@ -241,10 +244,10 @@ __VIEWSTATE" value="" />
                                     <div class="xn_c_index_180_cont">
                                         <a href="CaseStd_480.html" target="_blank">
                                             <div class="xn_c_index_180_Title">
-                                                北京事业部
+                                                北京艺乡建事业部
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_hotData3_ctl00_xn_c_index_180_Text'>简 介光合集团创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合...</span>
+                                                <span id='xn_c_index_180_hotData3_ctl00_xn_c_index_180_Text'>北京艺乡建事业部创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
 
@@ -264,10 +267,13 @@ __VIEWSTATE" value="" />
                                     <div class="xn_c_index_180_cont">
                                         <a href="CaseStd_487.html" target="_blank">
                                             <div class="xn_c_index_180_Title">
-                                                伦敦事业部
+                                                湖北艺乡建志愿者
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_hotData3_ctl01_xn_c_index_180_Text'>简 介光合星球伦敦事业部是一家致力于城市文化品牌创建的公司，公司的专家学者对“什么是城市”， 城市外在、城市内涵、人与城市之间的关系有着很深的研究，提出用艺术引导城市设计，倡导一种文化导向的城市发展思...</span>
+                                                <span id='xn_c_index_180_hotData3_ctl01_xn_c_index_180_Text'>家园在望，跬步无休——高勇
+天行不止，时序如轮，转我去日，周三十春，曰高曰勇，泛泛此身，字子字如，昂昂斯人，青春往日，负笈南都。
+黑白坚柔，劳劳一身，春夏冬秋，心疲情逸，志劳思悠，奇山丽水，豁耳盈眸，屋舍荡然，居人去休，墙倾土废，铭内深忧，涓埃有助，聚海可筹，借庄严力，致广大谋，老养幼教，业积室稠，坠绪再起，斯文复遒，家园在望，跬步无休。
+用一段文言文介绍自己，笔者还是头一次遇到，眼前的高勇温文尔雅，谈起自己对乡建的认识，结合自己的实际工作案例，他侃侃而谈。</span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
 
@@ -287,10 +293,10 @@ __VIEWSTATE" value="" />
                                     <div class="xn_c_index_180_cont">
                                         <a href="CaseStd_484.html" target="_blank">
                                             <div class="xn_c_index_180_Title">
-                                                加拿大事业部
+                                                加拿大艺乡建事业部
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_hotData3_ctl02_xn_c_index_180_Text'>简 介加拿大光合星球事业部依托温哥华优越的地理位置，以及顶尖的的大学、研究学院等优势，汇集了全球顶尖的城市规划专家、城市设计专家，景观设计专家、艺术家，大学学者，等国际领先的人才资源。合众研究设计：顶...</span>
+                                                <span id='xn_c_index_180_hotData3_ctl02_xn_c_index_180_Text'>加拿大艺乡建事业部创立于2010年，总部位于加拿大。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
 
@@ -310,10 +316,12 @@ __VIEWSTATE" value="" />
                                     <div class="xn_c_index_180_cont">
                                         <a href="CaseStd_483.html" target="_blank">
                                             <div class="xn_c_index_180_Title">
-                                                山东事业部
+                                                杭州艺乡建志愿者
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_hotData3_ctl03_xn_c_index_180_Text'>简 介光合星球山东事业部地处运河文化闻名的聊城东昌湖畔，致力于用光合集团的优势资源及城市品牌运营经验服务于聊城及山东省境内的城乡品牌建设，山东事业部专注于挖掘山东传统文化，通过大设计系统方法论、国际资...</span>
+                                                <span id='xn_c_index_180_hotData3_ctl03_xn_c_index_180_Text'>来自乡土的记忆——张文英
+张文英，河南郑州人，中国美术学院在读博士，河南大学外聘教师。发表多篇学术论文，获得多次设计比赛奖项。
+与乡村建设结缘，是2014年在河南大学读硕期间，张文英参与了中央美术学院许平老师主持的“亚洲社会设计需求”阶段性研究项目《南马庄小院—中国中部乡村生活方式调查及设计需求研究》人类学调研，并在兰考县南马庄进行了设计学角度的田野调查和72小时人类学影像记录。这次相对深刻的关于乡村问题的思考，让她感受到乡村建设的紧迫性。 </span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
 
@@ -333,10 +341,12 @@ __VIEWSTATE" value="" />
                                     <div class="xn_c_index_180_cont">
                                         <a href="CaseStd_482.html" target="_blank">
                                             <div class="xn_c_index_180_Title">
-                                                江西事业部
+                                                运城艺乡建志愿者
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_hotData3_ctl04_xn_c_index_180_Text'>简 介光合星球江西事业部是光合集团在华南地区的业务枢纽，负责光合集团生态模式的传播与发展，并进行项目资源整合，向光合集团提供项目可研报告，同时参与项目的执行，设有：项目研究部、市场商务部、项目运营管理...</span>
+                                                <span id='xn_c_index_180_hotData3_ctl04_xn_c_index_180_Text'>不忘初心，只有努力——周洋
+周洋，山西运城学院教师，运城市平面协会副主席，运城市九三学社学院支社副主委，运城市政协委员‍。
+采访周洋，他没有华丽的豪言壮语，相反，周洋用平实的一段话直言自己的心路历程:“绿油油的庄稼地，‍‍篱笆院里‍‍的阳光，敦实的长板凳‍‍，还有去往村里学校的‍‍必经窄桥，‍‍是我对小时生活过的乡村的不灭记忆。‍‍由于父亲工作原因，我小学转学到县城，后来到了省会读大学，选择了艺术设计专业，就一点点的失掉了农民的样子，父母亲很高兴我脱掉了"农皮"，似乎顺理成章完成‍‍村里人到城里人的转变。‍‍‍‍再后来到北京读书，‍‍更深地纳入了‍‍城市的文化气息‍‍，似乎‍‍要把仅剩的那一点乡土的东西‍‍涤荡一清”。‍‍‍</span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
 
@@ -369,9 +379,7 @@ __VIEWSTATE" value="" />
                                         </a>
                                     </div>
                                 </li>
-
                             </ul>
-
                             <ul class="xn_c_index_180_hotUl">
 
                                 <li class="xn_c_index_180_list">
@@ -457,9 +465,7 @@ __VIEWSTATE" value="" />
                                         </a>
                                     </div>
                                 </li>
-
                             </ul>
-
                             <ul class="xn_c_index_180_hotUl">
 
                                 <li class="xn_c_index_180_list">
@@ -503,716 +509,53 @@ __VIEWSTATE" value="" />
                                         </a>
                                     </div>
                                 </li>
-
                             </ul>
-
                         </div>
                     </div>
-
-
                 </div>
 
                 <!-- 黑色的机构动态  咨询   -->  <!--这个没有什么好改动的,文字是写死的-->
                 <div id="xn_c_index_39_wrap" class="xn_c_index_39_wrap"     >
-
                     <div class="xn_c_index_39_main">
                         <em class="xn_c_index_39_prev"></em>
                         <div class="xn_c_index_39_inner">
-
                             <div class="xn_c_index_39_nrbox">
-
+                                @foreach($news_lists as $item)
                                 <div class="xn_c_index_39_nrboxsmall">
                                     <div class="xn_c_index_39_time">
                                     <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text2'>04</span>
+                                    <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text2'>{{ $item->month }}</span>
                                     </span>
                                         <span class="xn_c_index_39_date4">-</span>
                                         <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text3'>28</span>
+                                    <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text3'>{{ $item->date }}</span>
                                     </span>
                                         <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text1'>2019</span>
+                                    <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text1'>{{ $item->year }}</span>
                                     </span>
                                     </div>
                                     <div class="xn_c_index_39_ritbox">
                                         <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_506.html" target="_blank">固定的资讯1</a>
+                                            <a href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">{{ $item->title }}</a>
                                         </div>
-                                        <a href="NewsStd_506.html" target="_blank">
+                                        <a href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
                                             <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text4'>资讯简介1</span>
+                                                <span id='xn_c_index_39_Data_ctl00_xn_c_index_39_Text4'>{{ $item->description }}</span>
                                             </div>
                                         </a>
-
                                     </div>
                                     <div class="clear"></div>
                                 </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl01_xn_c_index_39_Text2'>04</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl01_xn_c_index_39_Text3'>24</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl01_xn_c_index_39_Text1'>2019</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_505.html" target="_blank">固定的资讯2</a>
-                                        </div>
-                                        <a href="NewsStd_505.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl01_xn_c_index_39_Text4'>资讯简介2</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl02_xn_c_index_39_Text2'>02</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl02_xn_c_index_39_Text3'>27</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl02_xn_c_index_39_Text1'>2019</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_504.html" target="_blank">固定的资讯3</a>
-                                        </div>
-                                        <a href="NewsStd_504.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl02_xn_c_index_39_Text4'>资讯简介3</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl03_xn_c_index_39_Text2'>02</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl03_xn_c_index_39_Text3'>19</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl03_xn_c_index_39_Text1'>2019</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_503.html" target="_blank">固定的资讯4</a>
-                                        </div>
-                                        <a href="NewsStd_503.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl03_xn_c_index_39_Text4'>资讯4简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl04_xn_c_index_39_Text2'>01</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl04_xn_c_index_39_Text3'>24</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl04_xn_c_index_39_Text1'>2019</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_502.html" target="_blank">固定的资讯5</a>
-                                        </div>
-                                        <a href="NewsStd_502.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl04_xn_c_index_39_Text4'>咨询5简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl05_xn_c_index_39_Text2'>01</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl05_xn_c_index_39_Text3'>07</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl05_xn_c_index_39_Text1'>2019</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_500.html" target="_blank">固定的资讯6</a>
-                                        </div>
-                                        <a href="NewsStd_500.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl05_xn_c_index_39_Text4'>资讯6简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl06_xn_c_index_39_Text2'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl06_xn_c_index_39_Text3'>27</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl06_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_499.html" target="_blank">固定的资讯7</a>
-                                        </div>
-                                        <a href="NewsStd_499.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl06_xn_c_index_39_Text4'>资讯7简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl07_xn_c_index_39_Text2'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl07_xn_c_index_39_Text3'>21</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl07_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_498.html" target="_blank">固定的资讯8</a>
-                                        </div>
-                                        <a href="NewsStd_498.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl07_xn_c_index_39_Text4'>资讯8简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl08_xn_c_index_39_Text2'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl08_xn_c_index_39_Text3'>20</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl08_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_497.html" target="_blank">固定的资讯9</a>
-                                        </div>
-                                        <a href="NewsStd_497.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl08_xn_c_index_39_Text4'>资讯9简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl09_xn_c_index_39_Text2'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl09_xn_c_index_39_Text3'>20</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl09_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_496.html" target="_blank">固定的资讯10</a>
-                                        </div>
-                                        <a href="NewsStd_496.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl09_xn_c_index_39_Text4'>资讯10简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl10_xn_c_index_39_Text2'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl10_xn_c_index_39_Text3'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl10_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_495.html" target="_blank">固定的资讯13</a>
-                                        </div>
-                                        <a href="NewsStd_495.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl10_xn_c_index_39_Text4'>资讯13简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl11_xn_c_index_39_Text2'>12</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl11_xn_c_index_39_Text3'>05</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl11_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_494.html" target="_blank">固定的资讯14</a>
-                                        </div>
-                                        <a href="NewsStd_494.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl11_xn_c_index_39_Text4'>资讯14简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl12_xn_c_index_39_Text2'>11</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl12_xn_c_index_39_Text3'>22</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl12_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_493.html" target="_blank">固定的资讯15</a>
-                                        </div>
-                                        <a href="NewsStd_493.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl12_xn_c_index_39_Text4'>资讯15简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl13_xn_c_index_39_Text2'>11</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl13_xn_c_index_39_Text3'>20</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl13_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_491.html" target="_blank">固定的资讯16</a>
-                                        </div>
-                                        <a href="NewsStd_491.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl13_xn_c_index_39_Text4'>资讯16简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl14_xn_c_index_39_Text2'>10</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl14_xn_c_index_39_Text3'>10</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl14_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_456.html" target="_blank">固定的资讯17</a>
-                                        </div>
-                                        <a href="NewsStd_456.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl14_xn_c_index_39_Text4'>资讯17简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl15_xn_c_index_39_Text2'>09</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl15_xn_c_index_39_Text3'>22</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl15_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_457.html" target="_blank">固定的资讯18</a>
-                                        </div>
-                                        <a href="NewsStd_457.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl15_xn_c_index_39_Text4'>资讯18简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl16_xn_c_index_39_Text2'>08</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl16_xn_c_index_39_Text3'>31</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl16_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_426.html" target="_blank">固定的资讯19</a>
-                                        </div>
-                                        <a href="NewsStd_426.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl16_xn_c_index_39_Text4'>资讯19简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl17_xn_c_index_39_Text2'>07</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl17_xn_c_index_39_Text3'>13</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl17_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_425.html" target="_blank">固定的资讯20</a>
-                                        </div>
-                                        <a href="NewsStd_425.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl17_xn_c_index_39_Text4'>资讯20简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl18_xn_c_index_39_Text2'>07</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl18_xn_c_index_39_Text3'>11</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl18_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_424.html" target="_blank">固定的资讯21</a>
-                                        </div>
-                                        <a href="NewsStd_424.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl18_xn_c_index_39_Text4'>资讯简介21</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl19_xn_c_index_39_Text2'>05</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl19_xn_c_index_39_Text3'>04</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl19_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_423.html" target="_blank">固定的资讯22</a>
-                                        </div>
-                                        <a href="NewsStd_423.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl19_xn_c_index_39_Text4'>资讯22简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl20_xn_c_index_39_Text2'>01</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl20_xn_c_index_39_Text3'>29</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl20_xn_c_index_39_Text1'>2018</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_422.html" target="_blank">固定的资讯23</a>
-                                        </div>
-                                        <a href="NewsStd_422.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl20_xn_c_index_39_Text4'>资讯23简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl21_xn_c_index_39_Text2'>11</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl21_xn_c_index_39_Text3'>21</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl21_xn_c_index_39_Text1'>2017</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_421.html" target="_blank">固定的资讯24</a>
-                                        </div>
-                                        <a href="NewsStd_421.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl21_xn_c_index_39_Text4'>资讯24简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl22_xn_c_index_39_Text2'>10</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl22_xn_c_index_39_Text3'>31</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl22_xn_c_index_39_Text1'>2017</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_420.html" target="_blank">固定的资讯25</a>
-                                        </div>
-                                        <a href="NewsStd_420.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl22_xn_c_index_39_Text4'>资讯25简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl23_xn_c_index_39_Text2'>10</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl23_xn_c_index_39_Text3'>19</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl23_xn_c_index_39_Text1'>2017</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_419.html" target="_blank">固定的资讯26</a>
-                                        </div>
-                                        <a href="NewsStd_419.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl23_xn_c_index_39_Text4'>资讯26简介</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-                                <div class="xn_c_index_39_nrboxsmall">
-                                    <div class="xn_c_index_39_time">
-                                    <span class="xn_c_index_39_date3">
-                                    <span id='xn_c_index_39_Data_ctl24_xn_c_index_39_Text2'>09</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date4">-</span>
-                                        <span class="xn_c_index_39_date5">
-                                    <span id='xn_c_index_39_Data_ctl24_xn_c_index_39_Text3'>20</span>
-                                    </span>
-                                        <span class="xn_c_index_39_date1">
-                                    <span id='xn_c_index_39_Data_ctl24_xn_c_index_39_Text1'>2017</span>
-                                    </span>
-                                    </div>
-                                    <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
-                                            <a href="NewsStd_386.html" target="_blank">27</a>
-                                        </div>
-                                        <a href="NewsStd_386.html" target="_blank">
-                                            <div class="xn_c_index_39_coent" ej="edit_span">
-                                                <span id='xn_c_index_39_Data_ctl24_xn_c_index_39_Text4'>27</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-
-
+                                    @endforeach
                             </div>
-
                         </div>
                         <em class="xn_c_index_39_next"></em>
                     </div>
-
-
                     <div class="xn_c_index_39_newsmore">
-
                         <span name="_index_39_newsmore">
-                        <a href="NewsStd.html">MORE</a>
+                        <a href="{{ route('news-list', ['category_id' => 1]) }}">MORE</a>
                         </span>
-
                     </div>
-
-
                 </div>
 
                 <!-- 资讯页面  资讯  -->
@@ -1242,7 +585,6 @@ __VIEWSTATE" value="" />
                                         <div class="xn_c_index_303_mark"></div>
                                     </div>
                                 </li>
-
                                 <li class="xn_c_index_303_tLi">
                                     <div class="xn_c_index_303_timg">
                                         <img data-original='/Private/NewsImgs/636746763848997791671114674.jpg' alt=''>
@@ -1257,7 +599,6 @@ __VIEWSTATE" value="" />
                                         <div class="xn_c_index_303_mark"></div>
                                     </div>
                                 </li>
-
                                 <li class="xn_c_index_303_tLi">
                                     <div class="xn_c_index_303_timg">
                                         <img data-original='/Private/NewsImgs/63674676566814171528581364.jpg' alt=''>
@@ -1272,8 +613,6 @@ __VIEWSTATE" value="" />
                                         <div class="xn_c_index_303_mark"></div>
                                     </div>
                                 </li>
-
-
                                 <li class="xn_c_index_303_tLi">
                                     <div class="xn_c_index_303_timg">
                                         <img data-original='/Private/NewsImgs/63674676566814171528581364.jpg' alt=''>
@@ -1288,7 +627,6 @@ __VIEWSTATE" value="" />
                                         <div class="xn_c_index_303_mark"></div>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
 
@@ -1338,22 +676,16 @@ __VIEWSTATE" value="" />
                     <div class="xn_c_69_main">
                         <div class="xn_c_69_topbox">
                             <span class="xn_c_69_cnname">
-
                                 <span name="_c_69_cnname|">友情链接:</span>
-
                             </span>
                         </div>
                         <div class="xn_c_69_nrbox">
-
                             <div class="xn_c_69_xhbox">
                                 <a rel="nofollow" href='http://www.dosignunion.com' target="_blank">光合星球产业园</a>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>

@@ -8,6 +8,21 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
+    // 首页
+    public function home()
+    {
+        $news_lists = News::where('enabled', 1)->get();
+
+        if ($news_lists) {
+            foreach ($news_lists as &$item) {
+                $item->month = Carbon::createFromDate($item->time)->month;
+                $item->date = Carbon::createFromDate($item->time)->day;
+                $item->year = Carbon::createFromDate($item->time)->year;
+            }
+            return view('home', compact('news_lists'));
+        }
+    }
+
     // 资讯列表页
     public function index($category_id)
     {
