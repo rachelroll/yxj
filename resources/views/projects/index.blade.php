@@ -188,7 +188,7 @@
                         @foreach($projects as $item)
                         <div class="n_case_main">
                             <div class="n_case_img"><a target="_blank" href="{{ route('projects.show', ['id' => $item->id]) }}">
-                                    <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建'  title='艺乡建' /></a>
+                                    <img data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' style="width: auto; height: 100%"/></a>
                             </div>
                             <div class="n_case_main_name">
                                 <a target="_blank" title='艺乡建' href="{{ route('projects.show', ['id' => $item->id]) }}">

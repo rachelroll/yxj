@@ -14,7 +14,7 @@
     <link rel="bookmark" href="Images/logo.ico" /><link rel="shortcut icon" href="Images/logo.ico" />
 
     {{--<script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>--}}
-    {{--<script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>--}}
+    <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject_modified.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject.js"></script>
@@ -43,14 +43,14 @@ __VIEWSTATE" value="" />
                             <span name="_n_r_wz1">您现在的位置：</span>
                         </span>
                         <span class="n_r_wz2">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <span name="_n_r_wz2">首页</span>
                             </a>
                         </span>
                         <span class="n_r_wz3">-</span>
                         <span class="n_r_wz4">
                             <span id=''>
-                                <a href="ProductsSt_ggxq.html" target="_self">执行案例</a>
+                                <a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self">执行案例</a>
                             </span>
                         </span>
                         {{--<span class="n_r_wz5">-</span>--}}
@@ -88,7 +88,7 @@ __VIEWSTATE" value="" />
                     </div>
                     <div id="xn_c_newsv_22_wrap" class="xn_c_newsv_22_wrap"     >
                         <div class="xn_c_newsv_22_box">
-                            <a href="{{ route('news-list', ['category_id' => $project->category]) }}">
+                            <a href="{{ route('projects.index', ['category_id' => 1]) }}">
                                 <span name="_newsv_22_nsmore">返回列表</span>
                             </a>
                         </div>
@@ -154,19 +154,19 @@ __VIEWSTATE" value="" />
                             {!! $project->content !!}
                             <div class="news_view_cle1"></div>
                         </div>
-                        <div id="news_view_sx" class="news_view_sx">
-                            <div id="EIMS_C_3_1_ShowInfo" style="COLOR: red"></div>
-                            <div id="EIMS_C_3_1_box_div">
-                                <span id="EIMS_C_3_1_Upli" class="EIMS_C_3_1_page">
-                                    <a href="NewsStd_499.html" id="EIMS_C_3_1_Up">上一篇：<span id="EIMS_C_3_1_UpNew">光合资讯 | 光合集团——塑造城市生命力</span>
-                                    </a>
-                                </span>
-                                <span id="EIMS_C_3_1_Downli" class="EIMS_C_3_1_page">
-                                    <a href="NewsStd_497.html" id="EIMS_C_3_1_Down">下一篇：<span id="EIMS_C_3_1_DownNew">光合资讯 | 风里雨里我在世界水城等你</span>
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
+                        {{--<div id="news_view_sx" class="news_view_sx">--}}
+                            {{--<div id="EIMS_C_3_1_ShowInfo" style="COLOR: red"></div>--}}
+                            {{--<div id="EIMS_C_3_1_box_div">--}}
+                                {{--<span id="EIMS_C_3_1_Upli" class="EIMS_C_3_1_page">--}}
+                                    {{--<a href="NewsStd_499.html" id="EIMS_C_3_1_Up">上一篇：<span id="EIMS_C_3_1_UpNew">光合资讯 | 光合集团——塑造城市生命力</span>--}}
+                                    {{--</a>--}}
+                                {{--</span>--}}
+                                {{--<span id="EIMS_C_3_1_Downli" class="EIMS_C_3_1_page">--}}
+                                    {{--<a href="NewsStd_497.html" id="EIMS_C_3_1_Down">下一篇：<span id="EIMS_C_3_1_DownNew">光合资讯 | 风里雨里我在世界水城等你</span>--}}
+                                    {{--</a>--}}
+                                {{--</span>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="news_view_foot" >
                         </div>
                     </div>

@@ -24,35 +24,30 @@
             <div id="n_content_right_name_r" class="n_content_right_name_r">
                 <ul>
                     <li>
-                                        <span class="n_r_wz1">
-
-                                            <span name="_n_r_wz1">您现在的位置：</span>
-
-                                        </span>
+                        <span class="n_r_wz1">
+                            <span name="_n_r_wz1">您现在的位置：</span>
+                        </span>
                         <span class="n_r_wz2">
-                                            <a href="index.html">
-                                            <span name="_n_r_wz2">首页</span>
-                                            </a>
-                                        </span>
+                            <a href="{{ route('home') }}">
+                                <span name="_n_r_wz2">首页</span>
+                            </a>
+                        </span>
                         <span class="n_r_wz3">-</span>
                         <span class="n_r_wz4">
-                                            <span id='ShoveWebControl_Text_about'><a href="ProductsSt_ggxq.html" target="_self">建设主题</a></span>
-                                        </span>
+                            <span id='ShoveWebControl_Text_about'>
+                                <a href="{{ route('themes-village') }}" target="_self">建设主题</a>
+                            </span>
+                        </span>
                         <span class="n_r_wz5">-</span>
                         <span class="n_r_wz6">
-                                            <a href="ProductsSt_ggjk.html" class="curr1">艺术产业体系</a>
-                                        </span>
+                            <a href="" class="curr1">艺术产业体系</a>
+                        </span>
                     </li>
                     <li>
                         <img src="https://1.rc.xiniu.com/rc/Contents/47175/Images/icpsp1_n_right_wz.png" alt="" />
                     </li>
                 </ul>
-
             </div>
-
-
-
-
 
             <!--下面的都是ea_c中的而可选项-->
 

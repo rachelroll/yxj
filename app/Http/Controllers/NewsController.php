@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
-    // Ê×Ò³
+    // é¦–é¡µ
     public function home()
     {
         $news_lists = News::where('enabled', 1)->get();
@@ -23,23 +23,22 @@ class NewsController extends Controller
         }
     }
 
-    // ×ÊÑ¶ÁÐ±íÒ³
+    // èµ„è®¯åˆ—è¡¨é¡µ
     public function index($category_id)
     {
         $news = News::where('category', $category_id)
             ->where('enabled', 1)
-            ->paginate(2);
+            ->paginate(5);
         if ($news) {
             foreach ($news as &$item) {
                 $item->month = Carbon::createFromDate($item->time)->month;
                 $item->date = Carbon::createFromDate($item->time)->day;
             }
-
             return view('news/index', compact('news','category_id'));
         }
     }
 
-    // ×ÊÑ¶ÏêÇéÒ³
+    // èµ„è®¯è¯¦æƒ…é¡µ
     public function show($id)
     {
         $news = News::find($id);

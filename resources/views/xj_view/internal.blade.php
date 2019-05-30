@@ -24,7 +24,7 @@
 
                                         </span>
                         <span class="n_r_wz2">
-                                            <a href="index.html">
+                                            <a href="{{ route('home') }}">
                                             <span name="_n_r_wz2">首页</span>
                                             </a>
                                         </span>

@@ -22,18 +22,18 @@
                             <span name="_n_r_wz1">您现在的位置：</span>
                         </span>
                         <span class="n_r_wz2">
-                            <a href="index.html">
+                            <a href="{{ route('home') }}">
                                 <span name="_n_r_wz2">首页</span>
                             </a>
                         </span>
                         <span class="n_r_wz3">-</span>
                         <span class="n_r_wz4">
-                            <span id='ShoveWebControl_Text_about'><a href="ProductsSt_ggxq.html" target="_self">平台资源</a>
+                            <span id='{{ route('platform-committee') }}'><a href="ProductsSt_ggxq.html" target="_self">平台资源</a>
                             </span>
                         </span>
                         <span class="n_r_wz5">-</span>
                         <span class="n_r_wz6">
-                            <a href="ProductsSt_ggjk.html" class="curr1">俱乐部</a>
+                            <a href="" class="curr1">俱乐部</a>
                         </span>
                     </li>
                     <li>
