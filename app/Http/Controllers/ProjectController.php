@@ -24,7 +24,9 @@ class ProjectController extends Controller
     {
         $project = Project::find($id);
 
-        return view('projects.show', compact('project'));
+        $lists = Project::where('enabled', 1)->get();
+
+        return view('projects.show', compact('project', 'lists'));
     }
 
     public function search(Request $request)

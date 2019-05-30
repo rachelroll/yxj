@@ -26,7 +26,7 @@ Route::get('news/{id}', 'NewsController@show')->name('news.show');
 Route::get('projects/category/{category_id}', 'ProjectController@index')->name('projects.index');
 Route::get('projects/aljs', 'ProjectController@aljs')->name('aljs');
 Route::get('projects/register', 'ProjectController@register')->name('projects.register');
-Route::get('projects/{id}', 'ProjectController@show');
+Route::get('projects/{id}', 'ProjectController@show')->name('projects.show');
 Route::get('projects', 'ProjectController@search');
 Route::post('projects/register/store', 'ProjectController@store')->name('projects.register.store');
 
