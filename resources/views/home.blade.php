@@ -630,40 +630,6 @@ __VIEWSTATE" value="" />
                             </ul>
                         </div>
 
-                        <!--这就是右侧的,放的是图片-->
-                        {{--<div class="xn_c_index_303_cWrap" id="xn_c_index_303_cWrap">--}}
-                            {{--<ul class="xn_c_index_303_cUl" id="xn_c_index_303_cUl">--}}
-
-                                {{--<li class="xn_c_index_303_items">--}}
-                                    {{--<div class="xn_c_index_303_cTitle">--}}
-
-                                    {{--</div>--}}
-                                    {{--<div class="xn_c_index_303_cIntro">--}}
-                                        {{--<p style="text-align: center;"><img title="国际城市资源" style="max-width: 100%;" alt="国际城市资源" src="https://0.rc.xiniu.com/g2/M00/E2/C7/CgAGe1vTHzGAVJmVAACfy4kViT8902.jpg"/></p><p> </p>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-
-                                {{--<li class="xn_c_index_303_items">--}}
-                                    {{--<div class="xn_c_index_303_cTitle">--}}
-
-                                    {{--</div>--}}
-                                    {{--<div class="xn_c_index_303_cIntro">--}}
-                                        {{--<p style="text-align: center; line-height: 1.75em;"><img title="国际产业资源" style="max-width: 100%;" alt="国际产业资源" src="https://0.rc.xiniu.com/g2/M00/E2/C5/CgAGe1vTFH2AAyQHAAEHob1O3Xc994.jpg"/></p><p style="line-height: 1.75em;"> </p>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-
-                                {{--<li class="xn_c_index_303_items">--}}
-                                    {{--<div class="xn_c_index_303_cTitle">--}}
-
-                                    {{--</div>--}}
-                                    {{--<div class="xn_c_index_303_cIntro">--}}
-                                        {{--<p style="text-align: center;"><img title="国际品牌资源" style="max-width: 100%;" alt="国际品牌资源" src="https://0.rc.xiniu.com/g2/M00/E2/C7/CgAGe1vTH0mARYQ8AABrfBGfO7Q679.jpg"/></p><p> </p>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
-
-                            {{--</ul>--}}
-                        {{--</div>--}}
-
                         <video width="780px" height="400px" src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/test_video.mp4" style="margin-left: 20px" controls="controls">
                         </video>
                     </div>
@@ -691,78 +657,13 @@ __VIEWSTATE" value="" />
     </div>
 
     <!--页尾--><!--联系方式-->
-    <div id="ea_b">
-        <div class="foot" >
-            <div class="foot_c" >
-
-                <div class="foot_box" id="foot_box" >
-
-                    <div id="foot_tel" class="foot_tel">
-                        <div class="foot_tel_f">
-                            <div class="foot_company">
-                                <span name="_foot_tel3|" >&nbsp;</span>
-                            </div>
-                            <div class="foot_add">
-                                <span name="_foot_tel1|" ><font size="3">地址：中国·北京·房山绿地启航国际三期-5号光合创意大楼-光合总部</font></span>
-                            </div>
-                            <div class="foot_phone">
-                                <span name="_foot_tel2|" ><font size="3">电话：010-52808759</font></span>
-                            </div>
-                            <div style="width:300px;margin:0 0; padding:20px 0;"></div>
-                        </div>
-                    </div>
-                    <div id="foot_fx" class="foot_fx">
-                        <div id="bdshare" class="bdsharebuttonbox">
-                            <a rel='nofollow' href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-                            <a rel='nofollow' href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
-                            <a rel='nofollow' href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-                        </div>
-                        <script type="text/javascript">window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=86835285.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
-
-
-                    </div>
-
-
-                    <div class="foot_ewm" id="foot_ewm" >
-                        <img src="https://0.rc.xiniu.com/g2/M00/E9/5A/CgAGfFvH7dqAS0c5AAAwFhzIiFc855.jpg">
-                        <p>
-
-                            <span name="_foot_ewm|">扫码关注公众号</span>
-
-                        </p>
-                    </div>
-
-
-                    <div id="foot_nav2" class="foot_nav2">
-                        <ul id="ShoveWebControl_VMenu4" class="foot_type2Ul foot_type2Ul_n000">
-                            <li id="foot_type2Li_n0" level=0 index=0 class=""><a href="index.html" target="_self" >首页</a></li>
-                            <li id="foot_type2Li_n2" level=0 data_id="2" type="n" index=1 class="">
-                                <a href="NewsStd.html" target="_self"><span name="ShoveWebControl_VMenu4742724384|T_Navigates|Id|2|Name">新闻资讯</span></a></li>
-                            <li id="foot_type2Li_n25" level=0 data_id="25" type="n" index=2 class="">
-                                <a href="SolutionStd.html" target="_self"><span name="ShoveWebControl_VMenu4561697075|T_Navigates|Id|25|Name">业务生态与项目</span></a></li>
-                            <li id="foot_type2Li_n4" level=0 data_id="4" type="n" index=3 class="">
-                                <a href="CaseStd.html" target="_self"><span name="ShoveWebControl_VMenu41631118472|T_Navigates|Id|4|Name">全球事业部</span></a></li>
-                            <li id="foot_type2Li_n3" level=0 data_id="3" type="n" index=4 class="">
-                                <a href="ProductsSt_ggxq.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu41132593381|T_Navigates|Id|3|Name">光合生态</span></a></li>
-                            <li id="foot_type2Li_n27" level=0 data_id="27" type="n" index=5 class="">
-                                <a href="qsxxd.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu4455471716|T_Navigates|Id|27|Name">人力资源</span></a></li>
-                            <li id="foot_type2Li_n1" level=0 data_id="1" type="n" index=6 class="">
-                                <a href="AboutStd.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu41249476791|T_Navigates|Id|1|Name">关于集团</span></a></li>
-                            <li id="foot_type2Li_n7" level=0 data_id="7" type="n" index=7 class="">
-                                <a href="ContactSt_ljfs.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu4441751923|T_Navigates|Id|7|Name">联系我们</span></a></li>
-                        </ul>
-                        <script type="text/javascript">var ShoveWebControl_VMenu4={normal:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:''},visited:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:'',class6:''},home:{defaultClass:'',visitedClass:''},content:{defaultClass:'',visitedClass:'',focusClass:''},focus:{class1:'',class2:'',class3:'',class4:'',class5:'',class6:''},beforeTag:{packUpClass:'',packDownClass:''},expendEffect:1,aniEffect:1,fIdParam:'FId',topUlId:'ShoveWebControl_VMenu4',homeLiId:'foot_type2Li_n0'};ShoveWebControl_VMenu4.menu=new BaseControlMenu();ShoveWebControl_VMenu4.menu.Init('ShoveWebControl_VMenu4',ShoveWebControl_VMenu4);;</script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('layout/footer')
     <div id="ea_m"></div>
     <div id="ea_pi"></div>
     <div id="ea_wj"></div>
     <input type="hidden" id="pageId" value="1" />
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
-    <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script></form>
+</form>
 </body>
 </html>

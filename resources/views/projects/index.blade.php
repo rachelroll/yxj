@@ -117,7 +117,7 @@
                                 </li>
                                 <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="#jlrpx" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">经理人培训</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_4" data_id="4_164" class="left_menu2" type="t" index=4 level=1><a href="Exmple_pxbm.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">培训报名</span></a>
+                                <li id="left_typeLi_t4301_4" data_id="4_164" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.register') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">培训报名</span></a>
                                 </li>
                             </ul>
                                 @endif

@@ -25,8 +25,11 @@ Route::get('news/{id}', 'NewsController@show')->name('news.show');
 // 案例
 Route::get('projects/category/{category_id}', 'ProjectController@index')->name('projects.index');
 Route::get('projects/aljs', 'ProjectController@aljs')->name('aljs');
+Route::get('projects/register', 'ProjectController@register')->name('projects.register');
 Route::get('projects/{id}', 'ProjectController@show');
 Route::get('projects', 'ProjectController@search');
+Route::post('projects/register/store', 'ProjectController@store')->name('projects.register.store');
+
 
 // 联系我们
 Route::get('contact', 'AboutController@index')->name('contact');

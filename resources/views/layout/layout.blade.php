@@ -41,6 +41,7 @@
 </form>
 
 @include('layout/footer')
+
 </body>
 </html>
 

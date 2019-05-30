@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Member;
 use App\Project;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 class ProjectController extends Controller
 {
@@ -15,14 +17,14 @@ class ProjectController extends Controller
         }
         $projects = Project::where('category', 'like', $category_id.'%')->get();
 
-        return view('projects/index', compact('projects', 'category_id'));
+        return view('projects.index', compact('projects', 'category_id'));
     }
 
     public function show($id)
     {
         $project = Project::find($id);
 
-        return view('projects/show', compact('project'));
+        return view('projects.show', compact('project'));
     }
 
     public function search(Request $request)
@@ -35,12 +37,44 @@ class ProjectController extends Controller
             ['category', 'like', '%'.$category.'%']
         ])->get();
 
-        return view('projects/search', compact('projects'));
+        return view('projects.search', compact('projects'));
     }
 
     // 案例检索
     public function aljs()
     {
         return view('projects/aljs');
+    }
+
+    // 培训报名
+    public function register()
+    {
+        return view('projects.register');
+    }
+
+    // 提交报名
+    public function store(Request $request)
+    {
+        Input::flash();
+
+        if (!$request->name) {
+            return back()->with('fail', '请填写姓名')->withInput();
+        } elseif (!$request->company) {
+            return back()->with('fail', '请填写公司名称')->withInput();
+        } elseif (!$request->phone) {
+            return back()->with('fail', '请填写联系方式')->withInput();
+        }
+
+        $res = Member::create([
+            'name' => $request->name,
+            'company' => $request->company,
+            'phone' => $request->phone
+        ]);
+
+        if ($res) {
+            return back()->with('success', '报名成功');
+        } else {
+            return back()->with('fail', '请稍后重试');
+        }
     }
 }
