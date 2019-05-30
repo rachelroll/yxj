@@ -26,9 +26,9 @@
     </style>
 </head>
 <body class="index_body">
-<form name="form1" method="get" action="#" id="form1" NavigateId="1,index.html" Page="/index.aspx">
-    <input type="hidden" name="__VIEWSTATE" id="
-__VIEWSTATE" value="" />
+{{--<form name="form1" method="get" action="#" id="form1" NavigateId="1,index.html" Page="/index.aspx">--}}
+    {{--<input type="hidden" name="__VIEWSTATE" id="--}}
+{{--__VIEWSTATE" value="" />--}}
 
     <!--导航栏页面-->
    @include('layout/header')
@@ -664,6 +664,6 @@ __VIEWSTATE" value="" />
     <input type="hidden" id="pageId" value="1" />
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
-</form>
+{{--</form>--}}
 </body>
 </html>
