@@ -13,7 +13,7 @@
     <link rel="bookmark" href="Images/logo.ico" />
     <link rel="shortcut icon" href="Images/logo.ico" />
 
-    // video.js
+    {{--video.js--}}
     <link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
 
 
