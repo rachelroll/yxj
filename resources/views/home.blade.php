@@ -13,6 +13,7 @@
     <link rel="bookmark" href="Images/logo.ico" />
     <link rel="shortcut icon" href="Images/logo.ico" />
 
+    // video.js
     <link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
 
 
@@ -568,8 +569,8 @@
                     </div>
 
                     <div class="xn_c_index_303_main" style="padding-left: 20px">
-                        <video style="float:left;" class="video-js" controls preload="auto" width="780" height="440"
-                               data-setup='{ "autoplay": true, "preload": "auto", "loop":true }'>
+                        <video muted style="float:left;" class="video-js" controls preload="auto" width="780" height="440"
+                               data-setup='{ "autoplay": true, "preload": "true", "loop":true }'>
                             <source src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" type="video/mp4">
                         </video>
                         <div class="xn_c_index_303_tWrap" style="margin-left: 24px;">
@@ -646,8 +647,5 @@
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
 <script src="http://vjs.zencdn.net/6.2.0/video.js"></script>
-<script>
-
-</script>
 </body>
 </html>
