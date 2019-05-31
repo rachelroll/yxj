@@ -59,31 +59,25 @@
                 <div class="n_content_left_t2">
                     <span id='n_content_left_t_data2'>Art Industry System</span>
                 </div>
-
             </div>
 
             <!--简单的一级目录原型-->
-
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0><a href="ConstructionTheme_xcfmgj.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">乡村风貌格局</span></a>
+                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0><a href="{{ route('themes-village') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">乡村风貌格局</span></a>
                         </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="ConstructionTheme_ggysxt.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">公共艺术系统</span></a>
+                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('themes-art-system') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">公共艺术系统</span></a>
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="ConstructionTheme_yscytx.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">艺术产业体系</span></a>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('themes-industry-system') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">艺术产业体系</span></a>
                         </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="ConstructionTheme_ysxzlj.html" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">艺术振兴乡村路径</span></a>
+                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('themes-towns-path') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">艺术振兴乡村路径</span></a>
                         </li>
 
                     </ul>
                 </ul>
 
             </div>
-
-
-
-
 
             <!--简单的图文竖版,可以插入图片-->
             <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">

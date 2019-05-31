@@ -76,5 +76,5 @@ Route::get('view-internal-office', 'ViewController@internalOffice')->name('view-
 // 国外办公室
 Route::get('view-overseas-office', 'ViewController@overseasOffice')->name('view-overseas-office');
 // 办公室详情页
-Route::get('view-office-show', 'ViewController@show')->name('view.office.show');
+Route::get('view-office-show/{id}', 'ViewController@show')->name('view.office.show');
 

@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Input;
 
 class ProjectController extends Controller
 {
-
+    // 列表页
     public function index($category_id)
     {
         if ($category_id == 22) {
@@ -20,6 +20,7 @@ class ProjectController extends Controller
         return view('projects.index', compact('projects', 'category_id'));
     }
 
+    // 详情页
     public function show($id)
     {
         $project = Project::find($id);

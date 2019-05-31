@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Media;
 use App\News;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -13,13 +14,15 @@ class NewsController extends Controller
     {
         $news_lists = News::where('enabled', 1)->get();
 
+        $video = Media::latest()->first()->video;
+
         if ($news_lists) {
             foreach ($news_lists as &$item) {
                 $item->month = Carbon::createFromDate($item->time)->month;
                 $item->date = Carbon::createFromDate($item->time)->day;
                 $item->year = Carbon::createFromDate($item->time)->year;
             }
-            return view('home', compact('news_lists'));
+            return view('home', compact('news_lists', 'video'));
         }
     }
 

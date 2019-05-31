@@ -2,29 +2,43 @@
 
 namespace App\Http\Controllers;
 
+use App\Media;
+use App\News;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 
 class PlatformController extends Controller
 {
-    // ÏîÄ¿¾ö²ßÎ¯Ô±»á
+    // é¡¹ç›®å†³ç­–å§”å‘˜ä¼š
     public function committee()
     {
-        return view('platform/committee');
+        $news = News::where('category', 4)
+            ->where('enabled', 1)
+            ->paginate(5);
+        $video = Media::latest()->first()->video;
+
+        if ($news) {
+            foreach ($news as &$item) {
+                $item->month = Carbon::createFromDate($item->time)->month;
+                $item->date = Carbon::createFromDate($item->time)->day;
+            }
+            return view('platform/committee', compact('news', 'video'));
+        }
     }
 
-    // ×ÊÖú¹ËÎÊ
+    // èµ„åŠ©é¡¾é—®
     public function consultant()
     {
         return view('platform/consultant');
     }
 
-    // ºÏ×÷»ï°é
+    // åˆä½œä¼™ä¼´
     public function partner()
     {
         return view('platform/partner');
     }
 
-    // ¾ãÀÖ²¿
+    // ä¿±ä¹éƒ¨
     public function club()
     {
         return view('platform/club');

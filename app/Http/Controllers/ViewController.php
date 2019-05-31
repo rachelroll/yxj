@@ -2,25 +2,44 @@
 
 namespace App\Http\Controllers;
 
+use App\Office;
 use Illuminate\Http\Request;
 
 class ViewController extends Controller
 {
-    // ¹úÄÚ°ì¹«ÊÒ
+    // å›½å†…åŠžå…¬å®¤
     public function internalOffice()
     {
         return view('xj_view.internal');
     }
 
-    // ¹úÍâ°ì¹«ÊÒ
+    // å›½å¤–åŠžå…¬å®¤
     public function overseasOffice()
     {
         return view('xj_view.overseas');
     }
 
-    // °ì¹«ÊÒÏêÇéÒ³
-    public function show()
+    // åŠžå…¬å®¤è¯¦æƒ…é¡µ
+    public function show($id)
     {
-        return view('xj_view.show');
+        switch ($id) {
+            case 'bj':
+                return view('xj_view.show.bj');
+                break;
+            case 'hb':
+                return view('xj_view.show.hb');
+                break;
+            case 'hz':
+                return view('xj_view.show.hangzhou');
+                break;
+            case 'yc':
+                return view('xj_view.show.yuncheng');
+                break;
+            case 'jnd':
+                return view('xj_view.show.jnd');
+                break;
+            default:
+                return view('xj_view.show.bj');
+        }
     }
 }

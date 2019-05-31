@@ -629,27 +629,8 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <video width="780px" height="400px" src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/test_video.mp4" style="margin-left: 20px" controls="controls">
+                        <video width="780px" height="400px" src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" style="margin-left: 20px" controls="controls">
                         </video>
-                    </div>
-
-                </div>
-
-                <!--友情链接--><!--在原型的设计中是放在页尾的-->
-                <div id="xn_c_69_wrap" class="xn_c_69_wrap"     >
-
-                    <div class="xn_c_69_main">
-                        <div class="xn_c_69_topbox">
-                            <span class="xn_c_69_cnname">
-                                <span name="_c_69_cnname|">友情链接:</span>
-                            </span>
-                        </div>
-                        <div class="xn_c_69_nrbox">
-                            <div class="xn_c_69_xhbox">
-                                <a rel="nofollow" href='http://www.dosignunion.com' target="_blank">光合星球产业园</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

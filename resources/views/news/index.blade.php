@@ -66,10 +66,10 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t400" class="left_typeUl left_typeUl_t400">
-                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=1 level=0><a href="News_jgdt.html" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">机构动态</span></a></li>
-                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1" type="t" index=2 level=0><a href="News_xmbd.html" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">项目报道</span></a></li>
-                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=5 level=0><a href="News_zl.html" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">乡建观察</span></a></li>
-                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1" type="t" index=6 level=0><a href="News_hzfzx.html" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">合作方专栏</span></a>
+                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=1 level=0><a href="{{ route('news-list', ['category_id' => 1]) }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">机构动态</span></a></li>
+                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1" type="t" index=2 level=0><a href="{{route('news-list', ['category_id' => 2])}}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">项目报道</span></a></li>
+                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=5 level=0><a href="{{route('news-list', ['category_id' => 3])}}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">乡建观察</span></a></li>
+                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1" type="t" index=6 level=0><a href="{{route('news-list', ['category_id' => 4])}}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">最新动态</span></a>
                         </li>
                     </ul>
                 </ul>
@@ -80,7 +80,7 @@
                 @foreach($news as $item)
                 <div class="nnews_lb_m">
                     <div class="nnews_lb_img">
-                        <a title='艺乡建 | 资讯' href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
+                        <a href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
                             <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' />
                         </a>
                     </div>
