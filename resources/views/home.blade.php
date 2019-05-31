@@ -13,6 +13,9 @@
     <link rel="bookmark" href="Images/logo.ico" />
     <link rel="shortcut icon" href="Images/logo.ico" />
 
+    <link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
+
+
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
@@ -467,7 +470,6 @@
                                 </li>
                             </ul>
                             <ul class="xn_c_index_180_hotUl">
-
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <img data-original='https://0.rc.xiniu.com/g2/M00/EB/BA/CgAGe1vrgp2AYaTnAACBui7_brM960.jpg' alt='伦敦事业部' title='伦敦事业部' />
@@ -481,14 +483,11 @@
                                                 <span id='xn_c_index_180_Data1_ctl01_xn_c_index_180_hotData_ctl00_xn_c_index_180_Text'>简 介光合星球伦敦事业部是一家致力于城市文化品牌创建的公司，公司的专家学者对“什么是城市”， 城市外在、城市内涵、人与城市之间的关系有着很深的研究，提出用艺术引导城市设计，倡导一种文化导向的城市发展思...</span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
-
                                                 <span name="_xn_c_index_180_hotMore">MORE</span>
-
                                             </div>
                                         </a>
                                     </div>
                                 </li>
-
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSCSAVXPLAABb5qmgb9o935.jpg' alt='加拿大事业部' title='加拿大事业部' />
@@ -499,12 +498,11 @@
                                                 加拿大事业部
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl01_xn_c_index_180_hotData_ctl01_xn_c_index_180_Text'>简 介加拿大光合星球事业部依托温哥华优越的地理位置，以及顶尖的的大学、研究学院等优势，汇集了全球顶尖的城市规划专家、城市设计专家，景观设计专家、艺术家，大学学者，等国际领先的人才资源。合众研究设计：顶...</span>
+                                                <span id='xn_c_index_180_Data1_ctl01_xn_c_index_180_hotData_ctl01_xn_c_index_180_Text'>简 介加拿大光合星球事业部依托温哥华优越的地理位置，以及顶尖的的大学、研究学院等优势，汇集了全球顶尖的城市规划专家、城市设计专家，景观设计专家、艺术家，大学学者，等国际领先的人才资源。合众研究设计：顶..
+                                                </span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
-
                                                 <span name="_xn_c_index_180_hotMore">MORE</span>
-
                                             </div>
                                         </a>
                                     </div>
@@ -559,7 +557,7 @@
                 </div>
 
                 <!-- 资讯页面  资讯  -->
-                <div class="xn_c_index_303_wrap" id="xn_c_index_303_wrap"     >
+                <div class="xn_c_index_303_wrap" id="xn_c_index_303_wrap" >
                     <div class="xn_c_index_303_topbox">
                         <div class="xn_c_index_303_tb1">
                             <span name="_index_303_tb1" >平台资源</span>
@@ -568,8 +566,13 @@
                             <span name="_index_303_tb3" >RESOURCES</span>
                         </div>
                     </div>
-                    <div class="xn_c_index_303_main">
-                        <div class="xn_c_index_303_tWrap">
+
+                    <div class="xn_c_index_303_main" style="padding-left: 20px">
+                        <video style="float:left;" class="video-js" controls preload="auto" width="780" height="440"
+                               data-setup='{ "autoplay": true, "preload": "auto", "loop":true }'>
+                            <source src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" type="video/mp4">
+                        </video>
+                        <div class="xn_c_index_303_tWrap" style="margin-left: 24px;">
                             <ul class="xn_c_index_303_tUl" id="xn_c_index_303_tUl">
                                 <li class="xn_c_index_303_tLi">
                                     <div class="xn_c_index_303_timg">
@@ -629,22 +632,22 @@
                                 </li>
                             </ul>
                         </div>
-                        <video width="780px" height="400px" src="https://zhongfu-company.oss-cn-hangzhou.aliyuncs.com/yxj/o076811mp2y.mp4" style="margin-left: 20px" controls="controls">
-                        </video>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+<br>
+<br>
 
     <!--页尾--><!--联系方式-->
     @include('layout/footer')
-    <div id="ea_m"></div>
-    <div id="ea_pi"></div>
-    <div id="ea_wj"></div>
-    <input type="hidden" id="pageId" value="1" />
+
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
-{{--</form>--}}
+<script src="http://vjs.zencdn.net/6.2.0/video.js"></script>
+<script>
+
+</script>
 </body>
 </html>
