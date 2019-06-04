@@ -245,7 +245,9 @@
                                                 北京艺乡建事业部
                                             </div>
                                             <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_hotData3_ctl00_xn_c_index_180_Text'>北京艺乡建事业部创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。</span>
+                                                <span id='xn_c_index_180_hotData3_ctl00_xn_c_index_180_Text'>
+                                                    北京艺乡建事业部创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合价值。
+                                                </span>
                                             </div>
                                             <div class="xn_c_index_180_hotMore">
                                                 <span name="_xn_c_index_180_hotMore">MORE</span>
@@ -510,7 +512,7 @@
                                     </div>
                                     <div class="clear"></div>
                                 </div>
-                                    @endforeach
+                                @endforeach
                             </div>
                         </div>
                         <em class="xn_c_index_39_next"></em>

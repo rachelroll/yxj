@@ -38,16 +38,11 @@
 
 </head>
 <body class="index_body">
-{{--<form name="form1" method="get" action="#" id="form1" NavigateId="1,index.html" Page="/index.aspx">--}}
-    {{--<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />--}}
-
     @include('layout/header')
 
-   @yield('content')
-{{--</form>--}}
+    @yield('content')
 
-@include('layout/footer')
-
+    @include('layout/footer')
 </body>
 </html>
 
