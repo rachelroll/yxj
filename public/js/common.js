@@ -211,7 +211,7 @@ var MapStage = (function(){
                 var nums = $(this).attr('data-nums');
                 var link = $(this).attr('data-link');
                 $('#mapDisBody').find('.h3').html(ncname);
-                $('#mapDisBody').find('.con').html('<a>此地区包含'+nums+'个创绿家团队</a>');
+                $('#mapDisBody').find('.con').html('<a>此地区包含 '+nums+' 个案例</a>');
 
                 $('#mapDisBody').animate({opacity:1});
 

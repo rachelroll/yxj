@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>案例检索</title>
-    <meta name="keywords" content="创绿家计划" />
-    <meta name="description" content="创绿家计划" />
-    <meta name="copyright" content="Copyright ©2014 创绿家 阿拉善 Inc. All Rights Reserved" />
+    {{--<meta name="copyright" content="Copyright ©2014 创绿家 阿拉善 Inc. All Rights Reserved" />--}}
     <link href="../css/reset.css" rel="stylesheet" media="all" />
     <link href="../css/idangerous.swiper.css" rel="stylesheet" media="all" />
     <link href="../css/layout.css" rel="stylesheet" media="all" />
@@ -21,6 +19,8 @@
     <link rel="bookmark" href="Images/logo.ico" />
     <link rel="shortcut icon" href="Images/logo.ico" />
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
@@ -33,11 +33,11 @@
     <script src="../js/common.js"></script>
 </head>
 <body id="body4_1" class="body4">
-<form name="form1" method="post" action="greenmap.aspx.html" id="form1">
-    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="VbMn/SQdnqVj8Sob4kJEcDyquwwwm9WSqqnYkXcv7z4VB1pBStCyaJkloHho8PddEc7tINVyN+Tf1S57SNXZ5r4swnFrGEg+S79Sz+PPWFg=" />
+{{--<form name="form1" method="post" action="greenmap.aspx.html" id="form1">--}}
+    {{--<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="VbMn/SQdnqVj8Sob4kJEcDyquwwwm9WSqqnYkXcv7z4VB1pBStCyaJkloHho8PddEc7tINVyN+Tf1S57SNXZ5r4swnFrGEg+S79Sz+PPWFg=" />--}}
 
-    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7A372729" />
-    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="kSLdb5/l9Gf5YAZCSNPn7sa0oRB6iSKRhaluDDXSb0KqXNYjsHhnhqBaV/YUJypXlnLYeT76b8awceq+HJH55sMdIYk9Ewpr52n8rnhJYPTmpngPzIRKLvvQellE/gduX/AHIVadd6sgg5FDYPLtBW4OBjzOL2j7XKfiXAY+eb/TO13U6Kptm8+UD4/GNvCTOyDbO9ZGbQ980ywPPRLRXTOOyF7M1mjRxaci/wcOjvqBPwu6tLdz9M6nAAHzs3cApQLEwnD1mwIjxf/F0exV8ZXkOhAlz84L4r8S9IcNkNdis72xemHxr/vJMIRK2p6G" />
+    {{--<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7A372729" />--}}
+    {{--<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="kSLdb5/l9Gf5YAZCSNPn7sa0oRB6iSKRhaluDDXSb0KqXNYjsHhnhqBaV/YUJypXlnLYeT76b8awceq+HJH55sMdIYk9Ewpr52n8rnhJYPTmpngPzIRKLvvQellE/gduX/AHIVadd6sgg5FDYPLtBW4OBjzOL2j7XKfiXAY+eb/TO13U6Kptm8+UD4/GNvCTOyDbO9ZGbQ980ywPPRLRXTOOyF7M1mjRxaci/wcOjvqBPwu6tLdz9M6nAAHzs3cApQLEwnD1mwIjxf/F0exV8ZXkOhAlz84L4r8S9IcNkNdis72xemHxr/vJMIRK2p6G" />--}}
 
     @include('layout/header')
 
@@ -52,17 +52,6 @@
     <!-- index-body start -->
     <div class="plan-body" id="ea_c">
         <div class="w1080 green-content n_main">
-            {{--<div class="green-title-content clearfix">--}}
-                {{--<div class="crumbs-main">--}}
-                    {{--<img src="images/house-icon.jpg">--}}
-                    {{--<span>创绿家</span>--}}
-                    {{--<span>&gt;</span>--}}
-                    {{--<span>创绿家们</span>--}}
-                {{--</div>--}}
-                {{--<div class="title">创绿家们</div>--}}
-            {{--</div>--}}
-            {{--<div class="h35"></div>--}}
-
             <div id="n_content_right_name_r" class="n_content_right_name_r">
                 <ul>
                     <li>
@@ -93,7 +82,14 @@
             <div class="green-map-body clearfix">
                 <div class="float-right"  style="border-left: 1px solid #787B88">
                     <div class="h2">案例检索</div>
-                    <div class="yiti-search clearfix" style="border-top: 2px solid #7F7F7F">
+
+                    <form class="form-inline my-2 my-lg-0" action="{{ route('projects.search') }}" method="POST">
+                        @csrf
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 140px; float: left" name="search_item">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
+                    </form>
+                    <div class="clearfix"></div>
+                    <div class="yiti-search clearfix" style="border-top: 2px solid #7F7F7F; margin-top: 20px">
                         <div class="h20"></div>
                         <a href="{{ route('projects.index', ['category_id' => 1]) }}" class="yiti-style1 yiti-style">概念规划</a>
                         <a href="{{ route('projects.index', ['category_id' => 2]) }}" class="yiti-style2 yiti-style">总体规划</a>
@@ -110,51 +106,83 @@
                         <a href="{{ route('projects.index', ['category_id' => 19]) }}" class="yiti-style3 yiti-style">产业植入</a>
                     </div>
                 </div>
-
                 <div class="float-left">
                     <div class="h2">区域划分</div>
                     <div class="map-img">
-                        <div class="map-img1 map-main" data-nums="3" data-cnname="黑龙江" data-name="heilongjiang" data-id="1" data-link="greens.aspx?province=8"></div>
-                        <div class="map-img2 map-main" data-nums="1" data-cnname="吉林" data-name="jilin" data-id="2" data-link="greens.aspx?province=7"></div>
-                        <div class="map-img3 map-main" data-nums="5" data-cnname="辽宁" data-name="liaoning" data-id="3" data-link="greens.aspx?province=6"></div>
-                        <div class="map-img4 map-main" data-nums="4" data-cnname="内蒙" data-name="neimeng" data-id="4" data-link="greens.aspx?province=5"></div>
-                        <div class="map-img5 map-main" data-nums="9" data-cnname="新疆" data-name="xinjiang" data-id="5" data-link="greens.aspx?province=31"></div>
-                        <div class="map-img6 map-main" data-nums="0" data-cnname="西藏" data-name="xizang" data-id="6" data-link="greens.aspx?province=26"></div>
-                        <div class="map-img7 map-main" data-nums="10" data-cnname="青海" data-name="qinghai" data-id="7" data-link="greens.aspx?province=29"></div>
-                        <div class="map-img9 map-main" data-nums="5" data-cnname="甘肃" data-name="gansu" data-id="9" data-link="greens.aspx?province=28"></div>
-                        <div class="map-img10 map-main" data-nums="18" data-cnname="四川" data-name="sichuan" data-id="10" data-link="greens.aspx?province=23"></div>
-                        <div class="map-img11 map-main" data-nums="6" data-cnname="陕西" data-name="shanxi1" data-id="11" data-link="greens.aspx?province=27"></div>
-                        <div class="map-img12 map-main" data-nums="5" data-cnname="山西" data-name="shanxi2" data-id="12" data-link="greens.aspx?province=4"></div>
-                        <div class="map-img13 map-main" data-nums="14" data-cnname="云南" data-name="yunnan" data-id="13" data-link="greens.aspx?province=25"></div>
-                        <div class="map-img14 map-main" data-nums="2" data-cnname="贵州" data-name="guizhou" data-id="14" data-link="greens.aspx?province=24"></div>
-                        <div class="map-img15 map-main" data-nums="4" data-cnname="重庆" data-name="chongqing" data-id="15" data-link="greens.aspx?province=22"></div>
-                        <div class="map-img8 map-main" data-nums="1" data-cnname="宁夏" data-name="ningxia" data-id="8" data-link="greens.aspx?province=30"></div>
-                        <div class="map-img16 map-main" data-nums="6" data-cnname="河南" data-name="henan" data-id="16" data-link="greens.aspx?province=16"></div>
-                        <div class="map-img17 map-main" data-nums="11" data-cnname="山东" data-name="shandong" data-id="17" data-link="greens.aspx?province=15"></div>
-                        <div class="map-img18 map-main" data-nums="16" data-cnname="湖北" data-name="hubei" data-id="18" data-link="greens.aspx?province=17"></div>
-                        <div class="map-img19 map-main" data-nums="8" data-cnname="安徽" data-name="anhui" data-id="19" data-link="greens.aspx?province=12"></div>
-                        <div class="map-img20 map-main" data-nums="13" data-cnname="江苏" data-name="jiangsu" data-id="20" data-link="greens.aspx?province=10"></div>
-                        <div class="map-img21 map-main" data-nums="2" data-cnname="广西" data-name="guangxi" data-id="21" data-link="greens.aspx?province=20"></div>
-                        <div class="map-img22 map-main" data-nums="16" data-cnname="湖南" data-name="hunan" data-id="22" data-link="greens.aspx?province=18"></div>
-                        <div class="map-img23 map-main" data-nums="0" data-cnname="江西" data-name="jiangxi" data-id="23" data-link="greens.aspx?province=14"></div>
-                        <div class="map-img24 map-main" data-nums="8" data-cnname="浙江" data-name="zhejiang" data-id="24" data-link="greens.aspx?province=11"></div>
-                        <div class="map-img25 map-main" data-nums="6" data-cnname="福建" data-name="fujian" data-id="25" data-link="greens.aspx?province=13"></div>
-                        <div class="map-img26 map-main" data-nums="30" data-cnname="广东" data-name="guangdong" data-id="26" data-link="greens.aspx?province=19"></div>
-                        <div class="map-img27 map-main" data-nums="5" data-cnname="海南" data-name="hainan" data-id="27" data-link="greens.aspx?province=21"></div>
-                        <div class="map-img28 map-main" data-nums="3" data-cnname="台湾" data-name="taiwan" data-id="28" data-link="greens.aspx?province=34"></div>
-                        <div class="map-img29 map-main" data-nums="2" data-cnname="河北" data-name="hebei" data-id="29" data-link="greens.aspx?province=3"></div>
-                        <div class="map-img30 map-main" data-nums="30" data-cnname="北京" data-name="beijing" data-id="30" data-link="greens.aspx?province=1"></div>
-                        <div class="map-img31 map-main" data-nums="3" data-cnname="天津" data-name="tianjin" data-id="31" data-link="greens.aspx?province=2"></div>
-                        <div class="map-img32 map-main" data-nums="23" data-cnname="上海" data-name="shanghai" data-id="32" data-link="greens.aspx?province=9"></div>
-                        <div class="map-img33 map-main" data-nums="0" data-cnname="澳门" data-name="aomen" data-id="32" data-link="greens.aspx?province=33"></div>
-                        <div class="map-img34 map-main" data-nums="0" data-cnname="香港" data-name="xianggang" data-id="33" data-link="greens.aspx?province=32"></div>
-
+                        <div class="map-img1 map-main" data-nums="{{ in_array(8, $index)? $counted[8]: 0 }}" data-cnname="黑龙江" data-name="heilongjiang" data-id="1" data-link="{{ route('projects.district', ['id' => 8]) }}">
+                        </div>
+                        <div class="map-img2 map-main" data-nums="{{ in_array(7, $index)? $counted[7]: 0 }}" data-cnname="吉林" data-name="jilin" data-id="2" data-link="{{ route('projects.district', ['id' => 7]) }}">
+                        </div>
+                        <div class="map-img3 map-main" data-nums="{{ in_array(6, $index)? $counted[6]: 0 }}" data-cnname="辽宁" data-name="liaoning" data-id="3" data-link="{{ route('projects.district', ['id' => 6]) }}">
+                        </div>
+                        <div class="map-img4 map-main" data-nums="{{ in_array(5, $index)? $counted[5]: 0 }}" data-cnname="内蒙" data-name="neimeng" data-id="4" data-link="{{ route('projects.district', ['id' => 5]) }}">
+                        </div>
+                        <div class="map-img5 map-main" data-nums="{{ in_array(31, $index)? $counted[31]: 0 }}" data-cnname="新疆" data-name="xinjiang" data-id="5" data-link="{{ route('projects.district', ['id' => 31]) }}">
+                        </div>
+                        <div class="map-img6 map-main" data-nums="{{ in_array(26, $index)? $counted[26]: 0 }}" data-cnname="西藏" data-name="xizang" data-id="6" data-link="{{ route('projects.district', ['id' => 26]) }}">
+                        </div>
+                        <div class="map-img7 map-main" data-nums="{{ in_array(29, $index)? $counted[29]: 0 }}" data-cnname="青海" data-name="qinghai" data-id="7" data-link="{{ route('projects.district', ['id' => 29]) }}">
+                        </div>
+                        <div class="map-img9 map-main" data-nums="{{ in_array(28, $index)? $counted[28]: 0 }}" data-cnname="甘肃" data-name="gansu" data-id="9" data-link="{{ route('projects.district', ['id' => 28]) }}">
+                        </div>
+                        <div class="map-img10 map-main" data-nums="{{ in_array(23, $index)? $counted[23]: 0 }}" data-cnname="四川" data-name="sichuan" data-id="10" data-link="{{ route('projects.district', ['id' => 23]) }}">
+                        </div>
+                        <div class="map-img11 map-main" data-nums="{{ in_array(27, $index)? $counted[27]: 0 }}" data-cnname="陕西" data-name="shanxi1" data-id="11" data-link="{{ route('projects.district', ['id' => 27]) }}">
+                        </div>
+                        <div class="map-img12 map-main" data-nums="{{ in_array(4, $index)? $counted[4]: 0 }}" data-cnname="山西" data-name="shanxi2" data-id="12" data-link="{{ route('projects.district', ['id' => 4]) }}">
+                        </div>
+                        <div class="map-img13 map-main" data-nums="{{ in_array(25, $index)? $counted[25]: 0 }}" data-cnname="云南" data-name="yunnan" data-id="13" data-link="{{ route('projects.district', ['id' => 25]) }}">
+                        </div>
+                        <div class="map-img14 map-main" data-nums="{{ in_array(24, $index)? $counted[24]: 0 }}" data-cnname="贵州" data-name="guizhou" data-id="14" data-link="{{ route('projects.district', ['id' => 24]) }}">
+                        </div>
+                        <div class="map-img15 map-main" data-nums="{{ in_array(22, $index)? $counted[22]: 0 }}" data-cnname="重庆" data-name="chongqing" data-id="15" data-link="{{ route('projects.district', ['id' => 22]) }}">
+                        </div>
+                        <div class="map-img8 map-main" data-nums="{{ in_array(30, $index)? $counted[30]: 0 }}" data-cnname="宁夏" data-name="ningxia" data-id="30" data-link="{{ route('projects.district', ['id' => 30]) }}">
+                        </div>
+                        <div class="map-img16 map-main" data-nums="{{ in_array(16, $index)? $counted[16]: 0 }}" data-cnname="河南" data-name="henan" data-id="16" data-link="{{ route('projects.district', ['id' => 16]) }}">
+                        </div>
+                        <div class="map-img17 map-main" data-nums="{{ in_array(15, $index)? $counted[15]: 0 }}" data-cnname="山东" data-name="shandong" data-id="17" data-link="{{ route('projects.district', ['id' => 15]) }}">
+                        </div>
+                        <div class="map-img18 map-main" data-nums="{{ in_array(17, $index)? $counted[17]: 0 }}" data-cnname="湖北" data-name="hubei" data-id="117" data-link="{{ route('projects.district', ['id' => 17]) }}">
+                        </div>
+                        <div class="map-img19 map-main" data-nums="{{ in_array(12, $index)? $counted[12]: 0 }}" data-cnname="安徽" data-name="anhui" data-id="19" data-link="{{ route('projects.district', ['id' => 12]) }}">
+                        </div>
+                        <div class="map-img20 map-main" data-nums="{{ in_array(10, $index)? $counted[10]: 0 }}" data-cnname="江苏" data-name="jiangsu" data-id="20" data-link="{{ route('projects.district', ['id' => 10]) }}">
+                        </div>
+                        <div class="map-img21 map-main" data-nums="{{ in_array(20, $index)? $counted[20]: 0 }}" data-cnname="广西" data-name="guangxi" data-id="21" data-link="{{ route('projects.district', ['id' => 20]) }}">
+                        </div>
+                        <div class="map-img22 map-main" data-nums="{{ in_array(18, $index)? $counted[18]: 0 }}" data-cnname="湖南" data-name="hunan" data-id="22" data-link="{{ route('projects.district', ['id' => 18]) }}">
+                        </div>
+                        <div class="map-img23 map-main" data-nums="{{ in_array(14, $index)? $counted[14]: 0 }}" data-cnname="江西" data-name="jiangxi" data-id="23" data-link="{{ route('projects.district', ['id' => 14]) }}">
+                        </div>
+                        <div class="map-img24 map-main" data-nums="{{ in_array(11, $index)? $counted[11]: 0 }}" data-cnname="浙江" data-name="zhejiang" data-id="24" data-link="{{ route('projects.district', ['id' => 11]) }}">
+                        </div>
+                        <div class="map-img25 map-main" data-nums="{{ in_array(13, $index)? $counted[13]: 0 }}" data-cnname="福建" data-name="fujian" data-id="25" data-link="{{ route('projects.district', ['id' => 13]) }}">
+                        </div>
+                        <div class="map-img26 map-main" data-nums="{{ in_array(19, $index)? $counted[19]: 0 }}" data-cnname="广东" data-name="guangdong" data-id="26" data-link="{{ route('projects.district', ['id' => 19]) }}">
+                        </div>
+                        <div class="map-img27 map-main" data-nums="{{ in_array(21, $index)? $counted[21]: 0 }}" data-cnname="海南" data-name="hainan" data-id="27" data-link="{{ route('projects.district', ['id' => 21]) }}">
+                        </div>
+                        <div class="map-img28 map-main" data-nums="{{ in_array(34, $index)? $counted[34]: 0 }}" data-cnname="台湾" data-name="taiwan" data-id="234" data-link="{{ route('projects.district', ['id' => 34]) }}">
+                        </div>
+                        <div class="map-img29 map-main" data-nums="{{ in_array(3, $index)? $counted[3]: 0 }}" data-cnname="河北" data-name="hebei" data-id="29" data-link="{{ route('projects.district', ['id' => 3]) }}">
+                        </div>
+                        <div class="map-img30 map-main" data-nums="{{ in_array(1, $index)? $counted[1]: 0 }}" data-cnname="北京" data-name="beijing" data-id="30" data-link="{{ route('projects.district', ['id' => 1]) }}">
+                        </div>
+                        <div class="map-img31 map-main" data-nums="{{ in_array(2, $index)? $counted[2]: 0 }}" data-cnname="天津" data-name="tianjin" data-id="31" data-link="{{ route('projects.district', ['id' => 2]) }}">
+                        </div>
+                        <div class="map-img32 map-main" data-nums="{{ in_array(9, $index)? $counted[9]: 0 }}" data-cnname="上海" data-name="shanghai" data-id="32" data-link="{{ route('projects.district', ['id' => 9]) }}">
+                        </div>
+                        <div class="map-img33 map-main" data-nums="{{ in_array(33, $index)? $counted[33]: 0 }}" data-cnname="澳门" data-name="aomen" data-id="32" data-link="{{ route('projects.district', ['id' => 33]) }}">
+                        </div>
+                        <div class="map-img34 map-main" data-nums="{{ in_array(32, $index)? $counted[32]: 0 }}" data-cnname="香港" data-name="xianggang" data-id="33" data-link="{{ route('projects.district', ['id' => 32]) }}">
+                        </div>
                     </div>
 
                     <div id="mapDisBody" class="map-dis-body">
                         <div class="h3">黑贝</div>
                         <div class="con">
-                            此地区包含56个创绿家团队
+                            此地区包含 56 个案例
                         </div>
                         <div id="closeBtn" class="close-btn"></div>
                     </div>
@@ -179,7 +207,7 @@
         </noscript>
         <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
     </div>
-</form>
+{{--</form>--}}
 
 <!--页尾--><!--联系方式-->
 @include('layout/footer')

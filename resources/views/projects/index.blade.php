@@ -183,40 +183,33 @@
                     <br>
                     <p class="p3">乡建案例</p>
                     <br>
-                    <!--案例图-->
-                    <div id="n_case_m" class="n_case_m">
-                        @foreach($projects as $item)
-                        <div class="n_case_main">
-                            <div class="n_case_img"><a target="_blank" href="{{ route('projects.show', ['id' => $item->id]) }}">
-                                    <img data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' style="width: auto; height: 100%"/></a>
-                            </div>
-                            <div class="n_case_main_name">
-                                <a target="_blank" title='艺乡建' href="{{ route('projects.show', ['id' => $item->id]) }}">
-                                    项目| {{ $item->title }}
-                                </a>
-                            </div>
-                            <div class="n_case_main_cnt">
-                                <span id='n_case_m1_ctl00_ShoveWebControl_Text3'>简 介</span>
-                            </div>
+
+                        <div id="nnews_lb" class="nnews_lb">
+                                @foreach($projects as $item)
+                                    <div class="nnews_lb_m">
+                                        <div class="nnews_lb_img">
+                                            <a href="{{ route('projects.show', ['id' => $item->id]) }}" target="_blank">
+                                                <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' />
+                                            </a>
+                                        </div>
+                                        <div class="nnews_lb_mdbox">
+                                            <div class="nnews_lb_title">
+                                                <a title='{{ $item->title }}' href="{{ route('projects.show', ['id' => $item->id]) }}" target="_blank">
+                                                    <span name="snnews_lb_tt1506|T_News|Id|506|Title">{{ $item->title }}</span>
+                                                </a>
+                                            </div>
+                                            <div class="nnews_lb_cnt" ej="edit_span">
+                                                <span id='nnews_lb1_ctl00_ShoveWebControl_Text4'>{{ $item->description }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
                         </div>
-                        @endforeach
-                        <p class="clear"></p>
-                    </div>
+                        <div class="mx-auto" style="align-content: center; width: 200px;">
+                            {{ $projects->links() }}
+                        </div>
                 </div>
             </div>
-
-            <!--确保两页存在留白-->
-            {{--<div class="n_content" >--}}
-                {{--<div class="n_content_left" >--}}
-                {{--</div>--}}
-                {{--<div class="n_content_right" >--}}
-                    {{--<div class="n_content_right_name" >--}}
-                    {{--</div>--}}
-                    {{--<div class="n_content_right_m" >--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="clear"></div>--}}
-            {{--</div>--}}
         </div>
     </div>
     <input type="hidden" id="pageId" value="1" />

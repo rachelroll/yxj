@@ -9,13 +9,22 @@ use Illuminate\Support\Facades\Input;
 
 class ProjectController extends Controller
 {
-    // 列表页
+    // 案例标签列表页
     public function index($category_id)
     {
         if ($category_id == 22) {
             return view('projects/train', compact('category_id'));
         }
-        $projects = Project::where('category', 'like', $category_id.'%')->get();
+        $projects = Project::where('category', 'like', $category_id.'%')->paginate(5);
+
+        return view('projects.index', compact('projects', 'category_id'));
+    }
+
+    // 地区列表页
+    public function district($id)
+    {
+        $projects = Project::where('district', $id)->paginate(5);
+        $category_id = 1;
 
         return view('projects.index', compact('projects', 'category_id'));
     }
@@ -32,21 +41,29 @@ class ProjectController extends Controller
 
     public function search(Request $request)
     {
-        $district = $request->district;
-        $category = $request->category;
+        $search_item = $request->search_item;
 
-        $projects = Project::where([
-            ['district', '=', $district],
-            ['category', 'like', '%'.$category.'%']
-        ])->get();
+        $projects = Project::where('district', '=', $search_item)
+            ->orWhere('category', 'like', '%'.$search_item.'%')
+            ->orWhere('content', 'like', '%'.$search_item.'%')
+            ->paginate(5);
 
-        return view('projects.search', compact('projects'));
+        return view('projects.search', compact('projects', 'search_item'));
     }
 
     // 案例检索
     public function aljs()
     {
-        return view('projects/aljs');
+        $project = Project::all();
+
+        $counted = $project->countBy('district')->all();
+
+        $index = [];
+
+        foreach ($counted as $key => $value) {
+            $index[] = $key;
+        }
+        return view('projects/aljs', compact('counted', 'index'));
     }
 
     // 培训报名
