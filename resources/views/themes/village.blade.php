@@ -11,14 +11,11 @@
             <div class="products_banner_m">
                 <img  src="img/Construction.jpg" alt="" />
             </div>
-
         </div>
-
     </div>
 
     <div id="ea_c">
         <div class="n_main" >
-
             <div id="n_content_right_name_r" class="n_content_right_name_r">
                 <ul>
                     <li>
@@ -38,18 +35,16 @@
                         </span>
                         <span class="n_r_wz5">-</span>
                         <span class="n_r_wz6">
-                                            <a href="" class="curr1">乡村风貌格局</a>
-                                        </span>
+                            <a href="" class="curr1">乡村风貌格局</a>
+                        </span>
                     </li>
                     <li>
                         <img src="https://1.rc.xiniu.com/rc/Contents/47175/Images/icpsp1_n_right_wz.png" alt="" />
                     </li>
                 </ul>
-
             </div>
 
             <!--下面的都是ea_c中的而可选项-->
-
             <!--加粗的一级标题-->
             <div id="n_content_left_t" class="n_content_left_t">
                 <div id="n_content_left_t1" class="n_content_left_t1">

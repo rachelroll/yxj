@@ -10,7 +10,7 @@
 
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
-                <img  src="img/PlantForm.jpg" alt="" />
+                <img  src="img/contactUs.jpg" alt="" />
             </div>
 
         </div>
