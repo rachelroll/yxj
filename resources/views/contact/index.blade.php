@@ -23,20 +23,19 @@
             <div id="n_content_right_name_r" class="n_content_right_name_r">
                 <ul>
                     <li>
-                                        <span class="n_r_wz1">
-
-                                            <span name="_n_r_wz1">您现在的位置：</span>
-
-                                        </span>
+                        <span class="n_r_wz1">
+                            <span name="_n_r_wz1">您现在的位置：</span>
+                        </span>
                         <span class="n_r_wz2">
-                                            <a href="{{ route('home') }}">
-                                            <span name="_n_r_wz2">首页</span>
-                                            </a>
-                                        </span>
+                            <a href="{{ route('home') }}">
+                                <span name="{{ route('home') }}">首页</span>
+                            </a>
+                        </span>
                         <span class="n_r_wz3">-</span>
                         <span class="n_r_wz4">
-                                            <span id='JoinUs_lxwm.html'><a href="ProductsSt_ggxq.html" target="_self">联系我们</a></span>
-                                        </span>
+                            <span id='JoinUs_lxwm.html'><a href="" target="_self">联系我们</a>
+                            </span>
+                        </span>
                     </li>
                     <li>
                         <img src="https://1.rc.xiniu.com/rc/Contents/47175/Images/icpsp1_n_right_wz.png" alt="" />

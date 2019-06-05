@@ -78,123 +78,32 @@
 
                 <!--字体大小24px-->
                 <div class="xn_c_products_2_text">
-
                     <div id="xn_c_down_15_ndown_lb" class="xn_c_down_15_ndown_lb">
-
-
+                        @if($books)
+                            @foreach($books as $book)
                         <div class="xn_c_down_15_ndown_lb_m">
                             <div class="xn_c_down_15_ndown_lb_img">
-                                <img data-original='https://0.rc.xiniu.com/g2/M00/03/BD/CgAGfFwNwb6AB_UBAAHcxEfSgZQ553.jpg' alt='光合生态手册' title='光合生态手册' />
+                                <img data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $book->cover }}'/>
                                 <div class="xn_c_down_15_bg">
-                                    <a href='Private/Files/98a9511c63574c6081f213d9baaf26a1.pdf' target="_blank">
+                                    <a href='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $book->content }}' target="_blank">
                                     </a>
                                 </div>
                             </div>
                             <div class="xn_c_down_15_ndown_lb_title">
-                                光合生态手册
+                                {{ $book->title }}
                             </div>
                             <div class="xn_c_down_15_ndown_lb_xq">
-                                <a href='Private/Files/98a9511c63574c6081f213d9baaf26a1.pdf' target="_blank">
-
+                                <a href='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $book->content }}' target="_blank">
                                     <span name="_15_ndown_lb_xq">下载</span>
-
                                 </a>
                             </div>
                         </div>
-
-
-                        <div class="xn_c_down_15_ndown_lb_m">
-                            <div class="xn_c_down_15_ndown_lb_img">
-                                <img data-original='https://0.rc.xiniu.com/g2/M00/1B/B1/CgAGfFxiHfuAIF-SAAGJnCo-qQw351.png' alt='光合2018年鉴-明德至善' title='光合2018年鉴-明德至善' />
-                                <div class="xn_c_down_15_bg">
-                                    <a href='Private/Files/aa17712c7adf488eb5a9c982b89b0c58.pdf' target="_blank">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_title">
-                                光合2018年鉴-明德至善
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_xq">
-                                <a href='Private/Files/aa17712c7adf488eb5a9c982b89b0c58.pdf' target="_blank">
-
-                                    <span name="_15_ndown_lb_xq">下载</span>
-
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="xn_c_down_15_ndown_lb_m">
-                            <div class="xn_c_down_15_ndown_lb_img">
-                                <img data-original='https://0.rc.xiniu.com/g2/M00/DE/28/CgAGe1vIKVCAG5tHAAFDh_1OLo4407.jpg' alt='光合2017年鉴-格物正心' title='光合2017年鉴-格物正心' />
-                                <div class="xn_c_down_15_bg">
-                                    <a href='Private/Files/7eb2bd48cd3c44978e91aaa98192da19.pdf' target="_blank">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_title">
-                                光合2017年鉴-格物正心
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_xq">
-                                <a href='Private/Files/7eb2bd48cd3c44978e91aaa98192da19.pdf' target="_blank">
-
-                                    <span name="_15_ndown_lb_xq">下载</span>
-
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="xn_c_down_15_ndown_lb_m">
-                            <div class="xn_c_down_15_ndown_lb_img">
-                                <img data-original='https://0.rc.xiniu.com/g2/M00/DE/29/CgAGe1vIKlGAZMBZAAFNRr2Lm_o521.jpg' alt='光合2016年鉴-天地合德' title='光合2016年鉴-天地合德' />
-                                <div class="xn_c_down_15_bg">
-                                    <a href='Private/Files/5b15b6de73204469ab69353c7eae8aba.pdf' target="_blank">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_title">
-                                光合2016年鉴-天地合德
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_xq">
-                                <a href='Private/Files/5b15b6de73204469ab69353c7eae8aba.pdf' target="_blank">
-
-                                    <span name="_15_ndown_lb_xq">下载</span>
-
-                                </a>
-                            </div>
-                        </div>
-
-
-                        <div class="xn_c_down_15_ndown_lb_m">
-                            <div class="xn_c_down_15_ndown_lb_img">
-                                <img data-original='https://0.rc.xiniu.com/g2/M00/DE/77/CgAGe1vIhQ-AItBxAAFNQkbv1wc666.jpg' alt='光合2015年鉴-诚明致知' title='光合2015年鉴-诚明致知' />
-                                <div class="xn_c_down_15_bg">
-                                    <a href='Private/Files/8d25819af2304939ac78a473c300ec87.pdf' target="_blank">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_title">
-                                光合2015年鉴-诚明致知
-                            </div>
-                            <div class="xn_c_down_15_ndown_lb_xq">
-                                <a href='Private/Files/8d25819af2304939ac78a473c300ec87.pdf' target="_blank">
-
-                                    <span name="_15_ndown_lb_xq">下载</span>
-
-                                </a>
-                            </div>
-                        </div>
-
-
-
-
-                    </div></div>
-
+                            @endforeach
+                        @endif
+                    </div>
+                </div>
 
                 <!--确保两页存在留白-->
-
-
                 <div class="n_content" >
                     <div class="n_content_left" >
                     </div>
@@ -206,28 +115,9 @@
                     </div>
                     <div class="clear"></div>
                 </div>
-
-
-
-
-
-
-
-
-
-
             </div>
         </div>
 
-
-        <input type="hidden" id="pageId" value="1" />
         <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
-
-        <a style='display:none' href='http://m.ps-cc.com/m'>进入手机网站</a>
-
-        <!--首页留着的html-->
-        <!-- <script type='text/javascript'>!function(){var e,f,a=new Date,b=null,c=function(){var a,c,d,e,g,h,i,j;b&&clearTimeout(b),a=document.location.href,c='',c=/\.html|.htm/.test(document.location.href)?document.forms[0].getAttribute('Page'):'',d=window.document.referrer,e='/admin/access/load.ashx?req='+f(a),c&&(e+='&f='+f(c)),g=f(d),e+='&ref='+g+'&sw='+screen.width+'&sh='+screen.height,e+='&cs='+(window.jLoad?window.jLoad:-1),e+='&_t='+Math.random(),h='',i='https:'==document.location.protocol?!0:!1,h=i?'https://':'http://',e+='&ht='+f(h+document.domain),$?$.getScript(e):(j=document.createElement('script'),j.src=e,document.body.appendChild(j))},d=function(){window.acessFinish=new Date-a};window.addEventListener?window.addEventListener('load',d):window.attachEvent&&window.attachEvent('onload',d),b=setTimeout(c,3e3),e=null,f=function(a){var b,c,d,f,g;if(!a)return a;if(!e){for(e={},b=0;10>b;b++)e[String.fromCharCode(97+b)]='0'+b.toString();for(b=10;26>b;b++)e[String.fromCharCode(97+b)]=b.toString()}for(c='',d='',f='',g=a.length,b=0;g>b;b++)d=a.charAt(b),f=e[d],c+=f?'x'+f:d;return encodeURIComponent(c).replace(/%/g,'x50').replace(/\./g,'x51')}}();</script><script type='text/javascript'>!function(){var c,a=document.createElement('script'),b=window.location.protocol.split(':')[0];a.src='/https'===b?'https://zz.bdstatic.com/linksubmit/push.js':'http://push.zhanzhang.baidu.com/push.js',c=document.getElementsByTagName('script')[0],c.parentNode.insertBefore(a,c)}();</script>
-
-
 
 @endsection
