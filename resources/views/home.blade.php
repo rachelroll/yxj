@@ -236,7 +236,7 @@
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <a href="{{ route('view.office.show', ['id' => 'bj']) }}" target="_blank">
-                                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E7/CgAGfFvlR16AVAthAAD8C_Xrfyk516.jpg' alt='北京事业部' title='北京事业部' />
+                                            <img data-original='img/shiyebu_bj.png' alt='北京事业部' title='北京事业部' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_180_cont">
@@ -258,7 +258,7 @@
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <a href="{{ route('view.office.show', ['id' => 'hb']) }}" target="_blank">
-                                            <img data-original='https://0.rc.xiniu.com/g2/M00/EB/BA/CgAGe1vrgp2AYaTnAACBui7_brM960.jpg' />
+                                            <img data-original='img/shiyebu_hb.png' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_180_cont">
@@ -281,7 +281,7 @@
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target="_blank">
-                                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSCSAVXPLAABb5qmgb9o935.jpg' alt='加拿大事业部' title='加拿大事业部' />
+                                            <img data-original='img/shiyebu_jnd.png' alt='加拿大事业部' title='加拿大事业部' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_180_cont">
@@ -301,7 +301,7 @@
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <a href="{{ route('view.office.show', ['id' => 'hz']) }}" target="_blank">
-                                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSM2Ab7WDAADWmVQsTR4890.jpg' />
+                                            <img data-original='img/shiyebu_hz.png' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_180_cont">
@@ -323,7 +323,7 @@
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <a href="{{ route('view.office.show', ['id' => 'yc']) }}" target="_blank">
-                                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSOeAJXorAAEr_vWi_m8644.jpg'/>
+                                            <img data-original='img/shiyebu_yc.png'/>
                                         </a>
                                     </div>
                                     <div class="xn_c_index_180_cont">
@@ -342,140 +342,9 @@
                                         </a>
                                     </div>
                                 </li>
-                                {{--<li class="xn_c_index_180_list">--}}
-                                    {{--<div class="xn_c_index_180_img">--}}
-                                        {{--<a href="CaseStd_481.html" target="_blank">--}}
-                                            {{--<img data-original='https://0.rc.xiniu.com/g2/M00/F4/E9/CgAGfFvlSR6AdPXsAAEvV6iOiZ8303.jpg'/>--}}
-                                        {{--</a>--}}
-                                    {{--</div>--}}
-                                    {{--<div class="xn_c_index_180_cont">--}}
-                                        {{--<a href="CaseStd_481.html" target="_blank">--}}
-                                            {{--<div class="xn_c_index_180_Title">--}}
-                                                {{--江苏事业部--}}
-                                            {{--</div>--}}
-                                            {{--<div class="xn_c_index_180_context">--}}
-                                                {{--<span id='xn_c_index_180_hotData3_ctl05_xn_c_index_180_Text'>简 介光合星球江苏事业部作为地方事业部，是光合价值输出的端口和平台，将光合作用聚焦于所在区域，因地制宜，一定程度上保证项目执行的高效性、精准性和独特性。光合星球江苏事业部根据当地的人文和产业特色设有：...</span>--}}
-                                            {{--</div>--}}
-                                            {{--<div class="xn_c_index_180_hotMore">--}}
-                                                {{--<span name="_xn_c_index_180_hotMore">MORE</span>--}}
-                                            {{--</div>--}}
-                                        {{--</a>--}}
-                                    {{--</div>--}}
-                                {{--</li>--}}
+                                
                             </ul>
-                            <ul class="xn_c_index_180_hotUl">
-                                <li class="xn_c_index_180_list">
-                                    <div class="xn_c_index_180_img">
-                                        <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E7/CgAGfFvlR16AVAthAAD8C_Xrfyk516.jpg' alt='北京事业部' title='北京事业部' />
-                                    </div>
-                                    <div class="xn_c_index_180_cont">
-                                        <a href="CaseStd_480.html" target="_blank">
-                                            <div class="xn_c_index_180_Title">
-                                                北京事业部
-                                            </div>
-                                            <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl00_xn_c_index_180_hotData_ctl00_xn_c_index_180_Text'>简 介光合集团创立于2010年，总部位于中国北京。“猷光明，合天然”源于对“至善和谐”的发展理念的不渝追求。光合集团开创性的将大设计方法论与国际化的资源相结合，创造了卓尔不凡的光合基因和引领卓越的光合...</span>
-                                            </div>
-                                            <div class="xn_c_index_180_hotMore">
-                                                <span name="_xn_c_index_180_hotMore">MORE</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="xn_c_index_180_list">
-                                    <div class="xn_c_index_180_img">
-                                        <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSM2Ab7WDAADWmVQsTR4890.jpg' alt='山东事业部' title='山东事业部' />
-                                    </div>
-                                    <div class="xn_c_index_180_cont">
-                                        <a href="CaseStd_483.html" target="_blank">
-                                            <div class="xn_c_index_180_Title">
-                                                山东事业部
-                                            </div>
-                                            <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl00_xn_c_index_180_hotData_ctl01_xn_c_index_180_Text'>简 介光合星球山东事业部地处运河文化闻名的聊城东昌湖畔，致力于用光合集团的优势资源及城市品牌运营经验服务于聊城及山东省境内的城乡品牌建设，山东事业部专注于挖掘山东传统文化，通过大设计系统方法论、国际资...</span>
-                                            </div>
-                                            <div class="xn_c_index_180_hotMore">
-                                                <span name="_xn_c_index_180_hotMore">MORE</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="xn_c_index_180_list">
-                                    <div class="xn_c_index_180_img">
-                                        <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSOeAJXorAAEr_vWi_m8644.jpg' alt='江西事业部' title='江西事业部' />
-                                    </div>
-                                    <div class="xn_c_index_180_cont">
-                                        <a href="CaseStd_482.html" target="_blank">
-                                            <div class="xn_c_index_180_Title">
-                                                江西事业部
-                                            </div>
-                                            <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl00_xn_c_index_180_hotData_ctl02_xn_c_index_180_Text'>简 介光合星球江西事业部是光合集团在华南地区的业务枢纽，负责光合集团生态模式的传播与发展，并进行项目资源整合，向光合集团提供项目可研报告，同时参与项目的执行，设有：项目研究部、市场商务部、项目运营管理...</span>
-                                            </div>
-                                            <div class="xn_c_index_180_hotMore">
-                                                <span name="_xn_c_index_180_hotMore">MORE</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="xn_c_index_180_list">
-                                    <div class="xn_c_index_180_img">
-                                        <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E9/CgAGfFvlSR6AdPXsAAEvV6iOiZ8303.jpg' alt='江苏事业部' title='江苏事业部' />
-                                    </div>
-                                    <div class="xn_c_index_180_cont">
-                                        <a href="CaseStd_481.html" target="_blank">
-                                            <div class="xn_c_index_180_Title">
-                                                江苏事业部
-                                            </div>
-                                            <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl00_xn_c_index_180_hotData_ctl03_xn_c_index_180_Text'>简 介光合星球江苏事业部作为地方事业部，是光合价值输出的端口和平台，将光合作用聚焦于所在区域，因地制宜，一定程度上保证项目执行的高效性、精准性和独特性。光合星球江苏事业部根据当地的人文和产业特色设有：...</span>
-                                            </div>
-                                            <div class="xn_c_index_180_hotMore">
-                                                <span name="_xn_c_index_180_hotMore">MORE</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                            <ul class="xn_c_index_180_hotUl">
-                                <li class="xn_c_index_180_list">
-                                    <div class="xn_c_index_180_img">
-                                        <img data-original='https://0.rc.xiniu.com/g2/M00/EB/BA/CgAGe1vrgp2AYaTnAACBui7_brM960.jpg' alt='伦敦事业部' title='伦敦事业部' />
-                                    </div>
-                                    <div class="xn_c_index_180_cont">
-                                        <a href="CaseStd_487.html" target="_blank">
-                                            <div class="xn_c_index_180_Title">
-                                                伦敦事业部
-                                            </div>
-                                            <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl01_xn_c_index_180_hotData_ctl00_xn_c_index_180_Text'>简 介光合星球伦敦事业部是一家致力于城市文化品牌创建的公司，公司的专家学者对“什么是城市”， 城市外在、城市内涵、人与城市之间的关系有着很深的研究，提出用艺术引导城市设计，倡导一种文化导向的城市发展思...</span>
-                                            </div>
-                                            <div class="xn_c_index_180_hotMore">
-                                                <span name="_xn_c_index_180_hotMore">MORE</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li class="xn_c_index_180_list">
-                                    <div class="xn_c_index_180_img">
-                                        <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSCSAVXPLAABb5qmgb9o935.jpg' alt='加拿大事业部' title='加拿大事业部' />
-                                    </div>
-                                    <div class="xn_c_index_180_cont">
-                                        <a href="CaseStd_484.html" target="_blank">
-                                            <div class="xn_c_index_180_Title">
-                                                加拿大事业部
-                                            </div>
-                                            <div class="xn_c_index_180_context">
-                                                <span id='xn_c_index_180_Data1_ctl01_xn_c_index_180_hotData_ctl01_xn_c_index_180_Text'>简 介加拿大光合星球事业部依托温哥华优越的地理位置，以及顶尖的的大学、研究学院等优势，汇集了全球顶尖的城市规划专家、城市设计专家，景观设计专家、艺术家，大学学者，等国际领先的人才资源。合众研究设计：顶..
-                                                </span>
-                                            </div>
-                                            <div class="xn_c_index_180_hotMore">
-                                                <span name="_xn_c_index_180_hotMore">MORE</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
+                      
                         </div>
                     </div>
                 </div>
