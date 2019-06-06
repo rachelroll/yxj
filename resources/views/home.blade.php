@@ -281,7 +281,7 @@
                                 <li class="xn_c_index_180_list">
                                     <div class="xn_c_index_180_img">
                                         <a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target="_blank">
-                                            <img data-original='img/shiyebu_jnd.png' alt='加拿大事业部' title='加拿大事业部' />
+                                            <img data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSCSAVXPLAABb5qmgb9o935.jpg' alt='加拿大事业部' title='加拿大事业部' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_180_cont">
