@@ -75,7 +75,7 @@
                 <div id="n_case_m" class="n_case_m">
                     <div class="n_case_main">
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'bj']) }}">
-                                <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpTCAQxuTAAC68_SzyRw866.jpg' alt='北京事业部'  title='北京事业部' /></a> </div>
+                                <img  data-original='img/shiyebu_bj.png' alt='北京事业部'  title='北京事业部' /></a> </div>
                         <div class="n_case_main_name">
                             <a target="_blank" title='北京事业部' href="{{ route('view.office.show', ['id' => 'bj']) }}">
                                 北京艺乡建事业部
@@ -87,7 +87,7 @@
                     </div>
                     <div class="n_case_main">
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'hb']) }}">
-                                <img  data-original='https://0.rc.xiniu.com/g2/M00/F4/E8/CgAGfFvlSM2Ab7WDAADWmVQsTR4890.jpg' /></a> </div>
+                                <img  data-original='img/shoyebu_hb.png' /></a> </div>
                         <div class="n_case_main_name">
                             <a target="_blank" href="{{ route('view.office.show', ['id' => 'hb']) }}">
                                 湖北艺乡建志愿者
@@ -99,7 +99,7 @@
                     </div>
                     <div class="n_case_main">
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'hz']) }}">
-                                <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg' /></a> </div>
+                                <img  data-original='img/shiyebu_hz.png' /></a> </div>
                         <div class="n_case_main_name">
                             <a target="_blank" title='江西事业部' href="{{ route('view.office.show', ['id' => 'hz']) }}">
                                 杭州艺乡建志愿者
@@ -111,7 +111,7 @@
                     </div>
                     <div class="n_case_main">
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'yc']) }}">
-                                <img  data-original='https://0.rc.xiniu.com/g2/M00/F4/E9/CgAGfFvlSR6AdPXsAAEvV6iOiZ8303.jpg'/></a> </div>
+                                <img  data-original='img/shiyebu_yc.png'/></a> </div>
                         <div class="n_case_main_name">
                             <a target="_blank" title='江苏事业部' href="{{ route('view.office.show', ['id' => 'yc']) }}">
                                 运城艺乡建志愿者
