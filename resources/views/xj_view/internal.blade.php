@@ -101,7 +101,7 @@
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'hz']) }}">
                                 <img  data-original='https://0.rc.xiniu.com/g2/M00/F6/9F/CgAGfFvqpc-Aa8b-AAEt20C0o-g774.jpg' /></a> </div>
                         <div class="n_case_main_name">
-                            <a target="_blank" title='江西事业部' href="{{ route('view.office.show', ['id' => 'hz']) }}">
+                            <a target="_blank" href="{{ route('view.office.show', ['id' => 'hz']) }}">
                                 杭州艺乡建志愿者
                             </a>
                         </div>

@@ -22,7 +22,7 @@
     </div>
     <div id="xn_c_casev_5_wrap" class="xn_c_casev_5_wrap"     >
     <div class="xn_c_casev_5_box">
-    <span id='xn_c_casev_5_Text1'><a href="View_gnbgs.html" target="_self">返回列表</a></span>
+    <span id='xn_c_casev_5_Text1'><a href="{{ route('view-internal-office') }}" target="_self">返回列表</a></span>
     </div>
     </div>
     </div>
