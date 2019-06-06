@@ -350,7 +350,8 @@
                 </div>
 
                 <!-- 黑色的机构动态  咨询   -->  <!--这个没有什么好改动的,文字是写死的-->
-                <div id="xn_c_index_39_wrap" class="xn_c_index_39_wrap">
+                <div id="xn_c_index_39_wrap" class="xn_c_index_39_wrap"  
+                style="background: url(img/index_news_bj.jpg)" >
                     <div class="xn_c_index_39_main">
                         <em class="xn_c_index_39_prev"></em>
                         <div class="xn_c_index_39_inner">
