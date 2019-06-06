@@ -8,8 +8,7 @@
     <meta name="applicable-device" content="pc">
     <meta name="renderer" content="webkit" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    
-    <!-header.css-->
+
     <link rel="stylesheet" type="text/css" href="./css/header.css">
     <link rel="stylesheet" type="text/css" href="./css/font.css">
     
