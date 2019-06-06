@@ -3,8 +3,7 @@
     <div class="foot" >
         <div class="foot_c" >
             <div class="foot_box" id="foot_box" >
-                          
-                    <img src="/img/yqlj.jpg">
+                 
                     <img src="/img/under.png">
                     <img src="/img/bq.jpg">
                    
