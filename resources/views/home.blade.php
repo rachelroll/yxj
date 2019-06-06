@@ -10,6 +10,7 @@
     <meta name="renderer" content="webkit" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__index" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FA/BD/CgAGe1wQpieAPhvRAABHB2LIsYA056.css?d=28164619544" />
+    <link rel="stylesheet" type="text/css" href="/css/header.css" />
     <link rel="bookmark" href="Images/logo.ico" />
     <link rel="shortcut icon" href="Images/logo.ico" />
 
@@ -26,6 +27,14 @@
     <style>
         video:focus{
             outline:none;
+        }
+
+        .xn_c_index_39_wrap {
+            width:100%;
+            margin:0 auto;
+            padding-top:401px;
+            background: url(/img/index_news_bj.jpg) no-repeat top center;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -342,16 +351,13 @@
                                         </a>
                                     </div>
                                 </li>
-                               
                             </ul>
-                            
                         </div>
                     </div>
                 </div>
 
                 <!-- 黑色的机构动态  咨询   -->  <!--这个没有什么好改动的,文字是写死的-->
-                <div id="xn_c_index_39_wrap" class="xn_c_index_39_wrap"  
-                style="background: url(img/index_news_bj.jpg)" >
+                <div id="xn_c_index_39_wrap" class="xn_c_index_39_wrap">
                     <div class="xn_c_index_39_main">
                         <em class="xn_c_index_39_prev"></em>
                         <div class="xn_c_index_39_inner">

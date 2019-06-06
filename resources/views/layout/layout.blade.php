@@ -8,10 +8,8 @@
     <meta name="applicable-device" content="pc">
     <meta name="renderer" content="webkit" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    
-    <!-header.css-->
-    <link rel="stylesheet" type="text/css" href="./css/header.css">
-    <link rel="stylesheet" type="text/css" href="./css/font.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/font.css">
     
     <!--首页使用的css文件-->
     <link id="css__index" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FA/BD/CgAGe1wQpieAPhvRAABHB2LIsYA056.css?d=28164619544" />
@@ -20,6 +18,7 @@
 
     <!--生态合伙人对应的css  用起来标题和文字间隔大-->
     <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzqAenvTAAAhfnKekwc302.css?d=28164649649" />
+    <link rel="stylesheet" type="text/css" href="/css/header.css" />
     <link rel="bookmark" href="Images/logo.ico" />
     <link rel="shortcut icon" href="Images/logo.ico" />
     <link id="css__news" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/0A/67/CgAGe1w8AOGAE6PnAAAmlpwRy5o489.css?d=28164617841" />
