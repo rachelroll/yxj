@@ -66,7 +66,7 @@
                 <div id="n_case_m" class="n_case_m">
                     <div class="n_case_main">
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'jnd']) }}">
-                                <img  data-original='img/shiyebu_bj.png' alt='北京事业部'  title='北京事业部' /></a> </div>
+                                <img  data-original='img/shiyebu_jnd.png' alt='北京事业部'  title='北京事业部' /></a> </div>
                         <div class="n_case_main_name">
                             <a target="_blank" title='北京事业部' href="{{ route('view.office.show', ['id' => 'jnd']) }}">
                                 国外办公室
