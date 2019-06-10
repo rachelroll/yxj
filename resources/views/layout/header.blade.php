@@ -48,7 +48,7 @@
                             <a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self"><span name="xn_n_14_VMenu1348511800|T_Navigates|Id|4|Name">执行案例</span></a><ul id="type1Ul_t401" style="display:none" class="type1Ul type1Ul_t401">
                                 <li id="type1Li_t401_1" data_id="4_30" class="xn_n_14_wrap_menu2" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self"><span name="xn_n_14_VMenu12023186808|T_NewsTypes|Id|30|Name">艺乡建规划</span></a>
                                 </li>
-                                <li id="type1Li_t401_2" data_id="4_140" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 6]) }}" target="_self"><span name="xn_n_14_VMenu1119744234|T_NewsTypes|Id|140|Name">艺乡建行动</span></a>
+                                <li id="type1Li_t401_2" data_id="4_140" class="xn_n_14_wrap_menu2" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 4]) }}" target="_self"><span name="xn_n_14_VMenu1119744234|T_NewsTypes|Id|140|Name">艺乡建行动</span></a>
                                 </li>
                                 <li id="type1Li_t401_3" data_id="4_140" class="xn_n_14_wrap_menu2" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 22]) }}" target="_self"><span name="xn_n_14_VMenu1119744234|T_NewsTypes|Id|140|Name">艺乡建培训</span></a>
                                 </li>

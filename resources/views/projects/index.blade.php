@@ -73,7 +73,7 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1 @if(request()->fullUrl() == route('projects.index', ['category_id' => 1])) left_menu1_cur @endif" type="t" index=1 level=0>
+                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1 @if(in_array($category_id, [1, 2, 3, 5, 6])) left_menu1_cur @endif" type="t" index=1 level=0>
                             <a href="{{ route('projects.index', ['category_id' => 1]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">艺乡建规划</span>
                             </a>
                             @if(in_array($category_id, [1, 2, 3, 5, 6]))
@@ -91,7 +91,7 @@
                             </ul>
                                 @endif
                         </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1 @if(request()->fullUrl() == route('projects.index', ['category_id' => 4])) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('projects.index', ['category_id' => 4]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">艺乡建行动</span></a>
+                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1 @if(in_array($category_id, [4, 15, 16, 17, 18, 19, 20, 21])) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('projects.index', ['category_id' => 4]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">艺乡建行动</span></a>
                             @if(in_array($category_id, [4, 15, 16, 17, 18, 19, 20, 21]))
                             <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
                                 <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 4])) left_menu2_cur @endif" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 4]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">乡振计划</span></a>
