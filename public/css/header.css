@@ -1,7 +1,7 @@
 
 .top{ width: 100%; z-index:999; position:fixed;top:0;left:0;height:131px;background:transparent;transition:all 0.5s;}
 .t_t{position:relative; z-index:100; width:1200px; margin:0 auto;}
-.top.top_scroll{background: url(./img/index_h_background.png) repeat-x;}
+.top.top_scroll{background: url(/img/index_h_background.png) repeat-x;}
 
 .t_logo{ position:absolute; top:12px; left:0px;}
 
