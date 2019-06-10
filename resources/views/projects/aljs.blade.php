@@ -103,7 +103,7 @@
                         <a href="{{ route('projects.index', ['category_id' => 6]) }}" class="yiti-style2 yiti-style">产业振兴</a>
                         <a href="{{ route('projects.index', ['category_id' => 15]) }}" class="yiti-style4 yiti-style">乡建人才</a>
                         <a href="{{ route('projects.index', ['category_id' => 16]) }}" class="yiti-style3 yiti-style">乡建生态</a>
-                        <a href="{{ route('projects.index', ['category_id' => 4]) }}" class="yiti-style6 yiti-style">乡振计划</a>
+                        <a href="{{ route('projects.index', ['category_id' => 4]) }}" class="yiti-style6 yiti-style" style="width: 80px">乡振计划</a>
                         <a href="{{ route('projects.index', ['category_id' => 17]) }}" class="yiti-style4 yiti-style">文化振兴</a>
                         <a href="{{ route('projects.index', ['category_id' => 18]) }}" class="yiti-style5 yiti-style">乡村经营</a>
                         <a href="{{ route('projects.index', ['category_id' => 19]) }}" class="yiti-style3 yiti-style">产业植入</a>
