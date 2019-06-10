@@ -55,7 +55,15 @@
             <!--加粗的一级标题-->
             <div id="n_content_left_t" class="n_content_left_t">
                 <div id="n_content_left_t1" class="n_content_left_t1">
-                    <span id='n_content_left_t_data'>艺乡建规划 -  产业振兴</span>
+                    @if($category_id == 1)
+                    <span id='n_content_left_t_data'>艺乡建规划</span>
+                    @elseif($category_id == 4)
+                    <span id='n_content_left_t_data'>艺乡建行动</span>
+                    @elseif($category_id == 22)
+                    <span id='n_content_left_t_data'>艺乡建培训</span>
+                    @else
+                    <span id='n_content_left_t_data'>案例检索</span>
+                    @endif
                 </div>
                 <div class="n_content_left_t2">
                     <span id='n_content_left_t_data2'>Industry revitalization</span>
