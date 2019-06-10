@@ -1,7 +1,7 @@
 <div id="ea_h">
     <div class="top" style="background: url(/img/index_h_background.png)" >
         <div class="t_t"  >
-            <div id="t_logo" class="t_logo">
+            <div id="t_logo" class="t_logo" @if(request()->fullUrl() == route('projects.register')) style="position:absolute; top: 0; left:0;" @endif>
                 <div id="ea_l"><h1><a href="index.html" target="_self"><img  src="/img/logo.png" alt=""/></a></h1></div>
             </div>
         </div>
