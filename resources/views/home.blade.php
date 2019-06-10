@@ -85,7 +85,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-village') }}">
-                                            <img  data-original='https://0.rc.xiniu.com/g2/M00/EA/83/CgAGe1vo7UiALvv_AAIxCakIjos369.jpg' alt='生态组织' title='生态组织' />
+                                            <img  data-original='/img/index_xjsy_001.jpg' alt='生态组织' title='生态组织' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
@@ -117,7 +117,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-art-system') }}">
-                                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F5/A1/CgAGfFvo8iGAHaQhAAMILquKIW0236.jpg' />
+                                            <img  data-original='/img/index_xjsy_002.jpg' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
@@ -148,7 +148,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-industry-system') }}">
-                                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F5/A2/CgAGfFvo8vmADcKPAALDwMcmvCY364.jpg' />
+                                            <img  data-original='/img/index_xjsy_003.jpg' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
@@ -179,7 +179,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-towns-path') }}">
-                                            <img  data-original='https://0.rc.xiniu.com/g2/M00/F5/A2/CgAGfFvo9FuAZ-PxAALOHupiiMw507.jpg'/>
+                                            <img  data-original='/img/index_xjsy_004.jpg'/>
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
