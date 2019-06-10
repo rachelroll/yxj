@@ -9,8 +9,8 @@
     <meta name="renderer" content="webkit" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 
-    <link rel="stylesheet" type="text/css" href="./css/header.css">
-    <link rel="stylesheet" type="text/css" href="./css/font.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/font.css">
 
     <!--首页使用的css文件-->
     <link id="css__index" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FA/BD/CgAGe1wQpieAPhvRAABHB2LIsYA056.css?d=28164619544" />
