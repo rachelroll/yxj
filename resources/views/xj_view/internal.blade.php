@@ -47,7 +47,10 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t400" class="left_typeUl left_typeUl_t400">
-                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=1 level=0><a href="{{ route('view-internal-office') }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">国内办公室</span></a>
+                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1 @if(request()->fullUrl() == route('view-internal-office')) left_menu1_cur @endif" type="t" index=1 level=0>
+                            <a href="{{ route('view-internal-office') }}" target="_self">
+                                <span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">国内办公室</span>
+                            </a>
                             <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
                                 <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">北京</span></a>
                                 </li>

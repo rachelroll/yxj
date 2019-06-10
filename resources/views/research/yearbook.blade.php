@@ -67,7 +67,7 @@
                         </li>
                         <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('researchActivity') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">社会活动</span></a>
                         </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=5 level=0><a href="{{ route('researchYearbook') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">艺乡鉴年鉴</span></a>
+                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1 @if(request()->fullUrl() == route('researchYearbook')) left_menu1_cur @endif" type="t" index=5 level=0><a href="{{ route('researchYearbook') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">艺乡鉴年鉴</span></a>
                         </li>
                     </ul>
                 </ul>
@@ -75,7 +75,6 @@
 
             <!--简单的图文竖版,可以插入图片-->
             <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
-
                 <!--字体大小24px-->
                 <div class="xn_c_products_2_text">
                     <div id="xn_c_down_15_ndown_lb" class="xn_c_down_15_ndown_lb">

@@ -47,7 +47,7 @@
                     <ul id="left_typeUl_t400" class="left_typeUl left_typeUl_t400">
                         <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=1 level=0><a href="{{ route('view-internal-office') }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">国内办公室</span></a>
                         </li>
-                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1" type="t" index=2 level=0><a href="{{ route('view-overseas-office') }}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">国外办公室</span></a>
+                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('view-overseas-office')) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('view-overseas-office') }}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">国外办公室</span></a>
                             <ul id="left_typeUl_t41401" style="display:none" expend=0 class="left_typeUl left_typeUl_t41401">
                                 <li id="left_typeLi_t41401_1" data_id="4_167" class="left_menu2" type="t" index=1 level=1>
                                     <a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target="_self">

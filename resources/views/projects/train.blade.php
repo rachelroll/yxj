@@ -102,7 +102,7 @@
                                 </ul>
                             @endif
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1 @if(request()->fullUrl() == route('projects.index', ['category_id' => 22])) left_menu1_cur @endif" type="t" index=3 level=0>
                             <a href="{{ route('projects.index', ['category_id' => 22]) }}" rel="nofollow" target="_self">
                                 <span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">艺乡建培训</span>
                             </a>

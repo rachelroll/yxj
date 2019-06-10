@@ -79,7 +79,7 @@
                                 <span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">资助顾问</span>
                             </a>
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('platform-partner') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">合作伙伴</span></a>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1 @if(request()->fullUrl() == route('platform-partner')) left_menu1_cur @endif" type="t" index=3 level=0><a href="{{ route('platform-partner') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">合作伙伴</span></a>
                         </li>
                         <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('platform-club') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">俱乐部</span></a>
                         </li>
@@ -88,7 +88,6 @@
             </div>
 
             <!--简单的图文竖版,可以插入图片-->
-
             <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
                 <h4><strong><span style=";font-family:黑体;font-weight:bold;font-size:19px"><span style="font-family:黑体"></span></span></strong></h4><h4><strong><span style=";font-family:黑体;font-weight:bold;font-size:19px">
                 <span style="font-family:黑体"></span></span>

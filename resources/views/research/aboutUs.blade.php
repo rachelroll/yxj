@@ -58,7 +58,7 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0><a href="{{ route('aboutUs') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">关于我们</span></a>
+                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1 @if(request()->fullUrl() == route('aboutUs')) left_menu1_cur @endif" type="t" index=1 level=0><a href="{{ route('aboutUs') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">关于我们</span></a>
                         </li>
                         <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('researchTeam') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">研究团队</span></a>
                         </li>

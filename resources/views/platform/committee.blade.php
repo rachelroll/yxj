@@ -64,7 +64,7 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0>
+                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1 @if(request()->fullUrl() == route('platform-committee')) left_menu1_cur @endif" type="t" index=1 level=0>
                             <a href="{{ route('platform-committee') }}" rel="nofollow" target="_self">
                                 <span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">项目决策委员会</span>
                             </a>

@@ -72,7 +72,7 @@
                                 <span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">项目决策委员会</span>
                             </a>
                         </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0>
+                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1 @if(request()->fullUrl() == route('platform-consultant')) left_menu1_cur @endif" type="t" index=2 level=0>
                             <a href="{{route('platform-consultant')}}" rel="nofollow" target="_self">
                                 <span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">资助顾问</span>
                             </a>

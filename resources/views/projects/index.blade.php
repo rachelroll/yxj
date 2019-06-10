@@ -73,47 +73,47 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0>
+                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1 @if(request()->fullUrl() == route('projects.index', ['category_id' => 1])) left_menu1_cur @endif" type="t" index=1 level=0>
                             <a href="{{ route('projects.index', ['category_id' => 1]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">艺乡建规划</span>
                             </a>
                             @if(in_array($category_id, [1, 2, 3, 5, 6]))
                             <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
-                                <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">概念规划</span></a>
+                                <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 1])) left_menu2_cur @endif" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 1]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">概念规划</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 2]) }}" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">总体规划</span></a>
+                                <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 2])) left_menu2_cur @endif" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 2]) }}" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">总体规划</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 3]) }}" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">详细规划</span></a>
+                                <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 3])) left_menu2_cur @endif" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 3]) }}" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">详细规划</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.index', ['category_id' => 5]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">品牌规划</span></a>
+                                <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 5])) left_menu2_cur @endif" type="t" index=4 level=1><a href="{{ route('projects.index', ['category_id' => 5]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">品牌规划</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_5" data_id="4_166" class="left_menu2" type="t" index=5 level=1><a href="{{ route('projects.index', ['category_id' => 6]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">产业振兴</span></a>
+                                <li id="left_typeLi_t4301_5" data_id="4_166" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 6])) left_menu2_cur @endif" type="t" index=5 level=1><a href="{{ route('projects.index', ['category_id' => 6]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">产业振兴</span></a>
                                 </li>
                             </ul>
                                 @endif
                         </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('projects.index', ['category_id' => 4]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">艺乡建行动</span></a>
+                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1 @if(request()->fullUrl() == route('projects.index', ['category_id' => 4])) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('projects.index', ['category_id' => 4]) }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">艺乡建行动</span></a>
                             @if(in_array($category_id, [4, 15, 16, 17, 18, 19, 20, 21]))
                             <ul id="left_typeUl_t4301"  expend=0 class="left_typeUl left_typeUl_t4301">
-                                <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 4]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">乡振计划</span></a>
+                                <li id="left_typeLi_t4301_1" data_id="4_162" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 4])) left_menu2_cur @endif" type="t" index=1 level=1><a href="{{ route('projects.index', ['category_id' => 4]) }}" target="_self"><span name="ShoveWebControl_VMenu21855249497|T_NewsTypes|Id|162|Name">乡振计划</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 15]) }}" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">乡建人才</span></a>
+                                <li id="left_typeLi_t4301_2" data_id="4_163" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 15])) left_menu2_cur @endif" type="t" index=2 level=1><a href="{{ route('projects.index', ['category_id' => 15]) }}" target="_self"><span name="ShoveWebControl_VMenu2426718980|T_NewsTypes|Id|163|Name">乡建人才</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 16]) }}" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">乡建生态</span></a>
+                                <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 16])) left_menu2_cur @endif" type="t" index=3 level=1><a href="{{ route('projects.index', ['category_id' => 16]) }}" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">乡建生态</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.index', ['category_id' => 17]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">文化振兴</span></a>
+                                <li id="left_typeLi_t4301_4" data_id="4_165" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 17])) left_menu2_cur @endif" type="t" index=4 level=1><a href="{{ route('projects.index', ['category_id' => 17]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">文化振兴</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_5" data_id="4_166" class="left_menu2" type="t" index=5 level=1><a href="{{ route('projects.index', ['category_id' => 18]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">乡村经营</span></a>
+                                <li id="left_typeLi_t4301_5" data_id="4_166" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 18])) left_menu2_cur @endif" type="t" index=5 level=1><a href="{{ route('projects.index', ['category_id' => 18]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">乡村经营</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_6" data_id="4_164" class="left_menu2" type="t" index=6 level=1><a href="{{ route('projects.index', ['category_id' => 19]) }}" target="_self">
+                                <li id="left_typeLi_t4301_6" data_id="4_164" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 19])) left_menu2_cur @endif" type="t" index=6 level=1><a href="{{ route('projects.index', ['category_id' => 19]) }}" target="_self">
                                         <span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">产业植入</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_7" data_id="4_165" class="left_menu2" type="t" index=7 level=1><a href="{{ route('projects.index', ['category_id' => 20]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">投资开发</span></a>
+                                <li id="left_typeLi_t4301_7" data_id="4_165" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 20])) left_menu2_cur @endif" type="t" index=7 level=1><a href="{{ route('projects.index', ['category_id' => 20]) }}" target="_self"><span name="ShoveWebControl_VMenu269328530|T_NewsTypes|Id|165|Name">投资开发</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_8" data_id="4_166" class="left_menu2" type="t" index=8 level=1><a href="{{ route('projects.index', ['category_id' => 21]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">资产管理</span></a>
+                                <li id="left_typeLi_t4301_8" data_id="4_166" class="left_menu2 @if(request()->fullUrl() == route('projects.index', ['category_id' => 21])) left_menu2_cur @endif" type="t" index=8 level=1><a href="{{ route('projects.index', ['category_id' => 21]) }}" target="_self"><span name="ShoveWebControl_VMenu2509169951|T_NewsTypes|Id|166|Name">资产管理</span></a>
                             </ul>
                                 @endif
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1 @if(request()->fullUrl() == route('projects.index', ['category_id' => 22])) left_menu1_cur @endif" type="t" index=3 level=0>
                             <a href="{{ route('projects.index', ['category_id' => 22]) }}" rel="nofollow" target="_self">
                                 <span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">艺乡建培训</span>
                             </a>
@@ -125,12 +125,12 @@
                                 </li>
                                 <li id="left_typeLi_t4301_3" data_id="4_164" class="left_menu2" type="t" index=3 level=1><a href="#jlrpx" target="_self"><span name="ShoveWebControl_VMenu21944844007|T_NewsTypes|Id|164|Name">经理人培训</span></a>
                                 </li>
-                                <li id="left_typeLi_t4301_4" data_id="4_164" class="left_menu2" type="t" index=4 level=1><a href="{{ route('projects.register') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">培训报名</span></a>
+                                <li id="left_typeLi_t4301_4" data_id="4_164" class="left_menu2 @if(request()->fullUrl() == route('projects.register')) left_menu2_cur @endif" type="t" index=4 level=1><a href="{{ route('projects.register') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">培训报名</span></a>
                                 </li>
                             </ul>
                                 @endif
                         </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('aljs') }}" rel="nofollow" target="_self">
+                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1 @if(request()->fullUrl() == route('aljs')) left_menu1_cur @endif" type="t" index=4 level=0><a href="{{ route('aljs') }}" rel="nofollow" target="_self">
                                 <span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">案例检索</span></a>
                         </li>
                     </ul>
@@ -191,31 +191,30 @@
                     <br>
                     <p class="p3">乡建案例</p>
                     <br>
-
-                        <div id="nnews_lb" class="nnews_lb">
-                                @foreach($projects as $item)
-                                    <div class="nnews_lb_m">
-                                        <div class="nnews_lb_img">
-                                            <a href="{{ route('projects.show', ['id' => $item->id]) }}" target="_blank">
-                                                <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' />
-                                            </a>
-                                        </div>
-                                        <div class="nnews_lb_mdbox">
-                                            <div class="nnews_lb_title">
-                                                <a title='{{ $item->title }}' href="{{ route('projects.show', ['id' => $item->id]) }}" target="_blank">
-                                                    <span name="snnews_lb_tt1506|T_News|Id|506|Title">{{ $item->title }}</span>
-                                                </a>
-                                            </div>
-                                            <div class="nnews_lb_cnt" ej="edit_span">
-                                                <span id='nnews_lb1_ctl00_ShoveWebControl_Text4'>{{ $item->description }}</span>
-                                            </div>
-                                        </div>
+                    <div id="nnews_lb" class="nnews_lb">
+                        @foreach($projects as $item)
+                            <div class="nnews_lb_m">
+                                <div class="nnews_lb_img">
+                                    <a href="{{ route('projects.show', ['id' => $item->id]) }}" target="_blank">
+                                        <img  data-original='{{ config('filesystems.disks.oss.cdnDomain') . '/' . $item->cover }}' alt='艺乡建' />
+                                    </a>
+                                </div>
+                                <div class="nnews_lb_mdbox">
+                                    <div class="nnews_lb_title">
+                                        <a title='{{ $item->title }}' href="{{ route('projects.show', ['id' => $item->id]) }}" target="_blank">
+                                            <span name="snnews_lb_tt1506|T_News|Id|506|Title">{{ $item->title }}</span>
+                                        </a>
                                     </div>
-                                @endforeach
-                        </div>
-                        <div class="mx-auto" style="align-content: center; width: 200px;">
-                            {{ $projects->links() }}
-                        </div>
+                                    <div class="nnews_lb_cnt" ej="edit_span">
+                                        <span id='nnews_lb1_ctl00_ShoveWebControl_Text4'>{{ $item->description }}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                    <div class="mx-auto" style="align-content: center; width: 200px;">
+                        {{ $projects->links() }}
+                    </div>
                 </div>
             </div>
         </div>

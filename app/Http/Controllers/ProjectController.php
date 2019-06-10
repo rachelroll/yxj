@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Input;
 
 class ProjectController extends Controller
 {
+
     // 案例标签列表页
     public function index($category_id)
     {

@@ -64,11 +64,11 @@
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
                         <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0><a href="{{ route('aboutUs') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">关于我们</span></a>
                         </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('researchTeam') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">研究团队</span></a>
+                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1 @if(request()->fullUrl() == route('researchTeam')) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('researchTeam') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">研究团队</span></a>
                         </li>
                         <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('researchContent') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">研究内容</span></a>
                         </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('researchActivity') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">社会活动</span></a>
+                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1 @if(request()->fullUrl() == route('researchActivity')) left_menu1_cur @endif" type="t" index=4 level=0><a href="{{ route('researchActivity') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">社会活动</span></a>
                         </li>
                         <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=5 level=0><a href="{{ route('researchYearbook') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">艺乡鉴年鉴</span></a>
                         </li>
@@ -81,7 +81,6 @@
 
                 <!--字体大小24px-->
                 <div class="xn_c_products_2_text">
-
                     <p style="margin-top:10px;margin-left:0;text-indent:32px;text-autospace:ideograph-numeric;line-height:130%"><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">艺乡建的工作不是创作某一个具体的艺术作品或设计，而是组织艺术家群落作用于乡村村落发展，以及研究艺术品创化后如何转化为价值，以及艺术产业如何在地化、产业化，促进乡村生态融合，形成乡村村落的内生性成长，可持续地增加乡村收入。</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">艺乡建推行的乡振计划，主旨在于发现乡村之美、亲近乡村之情、创意乡村未来，在</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">组织乡村、建设乡村、经营乡村</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">过程中</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">推动</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">乡建</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">项目落地</span></span><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">。</span></span></p><p style="margin-top:10px;margin-left:0;text-indent:32px;text-autospace:ideograph-numeric;line-height:130%"><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体"><br/></span></span></p><p style="margin-top:10px;margin-left:0;text-indent:32px;text-autospace:ideograph-numeric;line-height:130%"><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体"><br/></span></span></p><p style="margin-top:10px;margin-left:56px;text-autospace:ideograph-numeric;line-height:130%"><span style="font-family:Wingdings;font-size:16px">l&nbsp;</span><span style=";font-family:宋体;line-height:130%;font-size:16px">
                             <span style="font-family:宋体">
                                 主题艺术节：以精品巡展、驻地创作、主题植入等不同形式，为当地组织引入主题艺术节，将特色资源转化为无形资产，发掘独特价值塑造区域品牌，活化乡村文化生态，搭建艺术产业平台。
