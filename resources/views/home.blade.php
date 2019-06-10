@@ -17,7 +17,6 @@
     {{--video.js--}}
     <link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
 
-
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
@@ -50,13 +49,12 @@
         <!--游荡的好多张大图-->
         <div class="xn_ba_js_13_banner" id="xn_ba_js_13_banner">
             <em class="xn_ba_js_13_prev" id="xn_ba_js_13_prev"></em>
-
             <div class="xn_ba_js_13_element" frameindex="1">
-                <div class="xn_ba_js_13_bigImg"><a name="1" href="ProductsSt_ggxq.html" target="_blank"><img src="img/index_banner_01.jpg" rel="b"></a></div>
+                <div class="xn_ba_js_13_bigImg"><a name="1" href=""><img src="img/index_banner_01.jpg" rel="b"></a></div>
             </div><div class="xn_ba_js_13_element" frameindex="2">
-                <div class="xn_ba_js_13_bigImg"><a name="2" href="ProductsSt_ggdx.html" target="_blank"><img src="img/index_banner_02.jpg"  rel="b"></a></div>
+                <div class="xn_ba_js_13_bigImg"><a name="2" href="" target=""><img src="img/index_banner_02.jpg"  rel="b"></a></div>
             </div><div class="xn_ba_js_13_element" frameindex="3">
-                <div class="xn_ba_js_13_bigImg"><a name="3" href="ProductsSt_ggjy.html" target="_blank"><img src="img/index_banner_03.jpg" rel="b"></a></div>
+                <div class="xn_ba_js_13_bigImg"><a name="3" href="" target=""><img src="img/index_banner_03.jpg" rel="b"></a></div>
             </div>
             <em class="xn_ba_js_13_next" id="xn_ba_js_13_next"></em>
             <ul class="xn_ba_js_13_btn">
