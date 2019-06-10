@@ -90,7 +90,7 @@
                     </div>
                     <div class="n_case_main">
                         <div class="n_case_img"><a target="_blank" href="{{ route('view.office.show', ['id' => 'hb']) }}">
-                                <img  data-original='img/shoyebu_hb.png' /></a> </div>
+                                <img  data-original='img/shiyebu_hb.png' /></a> </div>
                         <div class="n_case_main_name">
                             <a target="_blank" href="{{ route('view.office.show', ['id' => 'hb']) }}">
                                 湖北艺乡建志愿者
