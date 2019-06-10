@@ -85,7 +85,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-village') }}">
-                                            <img  data-original='/img/index_xjsy_001.jpg' alt='生态组织' title='生态组织' />
+                                            <img  data-original='/img/index_jszt_001.jpg' alt='生态组织' title='生态组织' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
@@ -117,7 +117,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-art-system') }}">
-                                            <img  data-original='/img/index_xjsy_002.jpg' />
+                                            <img  data-original='/img/index_jszt_002.jpg' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
@@ -148,7 +148,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-industry-system') }}">
-                                            <img  data-original='/img/index_xjsy_003.jpg' />
+                                            <img  data-original='/img/index_jszt_003.jpg' />
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
@@ -179,7 +179,7 @@
                                 <li class="xn_c_index_507_li">
                                     <div class="xn_c_index_507_img">
                                         <a target="_blank" href="{{ route('themes-towns-path') }}">
-                                            <img  data-original='/img/index_xjsy_004.jpg'/>
+                                            <img  data-original='/img/index_jszt_004.jpg'/>
                                         </a>
                                     </div>
                                     <div class="xn_c_index_507_cont">
