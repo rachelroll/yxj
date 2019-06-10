@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,6 +91,7 @@
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜索</button>
                     </form>
                     <div class="clearfix"></div>
+
                     <div class="yiti-search clearfix" style="border-top: 2px solid #7F7F7F; margin-top: 20px">
                         <div class="h20"></div>
                         <a href="{{ route('projects.index', ['category_id' => 1]) }}" class="yiti-style1 yiti-style">概念规划</a>
