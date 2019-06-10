@@ -1,7 +1,7 @@
 @extends('layout/layout')
 @section('title')
     <title>
-        关于我们
+        执行案例
     </title>
 @endsection
 
