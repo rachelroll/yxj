@@ -130,7 +130,7 @@ __VIEWSTATE" value="" />
                                             </div>
                                             <div class="xn_c_newsv_9_cocntrit_cont" ej="edit_span">
                                                 <span id='xn_c_newsv_9_Data_ctl00_xn_c_newsv_9_Text4'>
-                                                    {!! $item->description !!}
+                                                    {{ $item->description }}
                                                 </span>
                                             </div>
                                             <div class="xn_c_newsv_9_cocntrit_more">

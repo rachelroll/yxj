@@ -50,6 +50,18 @@
     @yield('content')
 
     @include('layout/footer')
+
+
+    <script type="text/javascript">
+        window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "https://m.yxj.oeaudio.com/" :  "http://yxj.oeaudio.com/";
+
+        if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+            alert('移动端')
+        } else {
+            console.log('pc 端')
+            alert('pc 端')
+        }
+    </script>
 </body>
 </html>
 

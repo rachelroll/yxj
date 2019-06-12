@@ -49,13 +49,12 @@
                 </ul>
             </div>
 
-
+            @if($projects->count())
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <span>关于 <span style="font-size: large; font-weight: bolder">"{{ $search_item }}"</span> 的案例检索</span>
             </div>
             <!--简单的列表版式-->
             <div id="nnews_lb" class="nnews_lb">
-                @if($projects)
                 @foreach($projects as $item)
                     <div class="nnews_lb_m">
                         <div class="nnews_lb_img">
@@ -75,14 +74,14 @@
                         </div>
                     </div>
                 @endforeach
-                    @else
-                抱歉，目前没有相关案例！
-                @endif
+
             </div>
             <div class="mx-auto" style="align-content: center; width: 200px;">
                 {{ $projects->links() }}
             </div>
-
+            @else
+                抱歉，目前没有相关案例！
+        @endif
             <!--确保两页存在留白-->
             <div class="n_content" >
                 <div class="n_content_left" >

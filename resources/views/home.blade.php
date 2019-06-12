@@ -488,5 +488,16 @@
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>
 
 <script src="http://vjs.zencdn.net/6.2.0/video.js"></script>
+
+<script type="text/javascript">
+    window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "https://m.yxj.oeaudio.com/" :  "http://yxj.oeaudio.com/";
+
+    if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+        alert('移动端')
+    } else {
+        console.log('pc 端')
+        alert('pc 端')
+    }
+</script>
 </body>
 </html>
