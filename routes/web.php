@@ -12,9 +12,20 @@
 */
 
 use App\Http\Controllers\NewsController;
+use Jenssegers\Agent\Agent;
+
+Route::get('/', function () {
+    $agent = new Agent();
+
+    if ($agent->isMobile()) {
+        return redirect('http://m.yxj.oeaudio.com');
+    } else {
+        return redirect(route('home'));
+    }
+});
 
 // 首页
-Route::get('/', 'NewsController@home')->name('home');
+Route::get('/home', 'NewsController@home')->name('home');
 
 
 // 资讯

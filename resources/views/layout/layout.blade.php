@@ -50,11 +50,6 @@
     @yield('content')
 
     @include('layout/footer')
-
-
-    <script type="text/javascript">
-        window.location.href = /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? "https://m.yxj.oeaudio.com/" :  "http://yxj.oeaudio.com/";
-    </script>
 </body>
 </html>
 
