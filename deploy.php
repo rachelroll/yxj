@@ -29,8 +29,14 @@ set('writable_dirs', []);
 
 
 // Hosts
-host('oeaudio.com')
-    ->user('root')
+//host('oeaudio.com')
+//    ->user('root')
+//    ->set('deploy_path', '/var/www/{{application}}')
+//    ->stage('staging');
+
+// hongkong
+host('47.89.32.117')
+    ->user('deployer')
     ->set('deploy_path', '/var/www/{{application}}')
     ->stage('staging');
 
@@ -57,8 +63,9 @@ task('deploy', [
     'deploy:vendors',
     'deploy:writable',
     'artisan:storage:link',
-    'artisan:view:clear',
-    'artisan:optimize',
+    'artisan:view:cache',
+    'artisan:config:cache',
+    'artisan:optimize:clear',
     'deploy:symlink',
     'deploy:unlock',
     'cleanup',
@@ -66,7 +73,7 @@ task('deploy', [
 ]);
 
 task('reload:php-fpm', function () {
-    run('service php7.2-fpm restart');
+    run('sudo systemctl restart php7.3-fpm');
 });
 
 after('deploy', 'reload:php-fpm');

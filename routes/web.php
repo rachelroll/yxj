@@ -14,11 +14,15 @@
 use App\Http\Controllers\NewsController;
 use Jenssegers\Agent\Agent;
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 Route::get('/', function () {
     $agent = new Agent();
 
     if ($agent->isMobile()) {
-        return redirect('http://m.yxj.oeaudio.com');
+        return redirect('http://m.yixiangjian.com');
     } else {
         return redirect(route('home'));
     }
