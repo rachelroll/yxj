@@ -10,6 +10,10 @@
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="img/TownShipVision.jpg" alt="" />
+
+                <p>TOWNSHIP <strong>VISION</strong></p>
+                <p class="chinese">乡建视野</p>
+
             </div>
         </div>
     </div>
@@ -45,13 +49,13 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t400" class="left_typeUl left_typeUl_t400">
-                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=1 level=0><a href="{{ route('view-internal-office') }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">国内办公室</span></a>
+                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1" type="t" index=1 level=0><a href="{{ route('view-internal-office') }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name" style="font-size:20px;">国内办公室</span></a>
                         </li>
-                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('view-overseas-office')) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('view-overseas-office') }}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">国外办公室</span></a>
+                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('view-overseas-office')) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{ route('view-overseas-office') }}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name"style="font-size:20px;">国外办公室</span></a>
                             <ul id="left_typeUl_t41401" style="display:none" expend=0 class="left_typeUl left_typeUl_t41401">
                                 <li id="left_typeLi_t41401_1" data_id="4_167" class="left_menu2" type="t" index=1 level=1>
                                     <a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target="_self">
-                                        <span name="ShoveWebControl_VMenu2835542704|T_NewsTypes|Id|167|Name">加拿大</span>
+                                        <span name="ShoveWebControl_VMenu2835542704|T_NewsTypes|Id|167|Name"style="font-size:18px;">加拿大</span>
                                     </a>
                                 </li>
                             </ul>

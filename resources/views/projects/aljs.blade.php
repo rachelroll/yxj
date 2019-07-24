@@ -20,6 +20,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="/css/header.css" rel="stylesheet" media="all" />
+    <link rel="stylesheet" type="text/css" href="/css/font.css">
+
 
 
 
@@ -47,6 +49,9 @@
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="../img/Research.jpg"alt="" />
+                <p>EXECUTION <strong>CASE</strong></p>
+                <p class="chinese">执行案例</p>
+
             </div>
         </div>
     </div>
@@ -95,18 +100,18 @@
                     <div class="yiti-search clearfix" style="border-top: 2px solid #7F7F7F; margin-top: 20px">
                         <div class="h20"></div>
                         <a href="{{ route('projects.index', ['category_id' => 1]) }}" class="yiti-style1 yiti-style">概念规划</a>
-                        <a href="{{ route('projects.index', ['category_id' => 2]) }}" class="yiti-style2 yiti-style">总体规划</a>
-                        <a href="{{ route('projects.index', ['category_id' => 3]) }}" class="yiti-style3 yiti-style">详细规划</a>
-                        <a href="{{ route('projects.index', ['category_id' => 21]) }}" class="yiti-style6 yiti-style">资产管理</a>
+                        <a href="{{ route('projects.index', ['category_id' => 2]) }}" class="yiti-style1 yiti-style">总体规划</a>
+                        <a href="{{ route('projects.index', ['category_id' => 3]) }}" class="yiti-style1 yiti-style">详细规划</a>
+                        <a href="{{ route('projects.index', ['category_id' => 21]) }}" class="yiti-style1 yiti-style">资产管理</a>
                         <a href="{{ route('projects.index', ['category_id' => 5]) }}l" class="yiti-style1 yiti-style">品牌规划</a>
-                        <a href="{{ route('projects.index', ['category_id' => 20]) }}l" class="yiti-style3 yiti-style">投资开发</a>
-                        <a href="{{ route('projects.index', ['category_id' => 6]) }}" class="yiti-style2 yiti-style">产业振兴</a>
-                        <a href="{{ route('projects.index', ['category_id' => 15]) }}" class="yiti-style4 yiti-style">乡建人才</a>
-                        <a href="{{ route('projects.index', ['category_id' => 16]) }}" class="yiti-style3 yiti-style">乡建生态</a>
-                        <a href="{{ route('projects.index', ['category_id' => 4]) }}" class="yiti-style6 yiti-style" style="width: 80px">乡振计划</a>
-                        <a href="{{ route('projects.index', ['category_id' => 17]) }}" class="yiti-style4 yiti-style">文化振兴</a>
-                        <a href="{{ route('projects.index', ['category_id' => 18]) }}" class="yiti-style5 yiti-style">乡村经营</a>
-                        <a href="{{ route('projects.index', ['category_id' => 19]) }}" class="yiti-style3 yiti-style">产业植入</a>
+                        <a href="{{ route('projects.index', ['category_id' => 20]) }}l" class="yiti-style1 yiti-style">投资开发</a>
+                        <a href="{{ route('projects.index', ['category_id' => 6]) }}" class="yiti-style1 yiti-style">产业振兴</a>
+                        <a href="{{ route('projects.index', ['category_id' => 15]) }}" class="yiti-style1 yiti-style">乡建人才</a>
+                        <a href="{{ route('projects.index', ['category_id' => 16]) }}" class="yiti-style1 yiti-style">乡建生态</a>
+                        <a href="{{ route('projects.index', ['category_id' => 4]) }}" class="yiti-style1 yiti-style" style="width: 80px">乡振计划</a>
+                        <a href="{{ route('projects.index', ['category_id' => 17]) }}" class="yiti-style1 yiti-style">文化振兴</a>
+                        <a href="{{ route('projects.index', ['category_id' => 18]) }}" class="yiti-style1 yiti-style">乡村经营</a>
+                        <a href="{{ route('projects.index', ['category_id' => 19]) }}" class="yiti-style1 yiti-style">产业植入</a>
                     </div>
                 </div>
                 <div class="float-left">

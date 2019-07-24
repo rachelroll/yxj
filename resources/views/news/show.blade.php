@@ -11,7 +11,11 @@
     <meta name="renderer" content="webkit" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <link id="css__news_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzmAc6RgAAAiDDG83kc894.css?d=28164617935" />
-    <link rel="bookmark" href="Images/logo.ico" /><link rel="shortcut icon" href="Images/logo.ico" />
+    <link rel="bookmark" href="Images/logo.ico" />
+    <link rel="shortcut icon" href="Images/logo.ico" />
+    <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzqAenvTAAAhfnKekwc302.css?d=28164649649" />
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/font.css">
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
@@ -21,9 +25,7 @@
 </head>
 
 <body class="news_view_body">
-<form name="form1" method="get" action="#" id="form1" NavigateId="2" Page="/news_view.aspx?Fid=t2:5:2&amp;Id=498&amp;TypeId=5">
-    <input type="hidden" name="__VIEWSTATE" id="
-__VIEWSTATE" value="" />
+
 
     @include('layout/header')
 
@@ -31,6 +33,8 @@ __VIEWSTATE" value="" />
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="../img/NewsAndView.jpg" alt="" />
+                <p>EXECUTION<strong>CASE</strong></p>
+                <p class="chinese">执行案例</p>
             </div>
         </div>
     </div>
@@ -89,7 +93,7 @@ __VIEWSTATE" value="" />
                     <div id="xn_c_newsv_22_wrap" class="xn_c_newsv_22_wrap"     >
                         <div class="xn_c_newsv_22_box">
                             <a href="{{ route('news-list', ['category_id' => $news->category]) }}">
-                                <span name="_newsv_22_nsmore">返回列表</span>
+                                <span name="_newsv_22_nsmore" style="font-size: 18px; line-height:25px;">返回列表</span>
                             </a>
                         </div>
                     </div>
@@ -150,7 +154,7 @@ __VIEWSTATE" value="" />
                     <div class="n_content_right_name" >
                     </div>
                     <div class="n_content_right_m" >
-                        <div id="news_view" class="news_view">
+                        <div id="news_view" class="news_view" style="font-size: 14px; line-height:25px;">
                             {!! $news->content !!}
                             <div class="news_view_cle1"></div>
                         </div>
@@ -164,7 +168,7 @@ __VIEWSTATE" value="" />
     </div>
 
     @include('layout/footer')
-   </form>
+
 
 {{--导航半透明--}}
 <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>

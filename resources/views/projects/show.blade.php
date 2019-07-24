@@ -18,12 +18,14 @@
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject_modified.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/font.css">
+
 </head>
 
 <body class="news_view_body">
-<form name="form1" method="get" action="#" id="form1" NavigateId="2" Page="/news_view.aspx?Fid=t2:5:2&amp;Id=498&amp;TypeId=5">
-    <input type="hidden" name="__VIEWSTATE" id="
-__VIEWSTATE" value="" />
+
 
     @include('layout/header')
 
@@ -87,7 +89,7 @@ __VIEWSTATE" value="" />
                         </div>
                     </div>
                     <div id="xn_c_newsv_22_wrap" class="xn_c_newsv_22_wrap"     >
-                        <div class="xn_c_newsv_22_box">
+                        <div class="xn_c_newsv_22_box" style="font-size:18px">
                             <a href="{{ route('projects.index', ['category_id' => 1]) }}">
                                 <span name="_newsv_22_nsmore">返回列表</span>
                             </a>
@@ -177,7 +179,7 @@ __VIEWSTATE" value="" />
     </div>
 
     @include('layout/footer')
-   </form>
+
 
 {{--导航半透明--}}
 <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/72/CgAGe1wjF9eAejYeAABCcl7PcJM7884.js?d=28164619591" id="js__index"></script>

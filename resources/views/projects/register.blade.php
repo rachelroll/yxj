@@ -16,6 +16,9 @@
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="/img/Exmple.jpg" alt="" />
+                <p>EXECUTION <strong>CASE</strong></p>
+                <p class="chinese">执行案例</p>
+
             </div>
         </div>
     </div>

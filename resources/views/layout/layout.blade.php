@@ -28,7 +28,7 @@
 
     <link id="css__down" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzeAagP6AAApZGK0Fps254.css?d=28164618982" />
 
-     <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
     <link rel="stylesheet" type="text/css" href="/css/font.css">
     
     <style>

@@ -1,33 +1,60 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
-<head><title>
-        乡建视野
-    </title><meta name="keywords" content="加拿大事业部,光合北京文化创意股份有限公司"/>
-    <meta name="description" content="简 介加拿大光合星球事业部依托温哥华优越的地理位置，以及顶尖的的大学、研究学院等优势，汇集了全球顶尖的城市规划专家、城市设计专家，景观设计专家、艺术家，大学学者，等国际领先的人才资源。合众研究设计：顶尖的城市发展模式，高端专家人才智库，城市品牌运营模式，高端业态品牌植入平台。向中国的城市发展输出、培养..."/>
-    <meta name="applicable-device" content="pc"><meta name="renderer" content="webkit" /><meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <link id="css__case_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzSAKJDfAAAoWlWT04Q144.css?d=28164629733" />
-    <link rel="stylesheet" type="text/css" href="./css/font.css">
+<head>
+    @yield('title')
+    @yield('head')
+    <meta name="keywords" content="艺乡建"/>
+    <meta name="description" content="艺乡建"/>
+    <meta name="applicable-device" content="pc">
+    <meta name="renderer" content="webkit" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 
-    <link rel="bookmark" href="Images/logo.ico" /><link rel="shortcut icon" href="Images/logo.ico" />
+
+
+
+    <!--生态合伙人对应的css  用起来标题和文字间隔大-->
+    <!--css  products 确保banner-->
+    <link id="css__products" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzqAenvTAAAhfnKekwc302.css?d=28164649649" />
+    <link rel="stylesheet" type="text/css" href="/css/header.css" />
+    <link rel="bookmark" href="Images/logo.ico" />
+    <link rel="shortcut icon" href="Images/logo.ico" />
+
+    <!--加一个3*n用的css-->
+     <link id="css__case_view" rel="stylesheet" type="text/css" href="https://0.rc.xiniu.com/g2/M00/FB/C1/CgAGe1wTCzSAKJDfAAAoWlWT04Q144.css?d=28164629733" />
+
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/font.css">
+
+    <style>
+        .nav-active {
+            border-bottom: 1px solid white;
+        }
+    </style>
 
     <script type="text/javascript">var _jtime=new Date();function jqload(){window.jLoad=new Date()-_jtime;}function jqerror(){window.jLoad=-1;}</script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/jq/jqueryV173.js" onload="jqload()" onerror="jqerror()" id="jquery"></script>
+
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/pb/2/Public.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject_modified.js"></script>
     <script type="text/javascript" src="https://1.rc.xiniu.com/js/tl/swfobject.js"></script>
 
+
 </head>
 <body class="case_view_body">
-<form name="form1" method="get" action="#" id="form1" NavigateId="4" Page="/case_view.aspx?Fid=t4:170:4&amp;Id=484&amp;TypeId=170">
-    <input type="hidden" name="__VIEWSTATE" id="
-__VIEWSTATE" value="" />
 
-    @include('layout/header')
+
+
+
+
+@include('layout/header')
+
+
     <div id="ea_ba">
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="/img/TownShipVision.jpg" alt="" />
+                <p >TOWNSHIP <strong>VISION</strong></p>
+                <p class="chinese">乡建视野</p>
             </div>
         </div>
     </div>
@@ -72,6 +99,6 @@ __VIEWSTATE" value="" />
 
     <script type="text/javascript" src="https://0.rc.xiniu.com/g2/M00/02/71/CgAGe1wjF1CAZ8hJAAAKvZYIEes9834.js?d=28164629763" id="js__case_view"></script>
 
-</form>
+
 </body>
 </html>

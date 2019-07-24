@@ -20,7 +20,14 @@
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="../../img/NewsAndView.jpg" alt="" />
+                <p> NEWS AND <strong>VIEW</strong></p>
+                <p class="chinese">资讯</p>
+
             </div>
+
+
+
+
         </div>
     </div>
     <div id="ea_c">
@@ -66,10 +73,10 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t400" class="left_typeUl left_typeUl_t400">
-                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 1])) left_menu1_cur @endif" type="t" index=1 level=0><a href="{{ route('news-list', ['category_id' => 1]) }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">机构动态</span></a></li>
-                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 2])) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{route('news-list', ['category_id' => 2])}}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">项目报道</span></a></li>
-                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 3])) left_menu1_cur @endif" type="t" index=5 level=0><a href="{{route('news-list', ['category_id' => 3])}}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name">乡建观察</span></a></li>
-                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 4])) left_menu1_cur @endif" type="t" index=6 level=0><a href="{{route('news-list', ['category_id' => 4])}}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name">最新动态</span></a>
+                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 1])) left_menu1_cur @endif" type="t" index=1 level=0><a href="{{ route('news-list', ['category_id' => 1]) }}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name" style="font-size:20px;">机构动态</span></a></li>
+                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 2])) left_menu1_cur @endif" type="t" index=2 level=0><a href="{{route('news-list', ['category_id' => 2])}}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name" style="font-size:20px;">项目报道</span></a></li>
+                        <li id="left_typeLi_t400_1" data_id="4_30" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 3])) left_menu1_cur @endif" type="t" index=5 level=0><a href="{{route('news-list', ['category_id' => 3])}}" target="_self"><span name="ShoveWebControl_VMenu21051382564|T_NewsTypes|Id|30|Name" style="font-size:20px;">乡建观察</span></a></li>
+                        <li id="left_typeLi_t400_2" data_id="4_140" class="left_menu1 @if(request()->fullUrl() == route('news-list', ['category_id' => 4])) left_menu1_cur @endif" type="t" index=6 level=0><a href="{{route('news-list', ['category_id' => 4])}}" target="_self"><span name="ShoveWebControl_VMenu21689490442|T_NewsTypes|Id|140|Name" style="font-size:20px;">最新动态</span></a>
                         </li>
                     </ul>
                 </ul>
@@ -85,7 +92,7 @@
                         </a>
                     </div>
                     <div class="nnews_lb_mdbox">
-                        <div class="nnews_lb_title">
+                        <div class="nnews_lb_title" style="color: #4c4c4c;">
                             <a title='{{ $item->title }}' href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
                                 <span name="snnews_lb_tt1506|T_News|Id|506|Title">{{ $item->title }}</span>
                             </a>

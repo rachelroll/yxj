@@ -48,7 +48,7 @@
     <div id="ea_ba">
         <!--游荡的好多张大图-->
         <div class="xn_ba_js_13_banner" id="xn_ba_js_13_banner">
-            <em class="xn_ba_js_13_prev" id="xn_ba_js_13_prev"></em>
+            <em class="xn_ba_js_13_prev" id="xn_ba_js_13_prev"    style=" background: url(../../img/left.png) no-repeat center;"></em>
             <div class="xn_ba_js_13_element" frameindex="1">
                 <div class="xn_ba_js_13_bigImg"><a name="1" href=""><img src="img/index_banner_01.jpg" rel="b"></a></div>
             </div><div class="xn_ba_js_13_element" frameindex="2">
@@ -56,7 +56,7 @@
             </div><div class="xn_ba_js_13_element" frameindex="3">
                 <div class="xn_ba_js_13_bigImg"><a name="3" href="" target=""><img src="img/index_banner_03.jpg" rel="b"></a></div>
             </div>
-            <em class="xn_ba_js_13_next" id="xn_ba_js_13_next"></em>
+            <em class="xn_ba_js_13_next" id="xn_ba_js_13_next" style=" background: url(../../img/right.png) no-repeat center;"></em>
             <ul class="xn_ba_js_13_btn">
             </ul>
         </div>
@@ -70,7 +70,7 @@
                 <div id="xn_c_index_507_wrap" class="xn_c_index_507_wrap"     >
                     <div class="xn_c_index_507_topbox">
                         <div class="xn_c_index_507_cnName">
-                            <span name="_index_507_cnName" >建设主题</span>
+                            <span name="_index_507_cnName" style="font-size:20px;">建设主题</span>
                         </div>
                         <div class="xn_c_index_507_enName">
                             <span name="_index_507_enName">Construction theme</span>
@@ -89,19 +89,19 @@
                                     <div class="xn_c_index_507_cont">
                                         <!---herf-->
                                         <div class="xn_c_index_507_lfbox">
-                                            <div class="xn_c_index_507_title">
+                                            <div class="xn_c_index_507_title" style="font-size:20px;">
                                                 <a target="_blank" href="{{ route('themes-village') }}">
                                                     乡村风貌格局
                                                 </a>
                                             </div>
-                                            <div class="xn_c_index_507_title1">
+                                            <div class="xn_c_index_507_title1"style= "height: 2px;">
                                                 <a target="_blank" href="{{ route('themes-village') }}">
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
                                                 <a target="_blank" href="{{ route('themes-village') }}">
-                                                    <p>在开展乡村规划和建设时，以艺术特色、生态宜居、服务均等、城乡和谐为基本要求，做好传统文化保护传承，着力体现区域民俗文化及传统物质空间形态。
-                                                        乡村风貌规划及建设实施是一个系统工程，既涉及到宏观层面的乡村规划，中观、微观的空间规划设计，也涉及到乡村地区传统文化的普查、挖掘、再现与活化，还涉及到与实施息息相关的经济社会持续发展和制度设计。编制《建设艺术乡村行动纲要》，制定“人文、景观、产业、设施”四个类型艺术示范乡村的建设内容及考核标准，设立十项指标，全力推进“艺术特色乡村振兴示范”。</p>
+                                                    <p style= "font-size:14px;line-height:25px;">在开展乡村规划和建设时，以艺术特色、生态宜居、服务均等、城乡和谐为基本要求，做好传统文化保护传承，着力体现区域民俗文化及传统物质空间形态。
+                                                       </p>
                                                 </a>
                                             </div>
                                         </div>
@@ -120,19 +120,18 @@
                                     </div>
                                     <div class="xn_c_index_507_cont">
                                         <div class="xn_c_index_507_lfbox">
-                                            <div class="xn_c_index_507_title">
+                                            <div class="xn_c_index_507_title" style="font-size:20px;">
                                                 <a target="_blank" href="{{ route('themes-art-system') }}">
                                                     公共艺术系统
                                                 </a>
                                             </div>
-                                            <div class="xn_c_index_507_title1">
+                                            <div class="xn_c_index_507_title1"style= "height: 2px;">
                                                 <a target="_blank" href="{{ route('themes-art-system') }}">
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
                                                 <a target="_blank" href="{{ route('themes-art-system') }}">
-                                                    <p>在全国率先实现城乡公共艺术设施全覆盖、公共艺术产品供给一体化、公共艺术管理运营体系化。在公共文化体育设施和主要公共文化服务实现全覆盖的基础上，开展艺术设施全覆盖，确保城乡居民享有平等的公共艺术服务权益。积极探索和完善城乡艺术一体化建设模式，努力探索艺术管理新体制机制，充分利用各种文化载体，为城乡居民免费提供公共艺术服务。积极争取中央财政转移支付资金，以县财政投入为主，乡镇、村（社区）投入为辅，建立起县、乡、村全面覆盖、传输快捷、服务优良的公共艺术服务网络。
-                                                        2-2实施村民艺术素质提高工程</p>
+                                                    <p  style= "font-size:14px;line-height:25px;">在全国率先实现城乡公共艺术设施全覆盖、公共艺术产品供给一体化、公共艺术管理运营体系化。在公共文化体育设施和主要公共文化服务实现全覆盖的基础上，开展艺术设施全覆盖，确保城乡居民享有平等的</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -151,19 +150,19 @@
                                     </div>
                                     <div class="xn_c_index_507_cont">
                                         <div class="xn_c_index_507_lfbox">
-                                            <div class="xn_c_index_507_title">
+                                            <div class="xn_c_index_507_title" style="font-size:20px;">
                                                 <a target="_blank" href="{{ route('themes-industry-system') }}">
                                                     艺术产业体系
                                                 </a>
                                             </div>
-                                            <div class="xn_c_index_507_title1">
+                                            <div class="xn_c_index_507_title1"style= "height: 2px;">
                                                 <a target="_blank" href="{{ route('themes-industry-system') }}">
 
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
                                                 <a target="_blank" href="{{ route('themes-industry-system') }}">
-                                                    <p>利用艺术创意渗透性强、关联性强等优势，与乡村一二三产业融合发展，提升乡村产业附加值。一是大力振兴传统工艺。依托乡村丰富传统工艺资源，广泛开展文化创意，面向农村开展技艺培训，开办就业工坊，通过电商平台、会展展销、技能大赛等方式开展营销，增加农民收入。二是大力发展乡村文化旅游。鼓励乡村文化资源合理利用，依托风景名胜、历史文化名镇名村、特色景观、传统村落等，打造旅游新模式。三是规范乡村艺术市场秩序。进一步加强农村艺术市场监管，严厉打击违法违规行为，积极培育各类优质文化市场主体，为乡村文化产业发展创造良好环境</p>
+                                                    <p  style= "font-size:14px;line-height:25px;">利用艺术创意渗透性强、关联性强等优势，与乡村一二三产业融合发展，提升乡村产业附加值。一是大力振兴传统工艺。依托乡村丰富传统工艺资源，广泛开展文化创意，面向农村开展技艺培训，开办就业</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -182,19 +181,18 @@
                                     </div>
                                     <div class="xn_c_index_507_cont">
                                         <div class="xn_c_index_507_lfbox">
-                                            <div class="xn_c_index_507_title">
+                                            <div class="xn_c_index_507_title" style="font-size:20px;">
                                                 <a target="_blank" href="{{ route('themes-towns-path') }}">
                                                     艺术振兴乡村路径
                                                 </a>
                                             </div>
-                                            <div class="xn_c_index_507_title1">
+                                            <div class="xn_c_index_507_title1"style= "height: 2px;">
                                                 <a target="_blank" href="{{ route('themes-towns-path') }}">
                                                 </a>
                                             </div>
                                             <div class="xn_c_index_507_intro">
                                                 <a target="_blank" href="{{ route('themes-towns-path') }}">
-                                                    <p>村民是村庄的主体，乡村建设的首要任务是村民主体性建设，其重点是村社共同体建设，所以我们支持在乡村的劳动者，在政府的发起人以及各个行业的合作伙伴与志愿者能够动员全部力量，将新时期的新文化渗透到美丽乡村，用艺术振兴乡村，发展乡村，改变乡村。
-                                                        艺乡建倡导的艺术振兴乡村过程，以国际化视野和开放性思维，深入挖掘历史文化资源，促进文化与经济的融合，大力推进“艺术特色”方向建设，创造乡村乡村振兴的“艺术特色”文化优势，尤为注重培养本地化的中坚力量，这能够使艺乡建与本土化当地的特色更好的相结合，抢占乡村发展的制高点，形成强大的文化创新力、文化竞争力和文化凝聚力。</p>
+                                                    <p style= "font-size:14px;line-height:25px;">村民是村庄的主体，乡村建设的首要任务是村民主体性建设，其重点是村社共同体建设，所以我们支持在乡村的劳动者，在政府的发起人以及各个行业的合作伙伴与志愿者能够动员全部力量，将新时期的新文化</p>
                                                 </a>
                                             </div>
                                         </div>
@@ -220,7 +218,7 @@
                 <div class="xn_c_index_180_wrap" id="xn_c_index_180_wrap"     >
                     <div class="xn_c_index_180_head">
                         <div class="xn_c_index_180_eWrap">
-                            <span name="_xn_c_index_180_eName" >乡建视野</span>
+                            <span name="_xn_c_index_180_eName" style="font-size:20px;">乡建视野</span>
                         </div>
                         <div class="xn_c_index_180_cWrap">
                             <span name="_xn_c_index_180_cName" >GLOBAL DIVISION</span>
@@ -228,13 +226,13 @@
                     </div>
                     <div class="xn_c_index_180_wbox">
                         <div class="xn_c_index_180_Typelist">
-                            <div class="xn_c_index_180_typeName">
+                            <div class="xn_c_index_180_typeName"style="font-size:20px;">
                                 All
                             </div>
-                            <div class="xn_c_index_180_typeName">
+                            <div class="xn_c_index_180_typeName"style="font-size:20px;">
                                 国内办公室
                             </div>
-                            <div class="xn_c_index_180_typeName">
+                            <div class="xn_c_index_180_typeName"style="font-size:20px;">
                                 国外办公室
                             </div>
                         </div>
@@ -248,7 +246,7 @@
                                     </div>
                                     <div class="xn_c_index_180_cont">
                                         <a href="{{ route('view.office.show', ['id' => 'bj']) }}" target="_blank">
-                                            <div class="xn_c_index_180_Title">
+                                            <div class="xn_c_index_180_Title"  style="font-size:20px;">
                                                 北京艺乡建事业部
                                             </div>
                                             <div class="xn_c_index_180_context">
@@ -270,7 +268,7 @@
                                     </div>
                                     <div class="xn_c_index_180_cont">
                                         <a href="{{ route('view.office.show', ['id' => 'hb']) }}" target="_blank">
-                                            <div class="xn_c_index_180_Title">
+                                            <div class="xn_c_index_180_Title"  style="font-size:20px;">
                                                 湖北艺乡建志愿者
                                             </div>
                                             <div class="xn_c_index_180_context">
@@ -293,7 +291,7 @@
                                     </div>
                                     <div class="xn_c_index_180_cont">
                                         <a href="{{ route('view.office.show', ['id' => 'jnd']) }}" target="_blank">
-                                            <div class="xn_c_index_180_Title">
+                                            <div class="xn_c_index_180_Title"  style="font-size:20px;">
                                                 加拿大艺乡建事业部
                                             </div>
                                             <div class="xn_c_index_180_context">
@@ -313,7 +311,7 @@
                                     </div>
                                     <div class="xn_c_index_180_cont">
                                         <a href="{{ route('view.office.show', ['id' => 'hz']) }}" target="_blank">
-                                            <div class="xn_c_index_180_Title">
+                                            <div class="xn_c_index_180_Title"  style="font-size:20px;">
                                                 杭州艺乡建志愿者
                                             </div>
                                             <div class="xn_c_index_180_context">
@@ -335,7 +333,7 @@
                                     </div>
                                     <div class="xn_c_index_180_cont">
                                         <a href="{{ route('view.office.show', ['id' => 'yc']) }}" target="_blank">
-                                            <div class="xn_c_index_180_Title">
+                                            <div class="xn_c_index_180_Title"  style="font-size:20px;">
                                                 运城艺乡建志愿者
                                             </div>
                                             <div class="xn_c_index_180_context">
@@ -375,7 +373,7 @@
                                     </span>
                                     </div>
                                     <div class="xn_c_index_39_ritbox">
-                                        <div class="xn_c_index_39_title">
+                                        <div class="xn_c_index_39_title" style= "font-size:18px;line-height:25px;">
                                             <a href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">{{ $item->title }}</a>
                                         </div>
                                         <a href="{{ route('news.show', ['id' => $item->id]) }}" target="_blank">
@@ -402,7 +400,7 @@
                 <div class="xn_c_index_303_wrap" id="xn_c_index_303_wrap" >
                     <div class="xn_c_index_303_topbox">
                         <div class="xn_c_index_303_tb1">
-                            <span name="_index_303_tb1" >平台资源</span>
+                            <span name="_index_303_tb1" style="font-size:20px;">平台资源</span>
                         </div>
                         <div class="xn_c_index_303_tb3">
                             <span name="_index_303_tb3" >RESOURCES</span>

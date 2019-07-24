@@ -1,9 +1,31 @@
 .xn_c_products_2_warp{width:1200px; margin:0 auto;clear:both; padding:51px 0 119px;font-size:12px;color:#808080;line-height: 26px;}
-.xn_c_products_2_text{font-size:14px;line-height: 2em;}
-.p1{text-indent:2em;}
-.p2{font-size: 12px;
-    text-indent:6em;padding:0 2em;}
-.p3{font-size: 16px;font-weight:bold;
+.xn_c_products_2_text{font-size:14px;line-height: 25px;}
+.p1{text-indent:2em;text-align: justify}
+.p2{font-size: 14px;
+    text-indent:6em;padding:0 2em;text-align: justify}
+.p3{font-size: 20px;font-weight:bold;text-align: justify;
+    color: #4c4c4c;
+
 }
-.p4{font-size: 14px;font-weight:bold;
+.p4{font-size: 14px;font-weight:bold;text-align: justify;
+    color: #4c4c4c;
 }
+
+.products_banner_m p {
+    color: white;
+    position: absolute;
+    left: 19%;
+    top: 51%;
+    font-size: 27px
+}
+
+.products_banner_m .chinese {
+    top: 60%;
+    font-size:20px;
+}
+
+.products_banner_m {
+    position: relative;
+}
+
+

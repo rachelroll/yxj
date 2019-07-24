@@ -10,9 +10,10 @@
 
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
-                <img  src="img/Research.jpg"alt="" />
+                <img src="../img/Research.jpg"alt="" />
+                <p>RESEARCH <strong>CENTER</strong></p>
+                <p class="chinese">研究中心</p>
             </div>
-
         </div>
 
     </div>
@@ -64,15 +65,15 @@
             <div id="n_content_left_cnt" class="n_content_left_cnt">
                 <ul id="ShoveWebControl_VMenu2" class="left_typeUl left_typeUl_n000" >
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
-                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0><a href="{{ route('aboutUs') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">关于我们</span></a>
+                        <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1" type="t" index=1 level=0><a href="{{ route('aboutUs') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name" style="font-size:20px;">关于我们</span></a>
                         </li>
-                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('researchTeam') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">研究团队</span></a>
+                        <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0><a href="{{ route('researchTeam') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name" style="font-size:20px;">研究团队</span></a>
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1 @if(request()->fullUrl() == route('researchContent')) left_menu1_cur @endif" type="t" index=3 level=0><a href="{{ route('researchContent') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">研究内容</span></a>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1 @if(request()->fullUrl() == route('researchContent')) left_menu1_cur @endif" type="t" index=3 level=0><a href="{{ route('researchContent') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name" style="font-size:20px;">研究内容</span></a>
                         </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('researchActivity') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">社会活动</span></a>
+                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=4 level=0><a href="{{ route('researchActivity') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name" style="font-size:20px;">社会活动</span></a>
                         </li>
-                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=5 level=0><a href="{{ route('researchYearbook') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name">艺乡鉴年鉴</span></a>
+                        <li id="left_typeLi_t100_4" data_id="1_3" class="left_menu1" type="t" index=5 level=0><a href="{{ route('researchYearbook') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu21952530233|T_NewsTypes|Id|3|Name" style="font-size:20px;">艺乡鉴年鉴</span></a>
                         </li>
                     </ul>
                 </ul>
@@ -84,33 +85,33 @@
                 <!--字体大小24px-->
                 <div class="xn_c_products_2_text">
                     <br/>
-                    <p><span style="font-size: 16px;">艺乡建的作用，在于总结艺术振兴乡村的路径与方法，发挥艺术自身所具有的激活性、生长性和在地性优势，以艺术手段促进乡村生态均衡可持续发展，通过艺术设计，既能够服务于当下的乡村建设，又能够弥补文化的裂痕，“传承文脉、留住乡愁”。</span>
+                    <p><span style="font-size: 16px;line-height: 25px">艺乡建的作用，在于总结艺术振兴乡村的路径与方法，发挥艺术自身所具有的激活性、生长性和在地性优势，以艺术手段促进乡村生态均衡可持续发展，通过艺术设计，既能够服务于当下的乡村建设，又能够弥补文化的裂痕，“传承文脉、留住乡愁”。</span>
                     </p>
                     <p><span style="font-size: 16px;"><br/></span></p>
                     <p><br/></p><span style="font-size: 16px;">
-                        <span style="font-size: 20px;"><br/>论文</span>
+                        <span style="font-size: 20px;color: #4c4c4c"><br/>论文</span>
                         <br/>
                         <br/>
                         l 人工智能，让艺术变得廉价?
-                        <span style="font-size: 12px;"> 陈炯 2017.10 美术观察</span>
+                        <span style="font-size: 14px;line-height: 25px;"> 陈炯 2017.10 美术观察</span>
                         <br/><br/>
                         l 化古开今录梦华—我对材质、结构和时间意义的一点感悟
-                        <span style="font-size: 12px;">陈炯 2017.03美术观察</span>
+                        <span style="font-size: 14px;line-height: 26px;">陈炯 2017.03美术观察</span>
                         <br/><br/>
                         l 记忆影射下的公共艺术<span
-                                style="font-size: 12px;"> 陈炯 2016.04 美术观察</span><br/><br/>l 自由主义视域中的设计伦理构建 <span
-                                style="font-size: 12px;">丛志强 2016.02 美术观察</span><br/><br/>l 本位脱离：消费逻辑主导下中国设计师的危机研究 <span
-                                style="font-size: 12px;">丛志强 2017.11 美术观察<br/></span><br/>l 消费主义语境下中国设计生态失衡研究—基于资本逻辑与符号逻辑的视角 <span
-                                style="font-size: 12px;">丛志强 2017.05 文艺争鸣</span><br/><br/>l 京津冀县域人口城镇化时空格局及驱动力研究—兼论产业疏解可否调控北京人口 <span
-                                style="font-size: 12px;">张耀军 2017.12 经济理论与经济管理<br/></span><br/>l 《海洋之歌》传统与现代碰撞下的民族艺术发展 <span
-                                style="font-size: 12px;">赵前2016.11当代电影<br/></span><br/>l 街旁绿地内部行为空间组织—以邻北京市三环辅路的街旁绿地为例<span
-                                style="font-size: 12px;"> 李宇宏2017.01华中建筑</span><br/><br/>l 皇城根遗址公园空间环境行为组织探析<span
-                                style="font-size: 12px;"> 李宇宏 2017.03 南方建筑</span><br/><br/>l 《儒之理学与心学和中国绘画的内在关联》<span
-                                style="font-size: 12px;">王文娟 2015.5 美术研究</span><br/><br/>l 《徐悲鸿的写实主义及其再理解》 <span
-                                style="font-size: 12px;">王文娟 2018.08 美术观察</span><br/><br/>l 面向知识生产的邻避设施规划公众参与<span
-                                style="font-size: 12px;"> 郑国 2017.4.24 城市规划</span><br/><br/>l 14 Same projects，different endings—Comparative case studies on NIMBY facility construction in Beijing <span
-                                style="font-size: 12px;">郑国2018.3.28 CITIES</span><br/><br/>l 利益平衡与知识整合：城市规划公众参与的逻辑与模式<span
-                                style="font-size: 12px;">郑国 2016.1.14 中国行政管理</span><br/><br/><br/><br/></span>
+                                style="font-size: 14px;line-height: 26px;"> 陈炯 2016.04 美术观察</span><br/><br/>l 自由主义视域中的设计伦理构建 <span
+                                style="font-size: 14px;line-height: 26px;">丛志强 2016.02 美术观察</span><br/><br/>l 本位脱离：消费逻辑主导下中国设计师的危机研究 <span
+                                style="font-size: 14px;line-height: 26px;">丛志强 2017.11 美术观察<br/></span><br/>l 消费主义语境下中国设计生态失衡研究—基于资本逻辑与符号逻辑的视角 <span
+                                style="font-size: 14px;line-height: 26px;">丛志强 2017.05 文艺争鸣</span><br/><br/>l 京津冀县域人口城镇化时空格局及驱动力研究—兼论产业疏解可否调控北京人口 <span
+                                style="font-size: 14px;line-height: 26px;">张耀军 2017.12 经济理论与经济管理<br/></span><br/>l 《海洋之歌》传统与现代碰撞下的民族艺术发展 <span
+                                style="font-size: 14px;line-height: 26px;">赵前2016.11当代电影<br/></span><br/>l 街旁绿地内部行为空间组织—以邻北京市三环辅路的街旁绿地为例<span
+                                style="font-size: 14px;line-height: 26px;"> 李宇宏2017.01华中建筑</span><br/><br/>l 皇城根遗址公园空间环境行为组织探析<span
+                                style="font-size: 14px;line-height: 26px;"> 李宇宏 2017.03 南方建筑</span><br/><br/>l 《儒之理学与心学和中国绘画的内在关联》<span
+                                style="font-size: 14px;line-height: 26px;">王文娟 2015.5 美术研究</span><br/><br/>l 《徐悲鸿的写实主义及其再理解》 <span
+                                style="font-size: 14px;line-height: 26px;">王文娟 2018.08 美术观察</span><br/><br/>l 面向知识生产的邻避设施规划公众参与<span
+                                style="font-size: 14px;line-height: 26px;"> 郑国 2017.4.24 城市规划</span><br/><br/>l 14 Same projects，different endings—Comparative case studies on NIMBY facility construction in Beijing <span
+                                style="font-size: 14px;line-height: 26px;">郑国2018.3.28 CITIES</span><br/><br/>l 利益平衡与知识整合：城市规划公众参与的逻辑与模式<span
+                                style="font-size: 14px;line-height: 26px;">郑国 2016.1.14 中国行政管理</span><br/><br/><br/><br/></span>
                 </div>
 
 

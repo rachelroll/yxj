@@ -16,6 +16,10 @@
         <div id="products_banner" class="products_banner">
             <div class="products_banner_m">
                 <img  src="img/PlantForm.jpg" alt="" />
+                <p>PLATPLATFORM <strong>RESOURCES</strong></p>
+                <p class="chinese">平台资源</p>
+
+
             </div>
         </div>
     </div>
@@ -66,17 +70,21 @@
                     <ul id="left_typeUl_t100" class="left_typeUl left_typeUl_t100">
                         <li id="left_typeLi_t100_1" data_id="1_1" class="left_menu1 @if(request()->fullUrl() == route('platform-committee')) left_menu1_cur @endif" type="t" index=1 level=0>
                             <a href="{{ route('platform-committee') }}" rel="nofollow" target="_self">
-                                <span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name">项目决策委员会</span>
+                                <span name="ShoveWebControl_VMenu22134030082|T_NewsTypes|Id|1|Name" style="font-size:20px;">项目决策委员会</span>
                             </a>
                         </li>
                         <li id="left_typeLi_t100_2" data_id="1_2" class="left_menu1" type="t" index=2 level=0>
                             <a href="{{route('platform-consultant')}}" rel="nofollow" target="_self">
-                                <span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name">资助顾问</span>
+                                <span name="ShoveWebControl_VMenu21609884532|T_NewsTypes|Id|2|Name"style="font-size:20px;">资助顾问</span>
                             </a>
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('platform-partner') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">合作伙伴</span></a>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0>
+                            <a href="{{ route('platform-partner') }}" rel="nofollow" target="_self">
+                                <span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name"style="font-size:20px;">合作伙伴</span></a>
                         </li>
-                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0><a href="{{ route('platform-club') }}" rel="nofollow" target="_self"><span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name">俱乐部</span></a>
+                        <li id="left_typeLi_t100_3" data_id="1_141" class="left_menu1" type="t" index=3 level=0>
+                            <a href="{{ route('platform-club') }}" rel="nofollow" target="_self">
+                                <span name="ShoveWebControl_VMenu22123378910|T_NewsTypes|Id|141|Name"style="font-size:20px;">俱乐部</span></a>
                         </li>
                     </ul>
                 </ul>
@@ -84,10 +92,14 @@
 
             <!--简单的图文竖版,可以插入图片-->
             <div id="xn_c_products_2_warp" class="xn_c_products_2_warp">
-                <h4>
-                    <strong><span style=";font-family:黑体;font-weight:bold;font-size:19px"><span style="font-family:黑体">决策委员</span></span></strong>
-                </h4>
-                <div><p><br/></p></div><p style="margin-top:10px;text-indent:32px;text-autospace:ideograph-numeric;line-height:130%"><span style=";font-family:宋体;line-height:130%;font-size:16px"><span style="font-family:宋体">为了帮助筛选出富有潜力的创业团队，</span>“艺乡建”邀请诸多在创业或识人方面有着丰富经验的知名企业家，及对艺术乡村振兴或乡村发展领域有深入见解的专家或社会组织创办者，作为“项目决策委员”参与终审；确定最终资助决策与金额；持续跟进与支持感兴趣的艺乡建团队；帮助乡村乡建事业找到最有潜力的乡建工作者、创业者以及引领者，并且为他们提供一些富有价值的建议。</span></p><p><br/></p>
+                <div class="xn_c_products_2_text">
+                    <p class="p3" style="font-size: 20px">决策委员</p>
+                    <p style="height: 10px"></p>
+                    <p class="p1">为了帮助筛选出富有潜力的创业团队，“艺乡建”邀请诸多在创业或识人方面有着丰富经验的知名企业家，及对艺术乡村振兴或乡村发展领域有深入见解的专家或社会组织创办者，作为“项目决策委员”参与终审；确定最终资助决策与金额；持续跟进与支持感兴趣的艺乡建团队；帮助乡村乡建事业找到最有潜力的乡建工作者、创业者以及引领者，并且为他们提供一些富有价值的建议。</p>
+                    <br>
+
+                </div>
+
             </div>
 
             <!--目录放一个-->

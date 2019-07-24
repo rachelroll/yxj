@@ -6,14 +6,19 @@
 @endsection
 
 @section('content')
-    <div id="ea_ba">
+    <div id="ea_ba" >
 
-        <div id="products_banner" class="products_banner">
-            <div class="products_banner_m">
+        <div id="products_banner" class="products_banner" >
+            <div class="products_banner_m" style="text-align: center">
                 <img  src="img/contactUs.jpg" alt="" />
+                <p>CONTACT <strong>US</strong></p>
+                <p class="chinese">联系我们</p>
+
             </div>
         </div>
-    </div>
+       </div>
+
+
 
     <div id="ea_c">
         <div class="n_main" >
